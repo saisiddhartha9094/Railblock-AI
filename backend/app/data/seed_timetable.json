@@ -1,0 +1,316 @@
+[
+  {
+    "train_number": "22436",
+    "train_name": "Vande Bharat Express (NDLS -> BSB)",
+    "category": "VANDE_BHARAT",
+    "priority_weight": 10,
+    "direction": "DOWN",
+    "origin": "NDLS",
+    "destination": "BSB",
+    "length_wagons_coaches": 16,
+    "loco_type": "Trainset Electric (TC)",
+    "max_permissible_speed": 130,
+    "stops": [
+      { "station_code": "SFG", "arrival_time_min": 728, "departure_time_min": 730, "stop_duration_min": 2, "platform_assigned": 1 },
+      { "station_code": "PRYJ", "arrival_time_min": 734, "departure_time_min": 738, "stop_duration_min": 4, "platform_assigned": 6 },
+      { "station_code": "NYN", "arrival_time_min": 747, "departure_time_min": 748, "stop_duration_min": 1, "platform_assigned": 2 },
+      { "station_code": "MZP", "arrival_time_min": 788, "departure_time_min": 790, "stop_duration_min": 2, "platform_assigned": 1 },
+      { "station_code": "CAR", "arrival_time_min": 807, "departure_time_min": 808, "stop_duration_min": 1, "platform_assigned": 1 },
+      { "station_code": "DDU", "arrival_time_min": 830, "departure_time_min": 835, "stop_duration_min": 5, "platform_assigned": 4 }
+    ],
+    "section_traversal_times": {
+      "SEC_SFG_PRYJ": { "entry_min": 728, "exit_min": 734 },
+      "SEC_PRYJ_NYN": { "entry_min": 738, "exit_min": 747 },
+      "SEC_NYN_MZP": { "entry_min": 748, "exit_min": 788 },
+      "SEC_MZP_CAR": { "entry_min": 790, "exit_min": 807 },
+      "SEC_CAR_DDU": { "entry_min": 808, "exit_min": 830 }
+    }
+  },
+  {
+    "train_number": "22435",
+    "train_name": "Vande Bharat Express (BSB -> NDLS)",
+    "category": "VANDE_BHARAT",
+    "priority_weight": 10,
+    "direction": "UP",
+    "origin": "BSB",
+    "destination": "NDLS",
+    "length_wagons_coaches": 16,
+    "loco_type": "Trainset Electric (TC)",
+    "max_permissible_speed": 130,
+    "stops": [
+      { "station_code": "DDU", "arrival_time_min": 915, "departure_time_min": 920, "stop_duration_min": 5, "platform_assigned": 4 },
+      { "station_code": "CAR", "arrival_time_min": 941, "departure_time_min": 942, "stop_duration_min": 1, "platform_assigned": 2 },
+      { "station_code": "MZP", "arrival_time_min": 959, "departure_time_min": 961, "stop_duration_min": 2, "platform_assigned": 2 },
+      { "station_code": "NYN", "arrival_time_min": 1001, "departure_time_min": 1002, "stop_duration_min": 1, "platform_assigned": 1 },
+      { "station_code": "PRYJ", "arrival_time_min": 1012, "departure_time_min": 1016, "stop_duration_min": 4, "platform_assigned": 1 },
+      { "station_code": "SFG", "arrival_time_min": 1020, "departure_time_min": 1022, "stop_duration_min": 2, "platform_assigned": 2 }
+    ],
+    "section_traversal_times": {
+      "SEC_CAR_DDU": { "entry_min": 920, "exit_min": 941 },
+      "SEC_MZP_CAR": { "entry_min": 942, "exit_min": 959 },
+      "SEC_NYN_MZP": { "entry_min": 961, "exit_min": 1001 },
+      "SEC_PRYJ_NYN": { "entry_min": 1002, "exit_min": 1012 },
+      "SEC_SFG_PRYJ": { "entry_min": 1016, "exit_min": 1020 }
+    }
+  },
+  {
+    "train_number": "12302",
+    "train_name": "Howrah Rajdhani Express (NDLS -> HWH)",
+    "category": "RAJDHANI",
+    "priority_weight": 9,
+    "direction": "DOWN",
+    "origin": "NDLS",
+    "destination": "HWH",
+    "length_wagons_coaches": 22,
+    "loco_type": "WAP-7",
+    "max_permissible_speed": 130,
+    "stops": [
+      { "station_code": "SFG", "arrival_time_min": 40, "departure_time_min": 40, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "PRYJ", "arrival_time_min": 45, "departure_time_min": 50, "stop_duration_min": 5, "platform_assigned": 4 },
+      { "station_code": "NYN", "arrival_time_min": 58, "departure_time_min": 58, "stop_duration_min": 0, "platform_assigned": 2 },
+      { "station_code": "MZP", "arrival_time_min": 98, "departure_time_min": 98, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "CAR", "arrival_time_min": 118, "departure_time_min": 118, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "DDU", "arrival_time_min": 140, "departure_time_min": 150, "stop_duration_min": 10, "platform_assigned": 2 }
+    ],
+    "section_traversal_times": {
+      "SEC_SFG_PRYJ": { "entry_min": 40, "exit_min": 45 },
+      "SEC_PRYJ_NYN": { "entry_min": 50, "exit_min": 58 },
+      "SEC_NYN_MZP": { "entry_min": 58, "exit_min": 98 },
+      "SEC_MZP_CAR": { "entry_min": 98, "exit_min": 118 },
+      "SEC_CAR_DDU": { "entry_min": 118, "exit_min": 140 }
+    }
+  },
+  {
+    "train_number": "12424",
+    "train_name": "Dibrugarh Rajdhani Express (NDLS -> DBRG)",
+    "category": "RAJDHANI",
+    "priority_weight": 9,
+    "direction": "DOWN",
+    "origin": "NDLS",
+    "destination": "DBRG",
+    "length_wagons_coaches": 22,
+    "loco_type": "WAP-7",
+    "max_permissible_speed": 130,
+    "stops": [
+      { "station_code": "SFG", "arrival_time_min": 90, "departure_time_min": 90, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "PRYJ", "arrival_time_min": 96, "departure_time_min": 100, "stop_duration_min": 4, "platform_assigned": 5 },
+      { "station_code": "NYN", "arrival_time_min": 108, "departure_time_min": 108, "stop_duration_min": 0, "platform_assigned": 2 },
+      { "station_code": "MZP", "arrival_time_min": 148, "departure_time_min": 148, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "CAR", "arrival_time_min": 168, "departure_time_min": 168, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "DDU", "arrival_time_min": 190, "departure_time_min": 200, "stop_duration_min": 10, "platform_assigned": 1 }
+    ],
+    "section_traversal_times": {
+      "SEC_SFG_PRYJ": { "entry_min": 90, "exit_min": 96 },
+      "SEC_PRYJ_NYN": { "entry_min": 100, "exit_min": 108 },
+      "SEC_NYN_MZP": { "entry_min": 108, "exit_min": 148 },
+      "SEC_MZP_CAR": { "entry_min": 148, "exit_min": 168 },
+      "SEC_CAR_DDU": { "entry_min": 168, "exit_min": 190 }
+    }
+  },
+  {
+    "train_number": "12560",
+    "train_name": "Shiv Ganga Express (NDLS -> BSBS)",
+    "category": "SUPERFAST",
+    "priority_weight": 8,
+    "direction": "DOWN",
+    "origin": "NDLS",
+    "destination": "BSBS",
+    "length_wagons_coaches": 24,
+    "loco_type": "WAP-7",
+    "max_permissible_speed": 130,
+    "stops": [
+      { "station_code": "SFG", "arrival_time_min": 215, "departure_time_min": 215, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "PRYJ", "arrival_time_min": 222, "departure_time_min": 230, "stop_duration_min": 8, "platform_assigned": 5 },
+      { "station_code": "NYN", "arrival_time_min": 240, "departure_time_min": 240, "stop_duration_min": 0, "platform_assigned": 2 },
+      { "station_code": "MZP", "arrival_time_min": 284, "departure_time_min": 284, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "CAR", "arrival_time_min": 306, "departure_time_min": 306, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "DDU", "arrival_time_min": 330, "departure_time_min": 335, "stop_duration_min": 5, "platform_assigned": 3 }
+    ],
+    "section_traversal_times": {
+      "SEC_SFG_PRYJ": { "entry_min": 215, "exit_min": 222 },
+      "SEC_PRYJ_NYN": { "entry_min": 230, "exit_min": 240 },
+      "SEC_NYN_MZP": { "entry_min": 240, "exit_min": 284 },
+      "SEC_MZP_CAR": { "entry_min": 284, "exit_min": 306 },
+      "SEC_CAR_DDU": { "entry_min": 306, "exit_min": 330 }
+    }
+  },
+  {
+    "train_number": "12802",
+    "train_name": "Purushottam Express (NDLS -> PURI)",
+    "category": "SUPERFAST",
+    "priority_weight": 7,
+    "direction": "DOWN",
+    "origin": "NDLS",
+    "destination": "PURI",
+    "length_wagons_coaches": 24,
+    "loco_type": "WAP-7",
+    "max_permissible_speed": 130,
+    "stops": [
+      { "station_code": "SFG", "arrival_time_min": 410, "departure_time_min": 410, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "PRYJ", "arrival_time_min": 418, "departure_time_min": 425, "stop_duration_min": 7, "platform_assigned": 2 },
+      { "station_code": "NYN", "arrival_time_min": 435, "departure_time_min": 435, "stop_duration_min": 0, "platform_assigned": 2 },
+      { "station_code": "MZP", "arrival_time_min": 482, "departure_time_min": 484, "stop_duration_min": 2, "platform_assigned": 1 },
+      { "station_code": "CAR", "arrival_time_min": 506, "departure_time_min": 508, "stop_duration_min": 2, "platform_assigned": 1 },
+      { "station_code": "DDU", "arrival_time_min": 535, "departure_time_min": 545, "stop_duration_min": 10, "platform_assigned": 2 }
+    ],
+    "section_traversal_times": {
+      "SEC_SFG_PRYJ": { "entry_min": 410, "exit_min": 418 },
+      "SEC_PRYJ_NYN": { "entry_min": 425, "exit_min": 435 },
+      "SEC_NYN_MZP": { "entry_min": 435, "exit_min": 482 },
+      "SEC_MZP_CAR": { "entry_min": 484, "exit_min": 506 },
+      "SEC_CAR_DDU": { "entry_min": 508, "exit_min": 535 }
+    }
+  },
+  {
+    "train_number": "12418",
+    "train_name": "Prayagraj Express (NDLS -> PRYJ)",
+    "category": "SUPERFAST",
+    "priority_weight": 8,
+    "direction": "DOWN",
+    "origin": "NDLS",
+    "destination": "PRYJ",
+    "length_wagons_coaches": 24,
+    "loco_type": "WAP-7",
+    "max_permissible_speed": 130,
+    "stops": [
+      { "station_code": "SFG", "arrival_time_min": 405, "departure_time_min": 405, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "PRYJ", "arrival_time_min": 415, "departure_time_min": 415, "stop_duration_min": 0, "platform_assigned": 1 }
+    ],
+    "section_traversal_times": {
+      "SEC_SFG_PRYJ": { "entry_min": 405, "exit_min": 415 }
+    }
+  },
+  {
+    "train_number": "04194",
+    "train_name": "DDU - PRYJ Passenger MEMU",
+    "category": "PASSENGER_MEMU",
+    "priority_weight": 4,
+    "direction": "UP",
+    "origin": "DDU",
+    "destination": "PRYJ",
+    "length_wagons_coaches": 12,
+    "loco_type": "MEMU Motor Coach",
+    "max_permissible_speed": 100,
+    "stops": [
+      { "station_code": "DDU", "arrival_time_min": 360, "departure_time_min": 370, "stop_duration_min": 10, "platform_assigned": 6 },
+      { "station_code": "CAR", "arrival_time_min": 405, "departure_time_min": 407, "stop_duration_min": 2, "platform_assigned": 3 },
+      { "station_code": "MZP", "arrival_time_min": 435, "departure_time_min": 437, "stop_duration_min": 2, "platform_assigned": 3 },
+      { "station_code": "NYN", "arrival_time_min": 510, "departure_time_min": 512, "stop_duration_min": 2, "platform_assigned": 3 },
+      { "station_code": "PRYJ", "arrival_time_min": 530, "departure_time_min": 530, "stop_duration_min": 0, "platform_assigned": 8 }
+    ],
+    "section_traversal_times": {
+      "SEC_CAR_DDU": { "entry_min": 370, "exit_min": 405 },
+      "SEC_MZP_CAR": { "entry_min": 407, "exit_min": 435 },
+      "SEC_NYN_MZP": { "entry_min": 437, "exit_min": 510 },
+      "SEC_PRYJ_NYN": { "entry_min": 512, "exit_min": 530 }
+    }
+  },
+  {
+    "train_number": "FR_BOXN_101",
+    "train_name": "BOXN Heavy Coal Rake (DDU -> Dadri Power)",
+    "category": "FREIGHT_HEAVY_HAUL",
+    "priority_weight": 3,
+    "direction": "UP",
+    "origin": "DDU",
+    "destination": "DER",
+    "length_wagons_coaches": 58,
+    "loco_type": "WAG-9 x 2 (Twin)",
+    "max_permissible_speed": 75,
+    "stops": [
+      { "station_code": "DDU", "arrival_time_min": 100, "departure_time_min": 110, "stop_duration_min": 10, "platform_assigned": 0 },
+      { "station_code": "CAR", "arrival_time_min": 150, "departure_time_min": 152, "stop_duration_min": 2, "platform_assigned": 0 },
+      { "station_code": "MZP", "arrival_time_min": 190, "departure_time_min": 192, "stop_duration_min": 2, "platform_assigned": 0 },
+      { "station_code": "NYN", "arrival_time_min": 280, "departure_time_min": 285, "stop_duration_min": 5, "platform_assigned": 0 },
+      { "station_code": "PRYJ", "arrival_time_min": 305, "departure_time_min": 310, "stop_duration_min": 5, "platform_assigned": 0 },
+      { "station_code": "SFG", "arrival_time_min": 320, "departure_time_min": 320, "stop_duration_min": 0, "platform_assigned": 0 }
+    ],
+    "section_traversal_times": {
+      "SEC_CAR_DDU": { "entry_min": 110, "exit_min": 150 },
+      "SEC_MZP_CAR": { "entry_min": 152, "exit_min": 190 },
+      "SEC_NYN_MZP": { "entry_min": 192, "exit_min": 280 },
+      "SEC_PRYJ_NYN": { "entry_min": 285, "exit_min": 305 },
+      "SEC_SFG_PRYJ": { "entry_min": 310, "exit_min": 320 }
+    }
+  },
+  {
+    "train_number": "FR_CONT_202",
+    "train_name": "CONCOR Double Stack Container (JNPT -> TKD)",
+    "category": "FREIGHT_CONTAINER",
+    "priority_weight": 5,
+    "direction": "DOWN",
+    "origin": "TKD",
+    "destination": "HWH",
+    "length_wagons_coaches": 45,
+    "loco_type": "WAG-12",
+    "max_permissible_speed": 100,
+    "stops": [
+      { "station_code": "SFG", "arrival_time_min": 560, "departure_time_min": 560, "stop_duration_min": 0, "platform_assigned": 0 },
+      { "station_code": "PRYJ", "arrival_time_min": 570, "departure_time_min": 570, "stop_duration_min": 0, "platform_assigned": 0 },
+      { "station_code": "NYN", "arrival_time_min": 585, "departure_time_min": 585, "stop_duration_min": 0, "platform_assigned": 0 },
+      { "station_code": "MZP", "arrival_time_min": 645, "departure_time_min": 650, "stop_duration_min": 5, "platform_assigned": 0 },
+      { "station_code": "CAR", "arrival_time_min": 680, "departure_time_min": 680, "stop_duration_min": 0, "platform_assigned": 0 },
+      { "station_code": "DDU", "arrival_time_min": 715, "departure_time_min": 730, "stop_duration_min": 15, "platform_assigned": 0 }
+    ],
+    "section_traversal_times": {
+      "SEC_SFG_PRYJ": { "entry_min": 560, "exit_min": 570 },
+      "SEC_PRYJ_NYN": { "entry_min": 570, "exit_min": 585 },
+      "SEC_NYN_MZP": { "entry_min": 585, "exit_min": 645 },
+      "SEC_MZP_CAR": { "entry_min": 650, "exit_min": 680 },
+      "SEC_CAR_DDU": { "entry_min": 680, "exit_min": 715 }
+    }
+  },
+  {
+    "train_number": "FR_BCN_303",
+    "train_name": "BCN Foodgrain Rake (FCI Punjab -> West Bengal)",
+    "category": "FREIGHT_GENERAL",
+    "priority_weight": 3,
+    "direction": "DOWN",
+    "origin": "LDH",
+    "destination": "BWN",
+    "length_wagons_coaches": 42,
+    "loco_type": "WAG-9",
+    "max_permissible_speed": 75,
+    "stops": [
+      { "station_code": "SFG", "arrival_time_min": 850, "departure_time_min": 850, "stop_duration_min": 0, "platform_assigned": 0 },
+      { "station_code": "PRYJ", "arrival_time_min": 862, "departure_time_min": 865, "stop_duration_min": 3, "platform_assigned": 0 },
+      { "station_code": "NYN", "arrival_time_min": 880, "departure_time_min": 880, "stop_duration_min": 0, "platform_assigned": 0 },
+      { "station_code": "MZP", "arrival_time_min": 950, "departure_time_min": 955, "stop_duration_min": 5, "platform_assigned": 0 },
+      { "station_code": "CAR", "arrival_time_min": 995, "departure_time_min": 995, "stop_duration_min": 0, "platform_assigned": 0 },
+      { "station_code": "DDU", "arrival_time_min": 1040, "departure_time_min": 1060, "stop_duration_min": 20, "platform_assigned": 0 }
+    ],
+    "section_traversal_times": {
+      "SEC_SFG_PRYJ": { "entry_min": 850, "exit_min": 862 },
+      "SEC_PRYJ_NYN": { "entry_min": 865, "exit_min": 880 },
+      "SEC_NYN_MZP": { "entry_min": 880, "exit_min": 950 },
+      "SEC_MZP_CAR": { "entry_min": 955, "exit_min": 995 },
+      "SEC_CAR_DDU": { "entry_min": 995, "exit_min": 1040 }
+    }
+  },
+  {
+    "train_number": "12398",
+    "train_name": "Mahabodhi Express (NDLS -> GAYA)",
+    "category": "SUPERFAST",
+    "priority_weight": 7,
+    "direction": "DOWN",
+    "origin": "NDLS",
+    "destination": "GAYA",
+    "length_wagons_coaches": 22,
+    "loco_type": "WAP-7",
+    "max_permissible_speed": 130,
+    "stops": [
+      { "station_code": "SFG", "arrival_time_min": 1150, "departure_time_min": 1150, "stop_duration_min": 0, "platform_assigned": 1 },
+      { "station_code": "PRYJ", "arrival_time_min": 1158, "departure_time_min": 1165, "stop_duration_min": 7, "platform_assigned": 3 },
+      { "station_code": "NYN", "arrival_time_min": 1175, "departure_time_min": 1175, "stop_duration_min": 0, "platform_assigned": 2 },
+      { "station_code": "MZP", "arrival_time_min": 1220, "departure_time_min": 1222, "stop_duration_min": 2, "platform_assigned": 1 },
+      { "station_code": "CAR", "arrival_time_min": 1242, "departure_time_min": 1244, "stop_duration_min": 2, "platform_assigned": 1 },
+      { "station_code": "DDU", "arrival_time_min": 1270, "departure_time_min": 1280, "stop_duration_min": 10, "platform_assigned": 3 }
+    ],
+    "section_traversal_times": {
+      "SEC_SFG_PRYJ": { "entry_min": 1150, "exit_min": 1158 },
+      "SEC_PRYJ_NYN": { "entry_min": 1165, "exit_min": 1175 },
+      "SEC_NYN_MZP": { "entry_min": 1175, "exit_min": 1220 },
+      "SEC_MZP_CAR": { "entry_min": 1222, "exit_min": 1242 },
+      "SEC_CAR_DDU": { "entry_min": 1244, "exit_min": 1270 }
+    }
+  }
+]

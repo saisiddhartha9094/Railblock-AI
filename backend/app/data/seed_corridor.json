@@ -1,0 +1,139 @@
+{
+  "id": "CORR_PRYJ_DDU_01",
+  "name": "Prayagraj - Pt. Deen Dayal Upadhyaya High Density Corridor",
+  "zone": "North Central Railway (NCR) / East Central Railway (ECR)",
+  "division": "Prayagraj Division (PRYJ)",
+  "total_length_km": 153.2,
+  "electrification": "25kV AC 50Hz OHE (Single Phase)",
+  "signalling_type": "Automatic Block Signalling (ABS) with MACLS & Kavach",
+  "tracks_configuration": "Triple Track (UP Main, DOWN Main, 3rd Reversible Line)",
+  "stations": [
+    {
+      "id": "STN_SFG",
+      "code": "SFG",
+      "name": "Subedarganj",
+      "km": 0.0,
+      "num_platforms": 4,
+      "loop_lines": 3,
+      "has_freight_siding": true,
+      "interlocking_type": "Electronic Interlocking (EI)"
+    },
+    {
+      "id": "STN_PRYJ",
+      "code": "PRYJ",
+      "name": "Prayagraj Junction",
+      "km": 3.8,
+      "num_platforms": 10,
+      "loop_lines": 6,
+      "has_freight_siding": true,
+      "interlocking_type": "Route Relay Interlocking (RRI) / EI"
+    },
+    {
+      "id": "STN_NYN",
+      "code": "NYN",
+      "name": "Naini Junction",
+      "km": 11.2,
+      "num_platforms": 4,
+      "loop_lines": 4,
+      "has_freight_siding": true,
+      "interlocking_type": "Electronic Interlocking (EI)"
+    },
+    {
+      "id": "STN_MZP",
+      "code": "MZP",
+      "name": "Mirzapur",
+      "km": 88.5,
+      "num_platforms": 3,
+      "loop_lines": 3,
+      "has_freight_siding": false,
+      "interlocking_type": "Electronic Interlocking (EI)"
+    },
+    {
+      "id": "STN_CAR",
+      "code": "CAR",
+      "name": "Chunar Junction",
+      "km": 119.8,
+      "num_platforms": 5,
+      "loop_lines": 4,
+      "has_freight_siding": true,
+      "interlocking_type": "Electronic Interlocking (EI)"
+    },
+    {
+      "id": "STN_DDU",
+      "code": "DDU",
+      "name": "Pt. Deen Dayal Upadhyaya Junction",
+      "km": 153.2,
+      "num_platforms": 8,
+      "loop_lines": 12,
+      "has_freight_siding": true,
+      "interlocking_type": "Major Yard Electronic Interlocking (EI)"
+    }
+  ],
+  "sections": [
+    {
+      "id": "SEC_SFG_PRYJ",
+      "name": "Subedarganj - Prayagraj Jn",
+      "from_station": "SFG",
+      "to_station": "PRYJ",
+      "length_km": 3.8,
+      "max_speed_kmh": 110,
+      "tracks": ["UP_MAIN", "DOWN_MAIN", "THIRD_LINE"],
+      "gradient": "Level",
+      "ohe_substation_id": "TSS_PRYJ_01",
+      "daily_train_capacity": 140,
+      "current_utilization_pct": 112.5
+    },
+    {
+      "id": "SEC_PRYJ_NYN",
+      "name": "Prayagraj Jn - Naini Jn (Yamuna Bridge)",
+      "from_station": "PRYJ",
+      "to_station": "NYN",
+      "length_km": 7.4,
+      "max_speed_kmh": 100,
+      "tracks": ["UP_MAIN", "DOWN_MAIN"],
+      "gradient": "1 in 200 (Bridge Approach)",
+      "ohe_substation_id": "TSS_NYN_01",
+      "daily_train_capacity": 130,
+      "current_utilization_pct": 124.0
+    },
+    {
+      "id": "SEC_NYN_MZP",
+      "name": "Naini Jn - Mirzapur",
+      "from_station": "NYN",
+      "to_station": "MZP",
+      "length_km": 77.3,
+      "max_speed_kmh": 130,
+      "tracks": ["UP_MAIN", "DOWN_MAIN", "THIRD_LINE"],
+      "gradient": "1 in 150 (Vindhya Section)",
+      "ohe_substation_id": "TSS_MZP_01",
+      "daily_train_capacity": 125,
+      "current_utilization_pct": 108.0
+    },
+    {
+      "id": "SEC_MZP_CAR",
+      "name": "Mirzapur - Chunar Jn",
+      "from_station": "MZP",
+      "to_station": "CAR",
+      "length_km": 31.3,
+      "max_speed_kmh": 130,
+      "tracks": ["UP_MAIN", "DOWN_MAIN", "THIRD_LINE"],
+      "gradient": "1 in 150",
+      "ohe_substation_id": "TSS_CAR_01",
+      "daily_train_capacity": 125,
+      "current_utilization_pct": 104.0
+    },
+    {
+      "id": "SEC_CAR_DDU",
+      "name": "Chunar Jn - Pt. Deen Dayal Upadhyaya Jn",
+      "from_station": "CAR",
+      "to_station": "DDU",
+      "length_km": 33.4,
+      "max_speed_kmh": 130,
+      "tracks": ["UP_MAIN", "DOWN_MAIN", "THIRD_LINE"],
+      "gradient": "Level / Yard Approach",
+      "ohe_substation_id": "TSS_DDU_01",
+      "daily_train_capacity": 145,
+      "current_utilization_pct": 118.0
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "DEM_ENG_01",
+    "department": "ENGINEERING",
+    "section_id": "SEC_NYN_MZP",
+    "line_id": "DOWN_MAIN",
+    "work_description": "Continuous Track Tamping (CSM-09/32) & Joint Boxing (Km 28.0 to 34.5)",
+    "equipment_needed": [
+      { "equipment_type": "CSM (Continuous Tamping Machine)", "quantity": 1, "speed_kmh_to_site": 40 },
+      { "equipment_type": "Dynamic Track Stabilizer (DTS)", "quantity": 1, "speed_kmh_to_site": 40 }
+    ],
+    "requested_duration_min": 180,
+    "min_continuous_duration_min": 150,
+    "urgency": "STATUTORY_RDSO",
+    "preferred_time_start_min": 60,
+    "preferred_time_end_min": 300,
+    "is_power_block_required": false,
+    "is_traffic_block_required": true,
+    "speed_restriction_after_block_kmh": 75,
+    "safety_code_reference": "IRPWM Para 1102 / RDSO TM-185",
+    "status": "SUBMITTED",
+    "submitted_by": "SSE/P-Way/NYN"
+  },
+  {
+    "id": "DEM_OHE_01",
+    "department": "ELECTRICAL_OHE",
+    "section_id": "SEC_NYN_MZP",
+    "line_id": "DOWN_MAIN",
+    "work_description": "25kV Contact Wire Replacement & Cantilever Overhaul (Km 29.2 to 33.8)",
+    "equipment_needed": [
+      { "equipment_type": "OHE Tower Wagon (4-Wheeler)", "quantity": 1, "speed_kmh_to_site": 50 }
+    ],
+    "requested_duration_min": 150,
+    "min_continuous_duration_min": 120,
+    "urgency": "STATUTORY_RDSO",
+    "preferred_time_start_min": 90,
+    "preferred_time_end_min": 330,
+    "is_power_block_required": true,
+    "is_traffic_block_required": true,
+    "speed_restriction_after_block_kmh": null,
+    "safety_code_reference": "ACTM Vol II Para 20412",
+    "status": "SUBMITTED",
+    "submitted_by": "SSE/TRD/MZP"
+  },
+  {
+    "id": "DEM_ST_01",
+    "department": "SIGNAL_TELECOM",
+    "section_id": "SEC_NYN_MZP",
+    "line_id": "DOWN_MAIN",
+    "work_description": "Dual Digital Axle Counter (DAC) Tuning & Point Machine Testing at Gaipura loop",
+    "equipment_needed": [
+      { "equipment_type": "S&T Measurement Trolley", "quantity": 1, "speed_kmh_to_site": 25 }
+    ],
+    "requested_duration_min": 120,
+    "min_continuous_duration_min": 90,
+    "urgency": "ROUTINE",
+    "preferred_time_start_min": 100,
+    "preferred_time_end_min": 300,
+    "is_power_block_required": false,
+    "is_traffic_block_required": true,
+    "speed_restriction_after_block_kmh": null,
+    "safety_code_reference": "SEM Part II Para 19.3",
+    "status": "SUBMITTED",
+    "submitted_by": "SSE/Signal/MZP"
+  },
+  {
+    "id": "DEM_ENG_02",
+    "department": "ENGINEERING",
+    "section_id": "SEC_MZP_CAR",
+    "line_id": "UP_MAIN",
+    "work_description": "Ballast Cleaning Machine (BCM) Deep Screening & Waste Disposal (Km 102 to 106)",
+    "equipment_needed": [
+      { "equipment_type": "BCM (Ballast Cleaning Machine)", "quantity": 1, "speed_kmh_to_site": 30 },
+      { "equipment_type": "BHO (Ballast Hopper Wagon Rake)", "quantity": 1, "speed_kmh_to_site": 40 }
+    ],
+    "requested_duration_min": 240,
+    "min_continuous_duration_min": 210,
+    "urgency": "STATUTORY_RDSO",
+    "preferred_time_start_min": 600,
+    "preferred_time_end_min": 900,
+    "is_power_block_required": false,
+    "is_traffic_block_required": true,
+    "speed_restriction_after_block_kmh": 45,
+    "safety_code_reference": "IRPWM Para 1205 / RDSO TM-101",
+    "status": "SUBMITTED",
+    "submitted_by": "SSE/P-Way/CAR"
+  },
+  {
+    "id": "DEM_OHE_02",
+    "department": "ELECTRICAL_OHE",
+    "section_id": "SEC_MZP_CAR",
+    "line_id": "UP_MAIN",
+    "work_description": "Section Insulator Replacement & Tree Canopy Trimming around 25kV Feeder (Km 104)",
+    "equipment_needed": [
+      { "equipment_type": "OHE Tower Wagon (8-Wheeler High Capacity)", "quantity": 1, "speed_kmh_to_site": 60 }
+    ],
+    "requested_duration_min": 180,
+    "min_continuous_duration_min": 150,
+    "urgency": "ROUTINE",
+    "preferred_time_start_min": 630,
+    "preferred_time_end_min": 930,
+    "is_power_block_required": true,
+    "is_traffic_block_required": true,
+    "speed_restriction_after_block_kmh": null,
+    "safety_code_reference": "ACTM Vol II Para 20804",
+    "status": "SUBMITTED",
+    "submitted_by": "SSE/TRD/CAR"
+  },
+  {
+    "id": "DEM_ST_02",
+    "department": "SIGNAL_TELECOM",
+    "section_id": "SEC_PRYJ_NYN",
+    "line_id": "UP_MAIN",
+    "work_description": "Electronic Interlocking (EI) Standby System Switchover & Audio Frequency Track Circuit overhaul",
+    "equipment_needed": [
+      { "equipment_type": "EI Diagnostic Kit", "quantity": 1, "speed_kmh_to_site": 20 }
+    ],
+    "requested_duration_min": 90,
+    "min_continuous_duration_min": 60,
+    "urgency": "STATUTORY_RDSO",
+    "preferred_time_start_min": 180,
+    "preferred_time_end_min": 360,
+    "is_power_block_required": false,
+    "is_traffic_block_required": true,
+    "speed_restriction_after_block_kmh": null,
+    "safety_code_reference": "SEM Part I Para 7.2",
+    "status": "SUBMITTED",
+    "submitted_by": "SSE/Signal/PRYJ"
+  },
+  {
+    "id": "DEM_TRF_01",
+    "department": "TRAFFIC_OPERATING",
+    "section_id": "SEC_SFG_PRYJ",
+    "line_id": "PLATFORM_LINE",
+    "work_description": "Platform 1 Apron High-Pressure Wash, Track Scouring & Yard Crossover renewal",
+    "equipment_needed": [
+      { "equipment_type": "Yard Shunting Locomotive WDS-6", "quantity": 1, "speed_kmh_to_site": 15 }
+    ],
+    "requested_duration_min": 120,
+    "min_continuous_duration_min": 90,
+    "urgency": "ROUTINE",
+    "preferred_time_start_min": 480,
+    "preferred_time_end_min": 660,
+    "is_power_block_required": false,
+    "is_traffic_block_required": true,
+    "speed_restriction_after_block_kmh": null,
+    "safety_code_reference": "G&SR Appendix A Yard Working",
+    "status": "SUBMITTED",
+    "submitted_by": "Station Director / PRYJ"
+  },
+  {
+    "id": "DEM_ENG_03",
+    "department": "ENGINEERING",
+    "section_id": "SEC_CAR_DDU",
+    "line_id": "DOWN_MAIN",
+    "work_description": "Ultrasonic Flaw Detection (USFD) & Switch Expansion Joint (SEJ) replacement",
+    "equipment_needed": [
+      { "equipment_type": "USFD Trolley (Digital 9-Channel)", "quantity": 1, "speed_kmh_to_site": 20 }
+    ],
+    "requested_duration_min": 120,
+    "min_continuous_duration_min": 90,
+    "urgency": "STATUTORY_RDSO",
+    "preferred_time_start_min": 300,
+    "preferred_time_end_min": 500,
+    "is_power_block_required": false,
+    "is_traffic_block_required": true,
+    "speed_restriction_after_block_kmh": null,
+    "safety_code_reference": "IRPWM Manual for USFD Para 4.1",
+    "status": "SUBMITTED",
+    "submitted_by": "SSE/P-Way/DDU"
+  }
+]

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Train, ShieldAlert, Cpu, Sparkles, RefreshCw, Clock, Radio, CheckCircle2 } from 'lucide-react';
+import { Train, ShieldAlert, Cpu, Sparkles, RefreshCw, Clock, Radio, Mic, CheckCircle2 } from 'lucide-react';
 
-export default function Header({ onTriggerEmergency, onRunOptimization, isOptimizing, lastOptimizedTime, aaiScore }) {
+export default function Header({ onTriggerEmergency, onTriggerVoice, onRunOptimization, isOptimizing, aaiScore }) {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export default function Header({ onTriggerEmergency, onRunOptimization, isOptimi
               </span>
               <span className="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-[10px] font-semibold px-2 py-0.5 rounded-full flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                CRIS TMS LIVE
+                CRIS TMS & FOIS LIVE
               </span>
             </div>
             <p className="text-xs text-slate-400 font-medium">
@@ -42,8 +42,8 @@ export default function Header({ onTriggerEmergency, onRunOptimization, isOptimi
           <div className="bg-slate-950/80 border border-slate-800/80 rounded-lg px-3 py-1.5 flex items-center gap-2">
             <Radio className="w-3.5 h-3.5 text-emerald-400 animate-pulse" />
             <div className="text-[11px]">
-              <span className="text-slate-400">ABS / Kavach: </span>
-              <span className="text-emerald-300 font-mono font-medium">ARMED (130 km/h)</span>
+              <span className="text-slate-400">Kavach ATP: </span>
+              <span className="text-emerald-300 font-mono font-medium">SIL-4 ARMED</span>
             </div>
           </div>
           <div className="bg-slate-950/80 border border-slate-800/80 rounded-lg px-3 py-1.5 flex items-center gap-2">
@@ -61,15 +61,24 @@ export default function Header({ onTriggerEmergency, onRunOptimization, isOptimi
           </div>
         </div>
 
-        {/* Right: Primary Controls */}
+        {/* Right: Primary Controls & Voice Assistant */}
         <div className="flex items-center gap-2.5">
           <button
+            onClick={onTriggerVoice}
+            className="flex items-center gap-1.5 px-3 py-2 bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/40 rounded-lg text-xs font-semibold transition-all shadow-sm active:scale-95"
+            title="Indic Voice & Multilingual Assistant"
+          >
+            <Mic className="w-4 h-4 text-amber-400" />
+            <span>Indic Voice</span>
+          </button>
+
+          <button
             onClick={onTriggerEmergency}
-            className="flex items-center gap-1.5 px-3.5 py-2 bg-red-950/60 hover:bg-red-900/80 text-red-300 hover:text-white border border-red-700/60 rounded-lg text-xs font-semibold transition-all shadow-sm active:scale-95"
+            className="flex items-center gap-1.5 px-3 py-2 bg-red-950/60 hover:bg-red-900/80 text-red-300 hover:text-white border border-red-700/60 rounded-lg text-xs font-semibold transition-all shadow-sm active:scale-95"
             title="Inject Rail Fracture / OHE Failure"
           >
             <ShieldAlert className="w-4 h-4 text-red-400" />
-            <span>Emergency Injector</span>
+            <span>Emergency</span>
           </button>
 
           <button
@@ -82,7 +91,7 @@ export default function Header({ onTriggerEmergency, onRunOptimization, isOptimi
             }`}
           >
             <Sparkles className={`w-4 h-4 ${isOptimizing ? 'animate-spin' : 'text-amber-200'}`} />
-            <span>{isOptimizing ? 'Solving CP-SAT Model...' : 'AI Auto-Optimize Calendar'}</span>
+            <span>{isOptimizing ? 'Solving CP-SAT...' : 'AI Auto-Optimize'}</span>
           </button>
         </div>
 

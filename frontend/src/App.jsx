@@ -6,10 +6,17 @@ import BlockGanttMatrix from './components/BlockGanttMatrix';
 import CorridorVisualizer from './components/CorridorVisualizer';
 import WhatIfSimulator from './components/WhatIfSimulator';
 import DemandPortal from './components/DemandPortal';
+import PointMachineDiagnostics from './components/PointMachineDiagnostics';
+import TrackHealthHeatmap from './components/TrackHealthHeatmap';
+import KavachTelemetryPanel from './components/KavachTelemetryPanel';
+import FreightSlaTracker from './components/FreightSlaTracker';
+import CrewDutyMonitor from './components/CrewDutyMonitor';
+import VoiceAssistantModal from './components/VoiceAssistantModal';
+import ComplianceReportViewer from './components/ComplianceReportViewer';
 import EmergencyModal from './components/EmergencyModal';
 import DecisionExplainability from './components/DecisionExplainability';
 import { api } from './services/api';
-import { Sparkles, CheckCircle2, AlertTriangle, ShieldCheck } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('matrix');
@@ -22,6 +29,7 @@ export default function App() {
   const [selectedBlock, setSelectedBlock] = useState(null);
   const [isOptimizing, setIsOptimizing] = useState(false);
   const [isEmergencyModalOpen, setIsEmergencyModalOpen] = useState(false);
+  const [isVoiceModalOpen, setIsVoiceModalOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState(null);
 
   useEffect(() => {
@@ -64,7 +72,7 @@ export default function App() {
       const updatedAai = await api.getAssetAvailabilityIndex();
       setAaiData(updatedAai);
       showToast(
-        `CP-SAT Optimizer Complete: ${result.clubbed_blocks_count} clubbed windows created. AAI improved to ${result.asset_availability_index_after}% (+${result.delay_minutes_saved} min saved).`,
+        `CP-SAT Optimizer Complete: ${result.clubbed_blocks_count} clubbed windows created. AAI: ${result.asset_availability_index_after}% (+${result.delay_minutes_saved} min saved).`,
         'success'
       );
     } catch (err) {
@@ -75,9 +83,14 @@ export default function App() {
     }
   };
 
-  const handleEmergencyExecuted = async (res) => {
+  const handleEmergencyExecuted = async () => {
     await loadAllData();
     showToast(`Emergency Block Injected: Real-time dynamic rescheduling executed.`, 'warning');
+  };
+
+  const handleVoiceCommandProcessed = async () => {
+    await loadAllData();
+    showToast(`Voice Command Parsed: New block demand auto-scheduled into optimizer.`, 'success');
   };
 
   return (
@@ -100,6 +113,7 @@ export default function App() {
       {/* Main Header */}
       <Header
         onTriggerEmergency={() => setIsEmergencyModalOpen(true)}
+        onTriggerVoice={() => setIsVoiceModalOpen(true)}
         onRunOptimization={handleRunOptimization}
         isOptimizing={isOptimizing}
         aaiScore={aaiData?.overall_aai_score}
@@ -152,12 +166,49 @@ export default function App() {
           />
         )}
 
-        {/* Tab 5: AI Explainability & Audit Log */}
+        {/* Tab 5: Point Machine Diagnostics */}
+        {activeTab === 'pointmachine' && (
+          <PointMachineDiagnostics onDemandGenerated={loadAllData} />
+        )}
+
+        {/* Tab 6: TRC & USFD Track Flaw Heatmap */}
+        {activeTab === 'trc' && (
+          <TrackHealthHeatmap onDemandGenerated={loadAllData} />
+        )}
+
+        {/* Tab 7: Kavach ATP Cab Signalling Panel */}
+        {activeTab === 'kavach' && (
+          <KavachTelemetryPanel />
+        )}
+
+        {/* Tab 8: FOIS Freight Supply Chain SLA Tracker */}
+        {activeTab === 'fois' && (
+          <FreightSlaTracker />
+        )}
+
+        {/* Tab 9: CMS Crew Duty & HOER Tracker */}
+        {activeTab === 'cms' && (
+          <CrewDutyMonitor />
+        )}
+
+        {/* Tab 10: Official CBUI & PLA Compliance Reports */}
+        {activeTab === 'reports' && (
+          <ComplianceReportViewer />
+        )}
+
+        {/* Tab 11: AI Explainability & Audit Log */}
         {activeTab === 'explain' && (
           <DecisionExplainability scheduledBlocks={scheduledBlocks} />
         )}
 
       </main>
+
+      {/* Voice Assistant Modal */}
+      <VoiceAssistantModal
+        isOpen={isVoiceModalOpen}
+        onClose={() => setIsVoiceModalOpen(false)}
+        onCommandProcessed={handleVoiceCommandProcessed}
+      />
 
       {/* Emergency Modal */}
       <EmergencyModal
@@ -174,7 +225,7 @@ export default function App() {
             Smart India Hackathon (SIH26027) • <strong>AI-Powered Automatic Block Planning to Maximize Asset Availability</strong>
           </span>
           <span className="font-mono text-slate-400">
-            Ministry of Railways • Google OR-Tools CP-SAT + SimPy Engine
+            Ministry of Railways • Google OR-Tools CP-SAT + SimPy + Kavach + FOIS + CMS
           </span>
         </div>
       </footer>

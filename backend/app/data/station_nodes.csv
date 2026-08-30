@@ -1,0 +1,642 @@
+station_code,station_name,zone,state,is_junction
+ABR,ABU ROAD,NWR,Rajasthan,False
+AD,ADONI,SCR,Andhra Pradesh,False
+ADI,AHMEDABAD,WR,Gujarat,True
+ADRA,ADRA,SER,West Bengal,True
+AF,AGRA FORT,NCR,Uttar Pradesh,True
+AGC,AGRA CANTT.,NCR,Uttar Pradesh,True
+AH,ACHHNERA,NCR,Uttar Pradesh,True
+AII,AJMER,NWR,Rajasthan,True
+AJJ,ARAKKONAM,SR,Tamil Nadu,True
+AK,AKOLA,CR,Maharashtra,True
+AKP,ANAKAPALLE,SCR,Andhra Pradesh,False
+ALD,ALLAHABAD / PRAYAGRAJ,NCR,Uttar Pradesh,True
+ALJN,ALIGARH,NCR,Uttar Pradesh,True
+ALLP,ALAPPUZHA,SR,Kerala,False
+AMH,AZAMGARH,NER,Uttar Pradesh,False
+AMLA,AMLA,CR,Madhya Pradesh,True
+AMTA,SAMUKTALA ROAD,NFR,West Bengal,False
+AN,AMALNER,WR,Maharashtra,False
+ANDN,ANAND NAGAR,NER,Uttar Pradesh,True
+ANG,AHMADNAGAR,CR,Maharashtra,False
+ANGL,ANGUL,ECoR,Odisha,False
+ANND,ANAND,WR,Gujarat,True
+ANV,ANNAVARAM,SCR,Andhra Pradesh,False
+APDJ,ALIPURDUAR Jn.,NFR,West Bengal,True
+APR,ANUPPUR,SECR,Madhya Pradesh,True
+ARA,ARA,ECR,Bihar,True
+ARJ,AUNRIHAR,NER,Uttar Pradesh,True
+ASK,ARSIKERE,SWR,Karnataka,True
+ASN,ASANSOL,ER,West Bengal,True
+ASR,AMRITSAR,NR,Punjab,True
+ATP,ANANTAPUR,SCR,Andhra Pradesh,False
+AWB,AURANGABAD,SCR,Maharashtra,False
+AWR,ALWAR,NWR,Rajasthan,True
+AWY,ALUVA,SR,Kerala,False
+AY,AYODHYA,NR,Uttar Pradesh,True
+AZ,AZIMGANJ Jn.,ER,West Bengal,True
+BAP,BELAPUR,CR,Maharashtra,False
+BAU,BURHANPUR,CR,Madhya Pradesh,False
+BAY,BELLARY Jn.,SWR,Karnataka,True
+BBK,BARABANKI Jn.,NR,Uttar Pradesh,True
+BBL,BARABIL,SER,Odisha,False
+BBS,BHUBANESWAR,ECoR,Odisha,True
+BCT,MUMBAI CENTRAL,WR,Maharashtra,True
+BD,BADNERA Jn.,CR,Maharashtra,True
+BDC,BANDEL Jn.,ER,West Bengal,True
+BDJ,VADAKARA,SR,Kerala,False
+BDME,BAIDYANATHDHAM,ER,Jharkhand,False
+BDTS,BANDRA TERMINUS,WR,Maharashtra,True
+BE,BAREILLY,NR,Uttar Pradesh,True
+BEAS,BEAS,NR,Punjab,False
+BEM,BUDAUN,NER,Uttar Pradesh,False
+BGK,BAGALKOT,SWR,Karnataka,False
+BGM,BELGAUM,SWR,Karnataka,False
+BGP,BHAGALPUR,ER,Bihar,True
+BH,BHARUCH,WR,Gujarat,True
+BHC,BHADRAKH,ECoR,Odisha,True
+BHL,BHILWARA,NWR,Rajasthan,False
+BHP,BOLPURSHANTINIKETAN,ER,West Bengal,False
+BHS,VIDISHA,WCR,Madhya Pradesh,False
+BHUJ,BHUJ,WR,Gujarat,False
+BINA,BINA,WCR,Madhya Pradesh,True
+BIX,BHIND,NCR,Madhya Pradesh,False
+BJO,BIJNOR,NR,Uttar Pradesh,False
+BJP,BIJAPUR,SWR,Karnataka,False
+BJU,BARAUNI Jn.,ECR,Bihar,True
+BKI,BANDIKUI Jn.,NWR,Rajasthan,True
+BKN,BIKANER,NWR,Rajasthan,True
+BKP,BAKTHIYARPUR,ECR,Bihar,True
+BKSC,BOKARO STEEL CITY,SER,Jharkhand,True
+BL,VALSAD,WR,Gujarat,False
+BLS,BALASORE,SER,Odisha,False
+BME,BARMER,NWR,Rajasthan,False
+BMP,BRAHMAPURI,SECR,Maharashtra,False
+BNC,BANGALORE CANTT.,SWR,Karnataka,False
+BNDA,BANDA Jn.,NCR,Uttar Pradesh,True
+BNKI,BANMANKHI,ECR,Bihar,True
+BNQ,BANARHAT,NFR,West Bengal,False
+BNV,BINNAGURI,NFR,West Bengal,False
+BNW,BHIWANI,NWR,Haryana,True
+BNY,BARHNI,NER,Uttar Pradesh,False
+BOE,BARSOI,NFR,Bihar,True
+BOF,BAROG,NR,Himachal Pradesh,False
+BOY,BHADOHI,NR,Uttar Pradesh,False
+BPB,BADARPUR,NFR,Assam,True
+BPL,BHOPAL,WCR,Madhya Pradesh,True
+BPM,BAGHPAT ROAD,NR,Uttar Pradesh,False
+BPP,BAPATLA,SCR,Andhra Pradesh,False
+BPQ,BALHARSHAH,CR,Maharashtra,True
+BPR,BHOJIPURA,NER,Uttar Pradesh,True
+BQK,BANKURA,SER,West Bengal,True
+BRC,VADODARA,WR,Gujarat,True
+BRGA,BARGARH ROAD,ECoR,Odisha,False
+BRKA,BARKAKANA,ECR,Jharkhand,True
+BRWD,BARWADIH,ECR,Jharkhand,True
+BSB,VARANASI,NER/NR,Uttar Pradesh,True
+BSL,BHUSAVAL,CR,Maharashtra,True
+BSP,BILASPUR Jn.,SECR,Chhattisgarh,True
+BSR,VASAI ROAD,WR,Maharashtra,True
+BST,BASTI,NER,Uttar Pradesh,False
+BTC,BALAGHAT Jn.,SECR,Madhya Pradesh,True
+BTD,BOTAD,WR,Gujarat,True
+BTE,BHARATPUR,WCR,Rajasthan,True
+BTH,BETTIAH,ECR,Bihar,False
+BTI,BATHINDA Jn.,NR,Punjab,True
+BTJL,BHATKAL,KR,Karnataka,False
+BTT,BHATNI,NER,Uttar Pradesh,True
+BTTR,BITRAGUNTA,SCR,Andhra Pradesh,False
+BTU,BARAUT,NR,Uttar Pradesh,False
+BUG,BAGAHA,ECR,Bihar,False
+BUI,BALLIA,NER,Uttar Pradesh,False
+BUW,BURHWAL,NER,Uttar Pradesh,True
+BVC,BHAVNAGAR (T),WR,Gujarat,True
+BVI,BORIVALI,WR,Maharashtra,True
+BVRM,BHIMAVARAM Jn.,SCR,Andhra Pradesh,True
+BVRT,BHIMAVARAM TOWN,SCR,Andhra Pradesh,False
+BWN,BARDDHAMAN Jn.,ER,West Bengal,True
+BWT,BANGARAPET,SWR,Karnataka,True
+BXN,BAYANA,WCR,Rajasthan,True
+BXR,BUXAR,ECR,Bihar,False
+BYT,BHATAPARA,SECR,Chhattisgarh,False
+BZA,VIJAYAWADA,SCR,Andhra Pradesh,True
+BZU,BETUL,CR,Madhya Pradesh,False
+CAA,CHAKIA,ECR,Bihar,False
+CAN,KANNUR,SR,Kerala,False
+CAPE,KANNIYAKUMARI,SR,Tamil Nadu,True
+CAR,CHUNAR,NCR,Uttar Pradesh,True
+CBE,COIMBATORE Jn.,SR,Tamil Nadu,True
+CD,CHANDRAPUR,CR,Maharashtra,False
+CDG,CHANDIGARH,NR,Chandigarh,True
+CDM,CHIDAMBARAM,SR,Tamil Nadu,False
+CGL,CHENGALPATTU Jn.,SR,Tamil Nadu,True
+CH,CHANDAUSI,NR,Uttar Pradesh,True
+CHE,SRIKAKULAM ROAD,ECoR,Andhra Pradesh,False
+CHI,CHIPLUN,KR,Maharashtra,False
+CHKB,CHAKKI BANK,NR,Punjab,False
+CJ,KANCHIPURAM,SR,Tamil Nadu,False
+CKP,CHAKRADHARPUR,SER,Jharkhand,True
+CKTD,CHITRAKOOTDHAM KARVI,NCR,Uttar Pradesh,False
+CLD,CHALSA,NFR,West Bengal,False
+CLT,KOZHIKKODE,SR,Kerala,False
+CLX,CHIRALA,SCR,Andhra Pradesh,False
+CNB,KANPUR CENTRAL,NCR,Uttar Pradesh,True
+CNGR,CHENGANNUR,SR,Kerala,False
+CNI,CHANDIL,SER,Jharkhand,True
+CNO,CANACONA,KR,Goa,False
+COA,KAKINADA PORT,SCR,Andhra Pradesh,True
+COR,CHITTAURGARH,NWR,Rajasthan,True
+CPA,KANPUR ANWARGANJ,NCR,Uttar Pradesh,True
+CPH,CHAMPA,SECR,Chhattisgarh,True
+CPJ,KAPTANGANJ,NER,Uttar Pradesh,True
+CPK,CHAPARMUKH,NFR,Assam,True
+CPR,CHHAPRA,NER,Bihar,True
+CPU,CHOPAN,ECR,Uttar Pradesh,True
+CRJ,CHITTARANJAN,ER,West Bengal,False
+CRP,CHANDRAPURA,ECR,Jharkhand,True
+CSMT,CHATRAPATI SHIVAJI MAHARAJ TERMINUS,CR,Maharashtra,True
+CSN,CHALISGAON,CR,Maharashtra,True
+CSTM,MUMBAI CST,CR,Maharashtra,True
+CTC,CUTTACK,ECoR,Odisha,True
+CTO,CHITTOOR,SCR,Andhra Pradesh,False
+CUPJ,CUDDALORE PORT,SR,Tamil Nadu,True
+CUR,CHURU,NWR,Rajasthan,True
+DAB,DHARMABAD,SCR,Maharashtra,False
+DAS,DHASA,WR,Gujarat,True
+DBG,DARBHANGA,ECR,Bihar,True
+DBRT,DIBRUGARH TOWN,NFR,Assam,True
+DD,DAUND,CR,Maharashtra,True
+DDN,DEHRADUN,NR,Uttarakhand,True
+DDU,PT. DEEN DAYAL UPADHYAYA JN.,ECR,Uttar Pradesh,True
+DEC,DELHI CANTT.,NR,Delhi,False
+DEE,DELHI SARAI ROHILLA,NR,Delhi,True
+DEOS,DEORIASADAR,NER,Uttar Pradesh,False
+DG,DINDIGUL Jn.,SR,Tamil Nadu,True
+DGG,DONGARGARH,SECR,Chhattisgarh,False
+DGR,DURGAPUR,ER,West Bengal,False
+DHD,DAHOD,WR,Gujarat,False
+DHG,DHRANGADHRA,WR,Gujarat,True
+DHN,DHANBAD,ECR,Jharkhand,True
+DHO,DHAULPUR,NCR,Rajasthan,True
+DKJ,DORNAKAL,SCR,Telangana,True
+DLI,OLD DELHI,NR,Delhi,True
+DLJ,DHOLA,WR,Gujarat,True
+DLN,DILDARNAGAR,ECR,Uttar Pradesh,True
+DLO,DALGAON,NFR,West Bengal,False
+DMM,DHARMAVARAM,SCR,Andhra Pradesh,True
+DMN,DHAMANGAON,CR,Maharashtra,False
+DMO,DAMOH,WCR,Madhya Pradesh,False
+DMV,DIMAPUR,NFR,Nagaland,False
+DNC,DHONE,SCR,Andhra Pradesh,True
+DNR,DANAPUR,ECR,Bihar,True
+DNRP,DUNGARPUR,NWR,Rajasthan,False
+DOS,DEHRI-ON-SONE,ECR,Bihar,False
+DPJ,DHARMAPURI,SWR,Tamil Nadu,False
+DR,DADAR,CR/WR,Maharashtra,True
+DRD,DAHANU ROAD,WR,Maharashtra,False
+DSA,DELHI SHAHDARA,NR,Delhi,True
+DTO,DALTONGANJ,ECR,Jharkhand,False
+DUI,DHURI,NR,Punjab,True
+DURG,DURG,SECR,Chhattisgarh,True
+DVG,DAVANGERE,SWR,Karnataka,False
+DVL,DEVLALI,CR,Maharashtra,False
+DWK,DWARKA,WR,Gujarat,False
+DWR,DHARWAD,SWR,Karnataka,False
+ED,ERODE,SR,Tamil Nadu,True
+EE,ELURU,SCR,Andhra Pradesh,False
+ERN,ERNAKULAM TOWN,SR,Kerala,False
+ERS,ERNAKULAM Jn.,SR,Kerala,True
+ET,ITARSI,WCR,Madhya Pradesh,True
+ETW,ETAWAH,NCR,Uttar Pradesh,True
+FBG,FORBESGANJ,ECR,Bihar,True
+FD,FAIZABAD,NR,Uttar Pradesh,True
+FDB,FARIDABAD,NR,Haryana,False
+FKA,FAZILKA,NR,Punjab,True
+FKD,FARRUKHABAD,NER,Uttar Pradesh,True
+FKG,FURKATING,NFR,Assam,True
+FL,PHULERA,NWR,Rajasthan,True
+FTD,FATHEABAD CHAND,WR,Madhya Pradesh,True
+FTP,FATEHPUR,NCR,Uttar Pradesh,False
+FUT,FATUHA,ECR,Bihar,True
+FZD,FIROZABAD,NCR,Uttar Pradesh,False
+FZP,FIROZPUR CITY,NR,Punjab,False
+FZR,FIROZPUR CANTT.,NR,Punjab,True
+G,GONDIA,SECR,Maharashtra,True
+GADJ,GANDHINAGAR,WR,Gujarat,False
+GAYA,GAYA,ECR,Bihar,True
+GD,GONDA,NER,Uttar Pradesh,True
+GDA,GODHRA,WR,Gujarat,True
+GDG,GADAG,SWR,Karnataka,True
+GDR,GUDUR,SCR,Andhra Pradesh,True
+GDV,GUDIVADA,SCR,Andhra Pradesh,True
+GGC,GANGAPUR CITY,WCR,Rajasthan,False
+GHD,GARWA ROAD,ECR,Jharkhand,True
+GHY,GUWAHATI,NFR,Assam,True
+GIM,GANDHIDHAM,WR,Gujarat,True
+GJL,GAJRAULA,NR,Uttar Pradesh,True
+GK,GOLA GOKARANNATH,NER,Uttar Pradesh,False
+GKP,GORAKHPUR,NER,Uttar Pradesh,True
+GLPT,GOALPARA TOWN,NFR,Assam,False
+GMO,GOMOH (NSCB GOMOH),ECR,Jharkhand,True
+GNT,GUNTUR,SCR,Andhra Pradesh,True
+GOGH,GOSSAINGAON HAT,NFR,Assam,False
+GR,GULBARGA (KALABURAGI),CR,Karnataka,False
+GTL,GUNTAKAL,SCR,Andhra Pradesh,True
+GTS,GHATSILA,SER,Jharkhand,False
+GUNA,GUNA,WCR,Madhya Pradesh,True
+GUV,GURUVAYUR,SR,Kerala,False
+GWL,GWALIOR,NCR,Madhya Pradesh,True
+GY,GOOTY,SCR,Andhra Pradesh,True
+GYN,GYANPUR ROAD,NER,Uttar Pradesh,False
+GZB,GHAZIABAD,NR,Uttar Pradesh,True
+HAPA,HAPA,WR,Gujarat,True
+HBD,HOSHANGABAD (NARMADAPURAM),WCR,Madhya Pradesh,False
+HBG,HOWBADH,SECR,Madhya Pradesh,False
+HBJ,HABIBGANJ (RANI KAMLAPATI),WCR,Madhya Pradesh,False
+HD,HARDA,WCR,Madhya Pradesh,False
+HDB,HALDIBARI,NFR,West Bengal,False
+HIL,HILSA,ECR,Bihar,False
+HJP,HAJIPUR,ECR,Bihar,True
+HLZ,HALDIA,SER,West Bengal,True
+HMH,HANUMANGARH,NWR,Rajasthan,True
+HMT,HIMMAT NAGAR,WR,Gujarat,True
+HNL,HINGOLI,SCR,Maharashtra,False
+HOJ,HAMILTONGANJ,NFR,West Bengal,False
+HPP,HARPALPUR,NCR,Madhya Pradesh,False
+HPT,HOSPET,SWR,Karnataka,True
+HPU,HAPUR,NR,Uttar Pradesh,True
+HRR,HARIHAR,SWR,Karnataka,False
+HSA,HASIMARA,NFR,West Bengal,False
+HSR,HISAR,NWR,Haryana,True
+HSRA,HOSUR,SWR,Tamil Nadu,False
+HTE,HATIA,SER,Jharkhand,True
+HUP,HINDUPUR,SWR,Andhra Pradesh,False
+HW,HARIDWAR,NR,Uttarakhand,True
+HWH,HOWRAH,ER/SER,West Bengal,True
+HX,CUDDAPAH (KADAPA),SCR,Andhra Pradesh,False
+HYB,HYDERABAD DECCAN,SCR,Telangana,True
+IAA,INDARA,NER,Uttar Pradesh,True
+IGP,IGATPURI,CR,Maharashtra,True
+INDB,INDORE,WR,Madhya Pradesh,True
+IPR,ISLAMPUR,ECR,Bihar,False
+J,JALNA,SCR,Maharashtra,False
+JAJ,JHAJHA,ECR,Bihar,True
+JAM,JAMNAGAR,WR,Gujarat,False
+JAT,JAMMU TAWI,NR,Jammu & Kashmir,True
+JBN,JOGBANI,NFR,Bihar,False
+JBP,JABALPUR,WCR,Madhya Pradesh,True
+JGM,JHARGRAM,SER,West Bengal,False
+JHL,JAKHAL,NR,Haryana,True
+JHS,JHANSI (VIRANGANA LAKSHMIBAI),NCR,Uttar Pradesh,True
+JIND,JIND,NR,Haryana,True
+JJKR,JAJPUR KEONJHAR ROAD,ECoR,Odisha,False
+JL,JALGAON,CR,Maharashtra,True
+JLR,JETALSAR,WR,Gujarat,True
+JM,JALAMB,CR,Maharashtra,True
+JMP,JAMALPUR,ER,Bihar,True
+JND,JUNAGARH Jn.,WR,Gujarat,True
+JNH,JANGHAI,NR,Uttar Pradesh,True
+JNU,JAUNPUR Jn.,NR,Uttar Pradesh,True
+JP,JAIPUR,NWR,Rajasthan,True
+JPG,JALPAIGURI,NFR,West Bengal,True
+JRC,JALANDHAR CANTT.,NR,Punjab,True
+JRU,CHIKJAJUR,SWR,Karnataka,True
+JSG,JHARSUGUDA,SER,Odisha,True
+JSM,JAISALMER,NWR,Rajasthan,False
+JSME,JASIDIH,ER,Jharkhand,True
+JT,JORHAT,NFR,Assam,True
+JTJ,JOLARPETTAI,SR,Tamil Nadu,True
+JU,JODHPUR,NWR,Rajasthan,True
+JUC,JALANDHAR CITY,NR,Punjab,True
+JYG,JAYNAGAR,ECR,Bihar,False
+KAWR,KARWAR,KR,Karnataka,False
+KCF,KALCHINI,NFR,West Bengal,False
+KCG,KACHEGUDA,SCR,Telangana,True
+KCVL,KOCHUVELI,SR,Kerala,False
+KEX,KHEKRA,NR,Uttar Pradesh,False
+KGG,KHAGARIA,ECR,Bihar,True
+KGM,KATHGODAM,NER,Uttarakhand,False
+KGP,KHARAGPUR,SER,West Bengal,True
+KGQ,KASARGOD,SR,Kerala,False
+KIR,KATIHAR,NFR,Bihar,True
+KIUL,KIUL,ECR,Bihar,True
+KJM,KRISHNARAJAPURAM,SWR,Karnataka,False
+KKDE,KURUKSHETRA,NR,Haryana,True
+KKDI,KARAIKKUDI JN.,SR,Tamil Nadu,True
+KKP,KOT KAPURA,NR,Punjab,True
+KLD,KHALILABAD,NER,Uttar Pradesh,False
+KLK,KALKA,NR,Haryana,True
+KLL,KALOL,WR,Gujarat,True
+KMT,KHAMMAM,SCR,Telangana,False
+KMU,KUMBAKONAM,SR,Tamil Nadu,False
+KNE,KISHANGANJ,NFR,Bihar,False
+KNJ,KRISHNANAGAR CITY,ER,West Bengal,True
+KNKD,KANKANADI,SR,Karnataka,True
+KNW,KHANDWA,CR,Madhya Pradesh,True
+KOTA,KOTA,WCR,Rajasthan,True
+KPD,KATPADI,SR,Tamil Nadu,True
+KPG,KOPERGAON,CR,Maharashtra,False
+KQL,KANDHLA,NR,Uttar Pradesh,False
+KQN,KODAIKANAL ROAD,SR,Tamil Nadu,False
+KRBA,KORBA,SECR,Chhattisgarh,False
+KRNT,KURNOOL TOWN,SCR,Andhra Pradesh,False
+KRPU,KORAPUT,ECoR,Odisha,True
+KRR,KARUR,SR,Tamil Nadu,True
+KSG,KISHANGARH,NWR,Rajasthan,False
+KSJ,KASGANJ,NER,Uttar Pradesh,True
+KTE,KATNI,WCR,Madhya Pradesh,True
+KTW,KOTDWARA,NR,Uttarakhand,False
+KTYM,KOTTAYAM,SR,Kerala,False
+KUDA,KUNDAPURA,KR,Karnataka,False
+KUN,KARNAL,NR,Haryana,False
+KUR,KHURDA ROAD,ECoR,Odisha,True
+KWAE,KATWA,ER,West Bengal,True
+KWV,KURDUWADI,CR,Maharashtra,True
+KYN,KALYAN,CR,Maharashtra,True
+KYQ,KAMAKHYA,NFR,Assam,True
+KZJ,KAZIPET,SCR,Telangana,True
+LAR,LALITPUR,NCR,Uttar Pradesh,True
+LD,LONDA,SWR,Karnataka,True
+LDH,LUDHIANA,NR,Punjab,True
+LEDO,LEDO,NFR,Assam,False
+LFG,LOWER HALFLONG,NFR,Assam,False
+LGH,LALGARH,NWR,Rajasthan,True
+LGL,LALGOLA,ER,West Bengal,False
+LHU,LOHARU,NWR,Haryana,True
+LJN,LUCKNOW JN. (NER),NER,Uttar Pradesh,True
+LKO,LUCKNOW NR (CHARBAGH),NR,Uttar Pradesh,True
+LKU,LALKUAN JN.,NER,Uttarakhand,True
+LMG,LUMDING,NFR,Assam,True
+LMP,LAKHIMPUR,NER,Uttar Pradesh,False
+LNL,LONAVLA,CR,Maharashtra,False
+LRJ,LAKSAR,NR,Uttarakhand,True
+LTT,LOKMANYA TILAK TERMINUS,CR,Maharashtra,True
+LUNI,LUNI,NWR,Rajasthan,True
+LUR,LATUR,CR,Maharashtra,False
+LWR,ALNAWAR Jn.,SWR,Karnataka,True
+MAD,MADDUR,SWR,Karnataka,False
+MAO,MADGAON (GOA),KR,Goa,True
+MAQ,MANGALORE CENTRAL,SR,Karnataka,True
+MAS,CHENNAI CENTRAL (MGR CHENNAI),SR,Tamil Nadu,True
+MAU,MAU,NER,Uttar Pradesh,True
+MB,MORADABAD,NR,Uttar Pradesh,True
+MBA,MAHOBA,NCR,Uttar Pradesh,True
+MBI,MADHUBANI,ECR,Bihar,False
+MBNR,MAHBUBNAGAR,SCR,Telangana,False
+MDN,MIDNAPORE,SER,West Bengal,True
+MDP,MADHUPUR,ER,Jharkhand,True
+MDT,MADARIHAT,NFR,West Bengal,False
+MDU,MADURAI Jn.,SR,Tamil Nadu,True
+MEJ,VANCHI MANIYACHCHI Jn.,SR,Tamil Nadu,True
+MFP,MUZAFFARPUR,ECR,Bihar,True
+MGS,MUGHALSARAI (PT. DEEN DAYAL UPADHYAYA),ECR,Uttar Pradesh,True
+MHOW,MHOW (DR. AMBEDKAR NAGAR),WR,Madhya Pradesh,False
+MJ,MARWAR Jn.,NWR,Rajasthan,True
+MKA,MOKAMA,ECR,Bihar,True
+MKC,MAKSI,WR,Madhya Pradesh,True
+MKI,MOTIHARI,ECR,Bihar,False
+MKP,MANIKPUR,NCR,Uttar Pradesh,True
+MLDT,MALDA TOWN,ER,West Bengal,True
+MLN,MAILANI,NER,Uttar Pradesh,True
+MMR,MANMAD,CR,Maharashtra,True
+MNE,MANSI,ECR,Bihar,True
+MNM,MANAMADURAI,SR,Tamil Nadu,True
+MOZ,MUZAFFAR NAGAR,NR,Uttar Pradesh,False
+MRGA,MIRYALAGUDA,SCR,Telangana,False
+MRJ,MIRAJ,CR,Maharashtra,True
+MS,CHENNAI EGMORE,SR,Tamil Nadu,True
+MSH,MAHESANA,WR,Gujarat,True
+MTC,MEERUT CITY,NR,Uttar Pradesh,True
+MTD,MERTA ROAD,NWR,Rajasthan,True
+MTJ,MATHURA,NCR,Uttar Pradesh,True
+MTM,MACHILIPATNAM,SCR,Andhra Pradesh,True
+MTP,METTUPALAIYAM,SR,Tamil Nadu,True
+MUE,MUDKHED,SCR,Maharashtra,True
+MUR,MANKAPUR,NER,Uttar Pradesh,True
+MURI,MURI,SER,Jharkhand,True
+MUV,MANDUADIH (BANARAS),NER,Uttar Pradesh,True
+MV,MAYILADUTURAI Jn.,SR,Tamil Nadu,True
+MXN,MARIANI,NFR,Assam,True
+MYS,MYSORE,SWR,Karnataka,True
+MZP,MIRZAPUR,NCR,Uttar Pradesh,False
+MZR,MURTAJAPUR,CR,Maharashtra,True
+MZS,MURKEONGSELEK,NFR,Assam,False
+NAB,NAGBHIR,SECR,Maharashtra,True
+NAD,NAGDA,WR,Madhya Pradesh,True
+NBD,NAJIBABAD,NR,Uttar Pradesh,True
+NBQ,NEW BONGAIGAON,NFR,Assam,True
+NCB,NEW COOCHBEHAR,NFR,West Bengal,True
+NCJ,NAGERCOIL Jn.,SR,Tamil Nadu,True
+NCR,NAGORE,SR,Tamil Nadu,False
+ND,NADIAD,WR,Gujarat,True
+NDB,NANDURBAR,WR,Maharashtra,False
+NDD,NIDADAVOLU,SCR,Andhra Pradesh,True
+NDKD,NADIKUDE,SCR,Andhra Pradesh,True
+NDL,NANDYAL,SCR,Andhra Pradesh,True
+NDLS,NEW DELHI,NR,Delhi,True
+NDO,NIDUBROLU,SCR,Andhra Pradesh,False
+NED,NANDED (HAZUR SAHIB NANDED),SCR,Maharashtra,True
+NFK,NEW FARAKKA,ER,West Bengal,True
+NGN,NANDGAON,CR,Maharashtra,False
+NGP,NAGPUR,CR/SECR,Maharashtra,True
+NIR,NAINPUR,SECR,Madhya Pradesh,True
+NJP,NEW JALPAIGURI,NFR,West Bengal,True
+NK,NASIK ROAD,CR,Maharashtra,False
+NKE,NARKATIAGANJ,ECR,Bihar,True
+NLD,NALANDA,ECR,Bihar,False
+NLDA,NALGONDA,SCR,Telangana,False
+NLDM,NANGAL DAM,NR,Punjab,False
+NLP,NORTH LAKHIMPUR,NFR,Assam,False
+NLR,NELLORE,SCR,Andhra Pradesh,False
+NMH,NIMACH,WR,Madhya Pradesh,False
+NMZ,NEWMAL Jn.,NFR,West Bengal,True
+NOLI,NOLI,NR,Uttar Pradesh,False
+NOQ,NEW ALIPURDUAR,NFR,West Bengal,False
+NRE,NANDALUR,SCR,Andhra Pradesh,False
+NRW,NARWANA,NR,Haryana,True
+NS,NARASAPUR,SCR,Andhra Pradesh,True
+NSL,NAGARSOL,SCR,Maharashtra,False
+NTSK,NEW TINSUKIA,NFR,Assam,True
+NUH,NAUGARH (SIDDHARTH NAGAR),NER,Uttar Pradesh,False
+NZB,NIZAMABAD,SCR,Telangana,True
+NZM,HAZRAT NIZAMUDDIN,NR,Delhi,True
+OGL,ONGOLE,SCR,Andhra Pradesh,False
+OKHA,OKHA,WR,Gujarat,False
+ON,UNNAO,NR,Uttar Pradesh,True
+ONR,COONOOR,SR,Tamil Nadu,True
+ORAI,ORAI,NCR,Uttar Pradesh,False
+PAU,PURNA,SCR,Maharashtra,True
+PBE,PILIBHIT,NER,Uttar Pradesh,True
+PBH,PRATAPGARH,NR,Uttar Pradesh,True
+PBN,PARBHANI,SCR,Maharashtra,True
+PBR,PORBANDAR,WR,Gujarat,False
+PC,PACHORA,CR,Maharashtra,True
+PDKT,PUDUKOTTAI,SR,Tamil Nadu,False
+PDY,PUDUCHERRY,SR,Puducherry,False
+PFM,PHAPHAMAU,NR,Uttar Pradesh,True
+PGT,PALAKKAD,SR,Kerala,True
+PGTN,PALAKKAD TOWN,SR,Kerala,False
+PLK,PALIAKALAN,NER,Uttar Pradesh,False
+PLNI,PALANI,SR,Tamil Nadu,False
+PLO,PULGAON,CR,Maharashtra,True
+PNBE,PATNA,ECR,Bihar,True
+PNC,PATNA SAHIB,ECR,Bihar,False
+PNME,PARASNATH,ECR,Jharkhand,False
+PNP,PANIPAT,NR,Haryana,True
+PNU,PALANPUR,WR,Gujarat,True
+PNVL,PANVEL,CR,Maharashtra,True
+PP,PURANPUR,NER,Uttar Pradesh,False
+PPI,PIPARIYA,WCR,Madhya Pradesh,False
+PRNA,PURNIA,NFR,Bihar,True
+PRR,PURULIA,SER,West Bengal,True
+PSA,PALASA,ECoR,Andhra Pradesh,False
+PTA,PATIALA,NR,Punjab,False
+PTJ,PODANUR,SR,Tamil Nadu,True
+PTK,PATHANKOT,NR,Punjab,True
+PUNE,PUNE Jn.,CR,Maharashtra,True
+PURI,PURI,ECoR,Odisha,True
+QLN,KOLLAM,SR,Kerala,True
+R,RAIPUR,SECR,Chhattisgarh,True
+RBL,RAE BARELI,NR,Uttar Pradesh,True
+RC,RAICHUR,SCR,Karnataka,False
+RDM,RAMAGUNDAM,SCR,Telangana,False
+RE,REWARI,NWR,Haryana,True
+REWA,REWA,WCR,Madhya Pradesh,False
+RGD,RAJGIR,ECR,Bihar,False
+RGDA,RAYAGADA,ECoR,Odisha,True
+RGS,RINGUS,NWR,Rajasthan,True
+RHA,RANAGHAT,ER,West Bengal,True
+RIG,RAIGARH,SECR,Chhattisgarh,False
+RJ,RAWATGANJ,NCR,Uttar Pradesh,False
+RJK,RAJA-KA-SAHASPUR,NR,Uttar Pradesh,True
+RJN,RAJNANDGAON,SECR,Chhattisgarh,False
+RJQ,RAJENDRANAGAR,ECR,Bihar,True
+RJT,RAJKOT,WR,Gujarat,True
+RKM,RAJA-KI-MANDI,NCR,Uttar Pradesh,False
+RMD,RAMANATHAPURAM,SR,Tamil Nadu,False
+RMM,RAMESWARAM,SR,Tamil Nadu,False
+RMR,RAMNAGAR,NER,Uttarakhand,False
+RMU,RAMPUR JN.,NR,Uttar Pradesh,True
+RN,RATNAGIRI,KR,Maharashtra,False
+RNC,RANCHI,SER,Jharkhand,True
+RNY,RANGIYA,NFR,Assam,True
+ROJ,RANINAGAR,NFR,West Bengal,True
+ROK,ROHTAK,NR,Haryana,True
+ROU,ROURKELA,SER,Odisha,True
+RPAN,RANGAPARA NORTH,NFR,Assam,True
+RPH,RAMPURHAT,ER,West Bengal,True
+RPJ,RAJPURA,NR,Punjab,True
+RRB,BIRUR,SWR,Karnataka,True
+RTGH,RATANGARH,NWR,Rajasthan,True
+RTM,RATLAM,WR,Madhya Pradesh,True
+RU,RENIGUNTA,SCR,Andhra Pradesh,True
+RXL,RAXAUL,ECR,Bihar,True
+SA,SALEM,SR,Tamil Nadu,True
+SAP,SATTENAPALLE,SCR,Andhra Pradesh,False
+SBC,BANGALORE CITY (KSR BENGALURU),SWR,Karnataka,True
+SBG,SAHIBGANJ,ER,Jharkhand,False
+SBP,SAMBALPUR,ECoR,Odisha,True
+SBZ,SISWA BAZAR,NER,Uttar Pradesh,False
+SC,SECUNDERABAD,SCR,Telangana,True
+SCC,SITAPUR CANTT.,NER,Uttar Pradesh,False
+SCL,SILCHAR,NFR,Assam,True
+SCT,SENGOTTAI,SR,Tamil Nadu,True
+SDAH,SEALDAH,ER,West Bengal,True
+SDB,SHAHABAD,CR,Karnataka,False
+SDLP,SADULPUR,NWR,Rajasthan,True
+SEE,SONPUR,ECR,Bihar,True
+SEGM,SEWAGRAM,CR,Maharashtra,True
+SGL,SAGAULI,ECR,Bihar,True
+SGNR,SRIGANGA NAGAR,NWR,Rajasthan,True
+SGRL,SINGRAULI,ECR,Madhya Pradesh,True
+SGUJ,SILIGURI,NFR,West Bengal,True
+SGZ,SHAMGARH,WCR,Madhya Pradesh,False
+SHC,SAHARSA,ECR,Bihar,True
+SHG,SHAHGANJ,NR,Uttar Pradesh,True
+SHM,SHALIMAR,SER,West Bengal,True
+SIKR,SIKAR,NWR,Rajasthan,True
+SIOB,SAMAKHIYALI,WR,Gujarat,True
+SKB,SHIKOHABAD,NCR,Uttar Pradesh,True
+SKTN,SHAKTINAGAR,ECR,Uttar Pradesh,False
+SKZR,SIRPUR KAGAZNAGAR,SCR,Telangana,False
+SL,SURATHKAL,KR,Karnataka,False
+SLGR,SIMALUGURI,NFR,Assam,True
+SLI,SANGLI,CR,Maharashtra,False
+SLN,SULTANPUR,NR,Uttar Pradesh,True
+SLO,SAMALKOT,SCR,Andhra Pradesh,True
+SMBJ,SHRI MAHABIRJI,WCR,Rajasthan,False
+SMET,SHIMOGA TOWN,SWR,Karnataka,False
+SMI,SITAMARHI,ECR,Bihar,True
+SML,SHIMLA,NR,Himachal Pradesh,False
+SMQL,SHAMLI,NR,Uttar Pradesh,False
+SOD,SOJAT ROAD,NWR,Rajasthan,False
+SOG,SURATGARH,NWR,Rajasthan,True
+SOJN,SIHOR GUJARAT,WR,Gujarat,True
+SOL,SOLAN,NR,Himachal Pradesh,False
+SPC,SITAPUR CITY,NR,Uttar Pradesh,True
+SPJ,SAMASTIPUR,ECR,Bihar,True
+SPP,SHAHPUR PATOREE,ECR,Bihar,False
+SRE,SAHARANPUR,NR,Uttar Pradesh,True
+SRF,SAGAR JAMBAGARU,SWR,Karnataka,False
+SRNT,SARNATH,NER,Uttar Pradesh,False
+SRR,SHORANUR JN.,SR,Kerala,True
+SRU,SALEMPUR,NER,Uttar Pradesh,True
+SSA,SIRSA,NWR,Haryana,False
+SSPN,SRI SATYASAI PRASHANTI NILAYAM,SWR,Andhra Pradesh,False
+ST,SURAT,WR,Gujarat,True
+STA,SATNA,WCR,Madhya Pradesh,True
+STR,SATARA,CR,Maharashtra,False
+SUNR,SURENDRA NAGAR,WR,Gujarat,True
+SUR,SOLAPUR,CR,Maharashtra,True
+SURI,SIURI,ER,West Bengal,False
+SV,SIWAN,NER,Bihar,True
+SVPI,SHIVPURI,WCR,Madhya Pradesh,False
+SWM,SAWAIMADHOPUR,WCR,Rajasthan,True
+SWV,SAWANTWADI ROAD,KR,Maharashtra,False
+SXK,SHAHJAHANPUR,NR,Uttar Pradesh,True
+TATA,TATANAGAR (JAMSHEDPUR),SER,Jharkhand,True
+TBM,TAMBARAM,SR,Tamil Nadu,True
+TCR,THRISUR,SR,Kerala,False
+TDD,TADEPALLIGUDEM,SCR,Andhra Pradesh,False
+TDL,TUNDLA,NCR,Uttar Pradesh,True
+TEL,TENALI,SCR,Andhra Pradesh,True
+TEN,TIRUNELVELI Jn.,SR,Tamil Nadu,True
+TIG,TITLAGARH,ECoR,Odisha,True
+TIR,TIRUR,SR,Kerala,False
+TJ,THANJAVUR Jn.,SR,Tamil Nadu,True
+TLHR,TALCHER,ECoR,Odisha,True
+TLY,THALASSERY,SR,Kerala,False
+TMR,TUMSAR ROAD,SECR,Maharashtra,True
+TN,TUTICORIN,SR,Tamil Nadu,True
+TPJ,TIRUCHCHIRAPPALLI Jn.,SR,Tamil Nadu,True
+TPTY,TIRUPATI,SCR,Andhra Pradesh,True
+TSI,TENKASI,SR,Tamil Nadu,True
+TUNI,TUNI,SCR,Andhra Pradesh,False
+TVC,THIRUVANANTHAPURAM CENTRAL,SR,Kerala,True
+TVR,THIRUVARUR,SR,Tamil Nadu,True
+TZTB,TEZPUR,NFR,Assam,False
+UBL,HUBLI (SSS HUBLI),SWR,Karnataka,True
+UCR,UNCHAHAR,NR,Uttar Pradesh,True
+UD,UDUPI,KR,Karnataka,False
+UDN,UDHNA,WR,Gujarat,True
+UDZ,UDAIPUR CITY,NWR,Rajasthan,True
+UHP,UDHAMPUR (MARTYR CAPT TUSHAR MAHAJAN),NR,Jammu & Kashmir,False
+UJN,UJJAIN,WR,Madhya Pradesh,True
+UMB,AMBALA CANTT.,NR,Haryana,True
+UNA,UNA HIMACHAL,NR,Himachal Pradesh,False
+VAK,VARKALA SIVAGIRI,SR,Kerala,False
+VBL,BOBBILI,ECoR,Andhra Pradesh,True
+VG,VIRAMGAM,WR,Gujarat,True
+VM,VILLUPURAM Jn.,SR,Tamil Nadu,True
+VPT,VIRUDHUNAGAR,SR,Tamil Nadu,True
+VRI,VRIDDHACHALAM Jn.,SR,Tamil Nadu,True
+VRL,VERAVAL,WR,Gujarat,True
+VSG,VASCO-DA-GAMA,SWR,Goa,True
+VSKP,VISAKHAPATNAM,ECoR,Andhra Pradesh,True
+VZM,VIZIANAGARAM,ECoR,Andhra Pradesh,True
+WADI,WADI,CR,Karnataka,True
+WKR,WANKANER,WR,Gujarat,True
+WL,WARANGAL,SCR,Telangana,True
+WR,WARDHA Jn.,CR,Maharashtra,True
+YPR,YESVANTPUR,SWR,Karnataka,True
+ZBD,ZAFARABAD,NR,Uttar Pradesh,True

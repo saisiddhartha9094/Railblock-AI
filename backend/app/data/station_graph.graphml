@@ -1,0 +1,3327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="name" attr.type="string"/>
+  <key id="d1" for="node" attr.name="zone" attr.type="string"/>
+  <key id="d2" for="node" attr.name="is_junction" attr.type="boolean"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="ABR">
+      <data key="d0">ABU ROAD</data>
+      <data key="d1">NWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="AD">
+      <data key="d0">ADONI</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ADI">
+      <data key="d0">AHMEDABAD</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ADRA">
+      <data key="d0">ADRA</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AF">
+      <data key="d0">AGRA FORT</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AGC">
+      <data key="d0">AGRA CANTT.</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AH">
+      <data key="d0">ACHHNERA</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AII">
+      <data key="d0">AJMER</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AJJ">
+      <data key="d0">ARAKKONAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AK">
+      <data key="d0">AKOLA</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AKP">
+      <data key="d0">ANAKAPALLE</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ALD">
+      <data key="d0">ALLAHABAD / PRAYAGRAJ</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ALJN">
+      <data key="d0">ALIGARH</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ALLP">
+      <data key="d0">ALAPPUZHA</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="AMH">
+      <data key="d0">AZAMGARH</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="AMLA">
+      <data key="d0">AMLA</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AMTA">
+      <data key="d0">SAMUKTALA ROAD</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="AN">
+      <data key="d0">AMALNER</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ANDN">
+      <data key="d0">ANAND NAGAR</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ANG">
+      <data key="d0">AHMADNAGAR</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ANGL">
+      <data key="d0">ANGUL</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ANND">
+      <data key="d0">ANAND</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ANV">
+      <data key="d0">ANNAVARAM</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="APDJ">
+      <data key="d0">ALIPURDUAR Jn.</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="APR">
+      <data key="d0">ANUPPUR</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ARA">
+      <data key="d0">ARA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ARJ">
+      <data key="d0">AUNRIHAR</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ASK">
+      <data key="d0">ARSIKERE</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ASN">
+      <data key="d0">ASANSOL</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ASR">
+      <data key="d0">AMRITSAR</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ATP">
+      <data key="d0">ANANTAPUR</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="AWB">
+      <data key="d0">AURANGABAD</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="AWR">
+      <data key="d0">ALWAR</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AWY">
+      <data key="d0">ALUVA</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="AY">
+      <data key="d0">AYODHYA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="AZ">
+      <data key="d0">AZIMGANJ Jn.</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BAP">
+      <data key="d0">BELAPUR</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BAU">
+      <data key="d0">BURHANPUR</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BAY">
+      <data key="d0">BELLARY Jn.</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BBK">
+      <data key="d0">BARABANKI Jn.</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BBL">
+      <data key="d0">BARABIL</data>
+      <data key="d1">SER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BBS">
+      <data key="d0">BHUBANESWAR</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BCT">
+      <data key="d0">MUMBAI CENTRAL</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BD">
+      <data key="d0">BADNERA Jn.</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BDC">
+      <data key="d0">BANDEL Jn.</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BDJ">
+      <data key="d0">VADAKARA</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BDME">
+      <data key="d0">BAIDYANATHDHAM</data>
+      <data key="d1">ER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BDTS">
+      <data key="d0">BANDRA TERMINUS</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BE">
+      <data key="d0">BAREILLY</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BEAS">
+      <data key="d0">BEAS</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BEM">
+      <data key="d0">BUDAUN</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BGK">
+      <data key="d0">BAGALKOT</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BGM">
+      <data key="d0">BELGAUM</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BGP">
+      <data key="d0">BHAGALPUR</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BH">
+      <data key="d0">BHARUCH</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BHC">
+      <data key="d0">BHADRAKH</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BHL">
+      <data key="d0">BHILWARA</data>
+      <data key="d1">NWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BHP">
+      <data key="d0">BOLPURSHANTINIKETAN</data>
+      <data key="d1">ER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BHS">
+      <data key="d0">VIDISHA</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BHUJ">
+      <data key="d0">BHUJ</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BINA">
+      <data key="d0">BINA</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BIX">
+      <data key="d0">BHIND</data>
+      <data key="d1">NCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BJO">
+      <data key="d0">BIJNOR</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BJP">
+      <data key="d0">BIJAPUR</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BJU">
+      <data key="d0">BARAUNI Jn.</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BKI">
+      <data key="d0">BANDIKUI Jn.</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BKN">
+      <data key="d0">BIKANER</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BKP">
+      <data key="d0">BAKTHIYARPUR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BKSC">
+      <data key="d0">BOKARO STEEL CITY</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BL">
+      <data key="d0">VALSAD</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BLS">
+      <data key="d0">BALASORE</data>
+      <data key="d1">SER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BME">
+      <data key="d0">BARMER</data>
+      <data key="d1">NWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BMP">
+      <data key="d0">BRAHMAPURI</data>
+      <data key="d1">SECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BNC">
+      <data key="d0">BANGALORE CANTT.</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BNDA">
+      <data key="d0">BANDA Jn.</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BNKI">
+      <data key="d0">BANMANKHI</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BNQ">
+      <data key="d0">BANARHAT</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BNV">
+      <data key="d0">BINNAGURI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BNW">
+      <data key="d0">BHIWANI</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BNY">
+      <data key="d0">BARHNI</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BOE">
+      <data key="d0">BARSOI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BOF">
+      <data key="d0">BAROG</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BOY">
+      <data key="d0">BHADOHI</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BPB">
+      <data key="d0">BADARPUR</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BPL">
+      <data key="d0">BHOPAL</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BPM">
+      <data key="d0">BAGHPAT ROAD</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BPP">
+      <data key="d0">BAPATLA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BPQ">
+      <data key="d0">BALHARSHAH</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BPR">
+      <data key="d0">BHOJIPURA</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BQK">
+      <data key="d0">BANKURA</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BRC">
+      <data key="d0">VADODARA</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BRGA">
+      <data key="d0">BARGARH ROAD</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BRKA">
+      <data key="d0">BARKAKANA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BRWD">
+      <data key="d0">BARWADIH</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BSB">
+      <data key="d0">VARANASI</data>
+      <data key="d1">NER/NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BSL">
+      <data key="d0">BHUSAVAL</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BSP">
+      <data key="d0">BILASPUR Jn.</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BSR">
+      <data key="d0">VASAI ROAD</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BST">
+      <data key="d0">BASTI</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BTC">
+      <data key="d0">BALAGHAT Jn.</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BTD">
+      <data key="d0">BOTAD</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BTE">
+      <data key="d0">BHARATPUR</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BTH">
+      <data key="d0">BETTIAH</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BTI">
+      <data key="d0">BATHINDA Jn.</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BTJL">
+      <data key="d0">BHATKAL</data>
+      <data key="d1">KR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BTT">
+      <data key="d0">BHATNI</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BTTR">
+      <data key="d0">BITRAGUNTA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BTU">
+      <data key="d0">BARAUT</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BUG">
+      <data key="d0">BAGAHA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BUI">
+      <data key="d0">BALLIA</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BUW">
+      <data key="d0">BURHWAL</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BVC">
+      <data key="d0">BHAVNAGAR (T)</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BVI">
+      <data key="d0">BORIVALI</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BVRM">
+      <data key="d0">BHIMAVARAM Jn.</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BVRT">
+      <data key="d0">BHIMAVARAM TOWN</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BWN">
+      <data key="d0">BARDDHAMAN Jn.</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BWT">
+      <data key="d0">BANGARAPET</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BXN">
+      <data key="d0">BAYANA</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BXR">
+      <data key="d0">BUXAR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BYT">
+      <data key="d0">BHATAPARA</data>
+      <data key="d1">SECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="BZA">
+      <data key="d0">VIJAYAWADA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="BZU">
+      <data key="d0">BETUL</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CAA">
+      <data key="d0">CHAKIA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CAN">
+      <data key="d0">KANNUR</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CAPE">
+      <data key="d0">KANNIYAKUMARI</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CAR">
+      <data key="d0">CHUNAR</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CBE">
+      <data key="d0">COIMBATORE Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CD">
+      <data key="d0">CHANDRAPUR</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CDG">
+      <data key="d0">CHANDIGARH</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CDM">
+      <data key="d0">CHIDAMBARAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CGL">
+      <data key="d0">CHENGALPATTU Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CH">
+      <data key="d0">CHANDAUSI</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CHE">
+      <data key="d0">SRIKAKULAM ROAD</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CHI">
+      <data key="d0">CHIPLUN</data>
+      <data key="d1">KR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CHKB">
+      <data key="d0">CHAKKI BANK</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CJ">
+      <data key="d0">KANCHIPURAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CKP">
+      <data key="d0">CHAKRADHARPUR</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CKTD">
+      <data key="d0">CHITRAKOOTDHAM KARVI</data>
+      <data key="d1">NCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CLD">
+      <data key="d0">CHALSA</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CLT">
+      <data key="d0">KOZHIKKODE</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CLX">
+      <data key="d0">CHIRALA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CNB">
+      <data key="d0">KANPUR CENTRAL</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CNGR">
+      <data key="d0">CHENGANNUR</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CNI">
+      <data key="d0">CHANDIL</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CNO">
+      <data key="d0">CANACONA</data>
+      <data key="d1">KR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="COA">
+      <data key="d0">KAKINADA PORT</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="COR">
+      <data key="d0">CHITTAURGARH</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CPA">
+      <data key="d0">KANPUR ANWARGANJ</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CPH">
+      <data key="d0">CHAMPA</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CPJ">
+      <data key="d0">KAPTANGANJ</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CPK">
+      <data key="d0">CHAPARMUKH</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CPR">
+      <data key="d0">CHHAPRA</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CPU">
+      <data key="d0">CHOPAN</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CRJ">
+      <data key="d0">CHITTARANJAN</data>
+      <data key="d1">ER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CRP">
+      <data key="d0">CHANDRAPURA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CSMT">
+      <data key="d0">CHATRAPATI SHIVAJI MAHARAJ TERMINUS</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CSN">
+      <data key="d0">CHALISGAON</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CSTM">
+      <data key="d0">MUMBAI CST</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CTC">
+      <data key="d0">CUTTACK</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CTO">
+      <data key="d0">CHITTOOR</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="CUPJ">
+      <data key="d0">CUDDALORE PORT</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="CUR">
+      <data key="d0">CHURU</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DAB">
+      <data key="d0">DHARMABAD</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DAS">
+      <data key="d0">DHASA</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DBG">
+      <data key="d0">DARBHANGA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DBRT">
+      <data key="d0">DIBRUGARH TOWN</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DD">
+      <data key="d0">DAUND</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DDN">
+      <data key="d0">DEHRADUN</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DDU">
+      <data key="d0">PT. DEEN DAYAL UPADHYAYA JN.</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DEC">
+      <data key="d0">DELHI CANTT.</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DEE">
+      <data key="d0">DELHI SARAI ROHILLA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DEOS">
+      <data key="d0">DEORIASADAR</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DG">
+      <data key="d0">DINDIGUL Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DGG">
+      <data key="d0">DONGARGARH</data>
+      <data key="d1">SECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DGR">
+      <data key="d0">DURGAPUR</data>
+      <data key="d1">ER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DHD">
+      <data key="d0">DAHOD</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DHG">
+      <data key="d0">DHRANGADHRA</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DHN">
+      <data key="d0">DHANBAD</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DHO">
+      <data key="d0">DHAULPUR</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DKJ">
+      <data key="d0">DORNAKAL</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DLI">
+      <data key="d0">OLD DELHI</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DLJ">
+      <data key="d0">DHOLA</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DLN">
+      <data key="d0">DILDARNAGAR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DLO">
+      <data key="d0">DALGAON</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DMM">
+      <data key="d0">DHARMAVARAM</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DMN">
+      <data key="d0">DHAMANGAON</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DMO">
+      <data key="d0">DAMOH</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DMV">
+      <data key="d0">DIMAPUR</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DNC">
+      <data key="d0">DHONE</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DNR">
+      <data key="d0">DANAPUR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DNRP">
+      <data key="d0">DUNGARPUR</data>
+      <data key="d1">NWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DOS">
+      <data key="d0">DEHRI-ON-SONE</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DPJ">
+      <data key="d0">DHARMAPURI</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DR">
+      <data key="d0">DADAR</data>
+      <data key="d1">CR/WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DRD">
+      <data key="d0">DAHANU ROAD</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DSA">
+      <data key="d0">DELHI SHAHDARA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DTO">
+      <data key="d0">DALTONGANJ</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DUI">
+      <data key="d0">DHURI</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DURG">
+      <data key="d0">DURG</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="DVG">
+      <data key="d0">DAVANGERE</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DVL">
+      <data key="d0">DEVLALI</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DWK">
+      <data key="d0">DWARKA</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="DWR">
+      <data key="d0">DHARWAD</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ED">
+      <data key="d0">ERODE</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="EE">
+      <data key="d0">ELURU</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ERN">
+      <data key="d0">ERNAKULAM TOWN</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ERS">
+      <data key="d0">ERNAKULAM Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ET">
+      <data key="d0">ITARSI</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ETW">
+      <data key="d0">ETAWAH</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="FBG">
+      <data key="d0">FORBESGANJ</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="FD">
+      <data key="d0">FAIZABAD</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="FDB">
+      <data key="d0">FARIDABAD</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="FKA">
+      <data key="d0">FAZILKA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="FKD">
+      <data key="d0">FARRUKHABAD</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="FKG">
+      <data key="d0">FURKATING</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="FL">
+      <data key="d0">PHULERA</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="FTD">
+      <data key="d0">FATHEABAD CHAND</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="FTP">
+      <data key="d0">FATEHPUR</data>
+      <data key="d1">NCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="FUT">
+      <data key="d0">FATUHA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="FZD">
+      <data key="d0">FIROZABAD</data>
+      <data key="d1">NCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="FZP">
+      <data key="d0">FIROZPUR CITY</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="FZR">
+      <data key="d0">FIROZPUR CANTT.</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="G">
+      <data key="d0">GONDIA</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GADJ">
+      <data key="d0">GANDHINAGAR</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="GAYA">
+      <data key="d0">GAYA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GD">
+      <data key="d0">GONDA</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GDA">
+      <data key="d0">GODHRA</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GDG">
+      <data key="d0">GADAG</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GDR">
+      <data key="d0">GUDUR</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GDV">
+      <data key="d0">GUDIVADA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GGC">
+      <data key="d0">GANGAPUR CITY</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="GHD">
+      <data key="d0">GARWA ROAD</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GHY">
+      <data key="d0">GUWAHATI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GIM">
+      <data key="d0">GANDHIDHAM</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GJL">
+      <data key="d0">GAJRAULA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GK">
+      <data key="d0">GOLA GOKARANNATH</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="GKP">
+      <data key="d0">GORAKHPUR</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GLPT">
+      <data key="d0">GOALPARA TOWN</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="GMO">
+      <data key="d0">GOMOH (NSCB GOMOH)</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GNT">
+      <data key="d0">GUNTUR</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GOGH">
+      <data key="d0">GOSSAINGAON HAT</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="GR">
+      <data key="d0">GULBARGA (KALABURAGI)</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="GTL">
+      <data key="d0">GUNTAKAL</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GTS">
+      <data key="d0">GHATSILA</data>
+      <data key="d1">SER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="GUNA">
+      <data key="d0">GUNA</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GUV">
+      <data key="d0">GURUVAYUR</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="GWL">
+      <data key="d0">GWALIOR</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GY">
+      <data key="d0">GOOTY</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="GYN">
+      <data key="d0">GYANPUR ROAD</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="GZB">
+      <data key="d0">GHAZIABAD</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HAPA">
+      <data key="d0">HAPA</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HBD">
+      <data key="d0">HOSHANGABAD (NARMADAPURAM)</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HBG">
+      <data key="d0">HOWBADH</data>
+      <data key="d1">SECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HBJ">
+      <data key="d0">HABIBGANJ (RANI KAMLAPATI)</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HD">
+      <data key="d0">HARDA</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HDB">
+      <data key="d0">HALDIBARI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HIL">
+      <data key="d0">HILSA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HJP">
+      <data key="d0">HAJIPUR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HLZ">
+      <data key="d0">HALDIA</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HMH">
+      <data key="d0">HANUMANGARH</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HMT">
+      <data key="d0">HIMMAT NAGAR</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HNL">
+      <data key="d0">HINGOLI</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HOJ">
+      <data key="d0">HAMILTONGANJ</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HPP">
+      <data key="d0">HARPALPUR</data>
+      <data key="d1">NCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HPT">
+      <data key="d0">HOSPET</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HPU">
+      <data key="d0">HAPUR</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HRR">
+      <data key="d0">HARIHAR</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HSA">
+      <data key="d0">HASIMARA</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HSR">
+      <data key="d0">HISAR</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HSRA">
+      <data key="d0">HOSUR</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HTE">
+      <data key="d0">HATIA</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HUP">
+      <data key="d0">HINDUPUR</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HW">
+      <data key="d0">HARIDWAR</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HWH">
+      <data key="d0">HOWRAH</data>
+      <data key="d1">ER/SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="HX">
+      <data key="d0">CUDDAPAH (KADAPA)</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="HYB">
+      <data key="d0">HYDERABAD DECCAN</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="IAA">
+      <data key="d0">INDARA</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="IGP">
+      <data key="d0">IGATPURI</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="INDB">
+      <data key="d0">INDORE</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="IPR">
+      <data key="d0">ISLAMPUR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="J">
+      <data key="d0">JALNA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="JAJ">
+      <data key="d0">JHAJHA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JAM">
+      <data key="d0">JAMNAGAR</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="JAT">
+      <data key="d0">JAMMU TAWI</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JBN">
+      <data key="d0">JOGBANI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="JBP">
+      <data key="d0">JABALPUR</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JGM">
+      <data key="d0">JHARGRAM</data>
+      <data key="d1">SER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="JHL">
+      <data key="d0">JAKHAL</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JHS">
+      <data key="d0">JHANSI (VIRANGANA LAKSHMIBAI)</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JIND">
+      <data key="d0">JIND</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JJKR">
+      <data key="d0">JAJPUR KEONJHAR ROAD</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="JL">
+      <data key="d0">JALGAON</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JLR">
+      <data key="d0">JETALSAR</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JM">
+      <data key="d0">JALAMB</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JMP">
+      <data key="d0">JAMALPUR</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JND">
+      <data key="d0">JUNAGARH Jn.</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JNH">
+      <data key="d0">JANGHAI</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JNU">
+      <data key="d0">JAUNPUR Jn.</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JP">
+      <data key="d0">JAIPUR</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JPG">
+      <data key="d0">JALPAIGURI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JRC">
+      <data key="d0">JALANDHAR CANTT.</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JRU">
+      <data key="d0">CHIKJAJUR</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JSG">
+      <data key="d0">JHARSUGUDA</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JSM">
+      <data key="d0">JAISALMER</data>
+      <data key="d1">NWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="JSME">
+      <data key="d0">JASIDIH</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JT">
+      <data key="d0">JORHAT</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JTJ">
+      <data key="d0">JOLARPETTAI</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JU">
+      <data key="d0">JODHPUR</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JUC">
+      <data key="d0">JALANDHAR CITY</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="JYG">
+      <data key="d0">JAYNAGAR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KAWR">
+      <data key="d0">KARWAR</data>
+      <data key="d1">KR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KCF">
+      <data key="d0">KALCHINI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KCG">
+      <data key="d0">KACHEGUDA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KCVL">
+      <data key="d0">KOCHUVELI</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KEX">
+      <data key="d0">KHEKRA</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KGG">
+      <data key="d0">KHAGARIA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KGM">
+      <data key="d0">KATHGODAM</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KGP">
+      <data key="d0">KHARAGPUR</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KGQ">
+      <data key="d0">KASARGOD</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KIR">
+      <data key="d0">KATIHAR</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KIUL">
+      <data key="d0">KIUL</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KJM">
+      <data key="d0">KRISHNARAJAPURAM</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KKDE">
+      <data key="d0">KURUKSHETRA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KKDI">
+      <data key="d0">KARAIKKUDI JN.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KKP">
+      <data key="d0">KOT KAPURA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KLD">
+      <data key="d0">KHALILABAD</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KLK">
+      <data key="d0">KALKA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KLL">
+      <data key="d0">KALOL</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KMT">
+      <data key="d0">KHAMMAM</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KMU">
+      <data key="d0">KUMBAKONAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KNE">
+      <data key="d0">KISHANGANJ</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KNJ">
+      <data key="d0">KRISHNANAGAR CITY</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KNKD">
+      <data key="d0">KANKANADI</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KNW">
+      <data key="d0">KHANDWA</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KOTA">
+      <data key="d0">KOTA</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KPD">
+      <data key="d0">KATPADI</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KPG">
+      <data key="d0">KOPERGAON</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KQL">
+      <data key="d0">KANDHLA</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KQN">
+      <data key="d0">KODAIKANAL ROAD</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KRBA">
+      <data key="d0">KORBA</data>
+      <data key="d1">SECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KRNT">
+      <data key="d0">KURNOOL TOWN</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KRPU">
+      <data key="d0">KORAPUT</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KRR">
+      <data key="d0">KARUR</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KSG">
+      <data key="d0">KISHANGARH</data>
+      <data key="d1">NWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KSJ">
+      <data key="d0">KASGANJ</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KTE">
+      <data key="d0">KATNI</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KTW">
+      <data key="d0">KOTDWARA</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KTYM">
+      <data key="d0">KOTTAYAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KUDA">
+      <data key="d0">KUNDAPURA</data>
+      <data key="d1">KR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KUN">
+      <data key="d0">KARNAL</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="KUR">
+      <data key="d0">KHURDA ROAD</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KWAE">
+      <data key="d0">KATWA</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KWV">
+      <data key="d0">KURDUWADI</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KYN">
+      <data key="d0">KALYAN</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KYQ">
+      <data key="d0">KAMAKHYA</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="KZJ">
+      <data key="d0">KAZIPET</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LAR">
+      <data key="d0">LALITPUR</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LD">
+      <data key="d0">LONDA</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LDH">
+      <data key="d0">LUDHIANA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LEDO">
+      <data key="d0">LEDO</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="LFG">
+      <data key="d0">LOWER HALFLONG</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="LGH">
+      <data key="d0">LALGARH</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LGL">
+      <data key="d0">LALGOLA</data>
+      <data key="d1">ER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="LHU">
+      <data key="d0">LOHARU</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LJN">
+      <data key="d0">LUCKNOW JN. (NER)</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LKO">
+      <data key="d0">LUCKNOW NR (CHARBAGH)</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LKU">
+      <data key="d0">LALKUAN JN.</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LMG">
+      <data key="d0">LUMDING</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LMP">
+      <data key="d0">LAKHIMPUR</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="LNL">
+      <data key="d0">LONAVLA</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="LRJ">
+      <data key="d0">LAKSAR</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LTT">
+      <data key="d0">LOKMANYA TILAK TERMINUS</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LUNI">
+      <data key="d0">LUNI</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="LUR">
+      <data key="d0">LATUR</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="LWR">
+      <data key="d0">ALNAWAR Jn.</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MAD">
+      <data key="d0">MADDUR</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="MAO">
+      <data key="d0">MADGAON (GOA)</data>
+      <data key="d1">KR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MAQ">
+      <data key="d0">MANGALORE CENTRAL</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MAS">
+      <data key="d0">CHENNAI CENTRAL (MGR CHENNAI)</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MAU">
+      <data key="d0">MAU</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MB">
+      <data key="d0">MORADABAD</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MBA">
+      <data key="d0">MAHOBA</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MBI">
+      <data key="d0">MADHUBANI</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="MBNR">
+      <data key="d0">MAHBUBNAGAR</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="MDN">
+      <data key="d0">MIDNAPORE</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MDP">
+      <data key="d0">MADHUPUR</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MDT">
+      <data key="d0">MADARIHAT</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="MDU">
+      <data key="d0">MADURAI Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MEJ">
+      <data key="d0">VANCHI MANIYACHCHI Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MFP">
+      <data key="d0">MUZAFFARPUR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MGS">
+      <data key="d0">MUGHALSARAI (PT. DEEN DAYAL UPADHYAYA)</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MHOW">
+      <data key="d0">MHOW (DR. AMBEDKAR NAGAR)</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="MJ">
+      <data key="d0">MARWAR Jn.</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MKA">
+      <data key="d0">MOKAMA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MKC">
+      <data key="d0">MAKSI</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MKI">
+      <data key="d0">MOTIHARI</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="MKP">
+      <data key="d0">MANIKPUR</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MLDT">
+      <data key="d0">MALDA TOWN</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MLN">
+      <data key="d0">MAILANI</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MMR">
+      <data key="d0">MANMAD</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MNE">
+      <data key="d0">MANSI</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MNM">
+      <data key="d0">MANAMADURAI</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MOZ">
+      <data key="d0">MUZAFFAR NAGAR</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="MRGA">
+      <data key="d0">MIRYALAGUDA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="MRJ">
+      <data key="d0">MIRAJ</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MS">
+      <data key="d0">CHENNAI EGMORE</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MSH">
+      <data key="d0">MAHESANA</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MTC">
+      <data key="d0">MEERUT CITY</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MTD">
+      <data key="d0">MERTA ROAD</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MTJ">
+      <data key="d0">MATHURA</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MTM">
+      <data key="d0">MACHILIPATNAM</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MTP">
+      <data key="d0">METTUPALAIYAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MUE">
+      <data key="d0">MUDKHED</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MUR">
+      <data key="d0">MANKAPUR</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MURI">
+      <data key="d0">MURI</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MUV">
+      <data key="d0">MANDUADIH (BANARAS)</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MV">
+      <data key="d0">MAYILADUTURAI Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MXN">
+      <data key="d0">MARIANI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MYS">
+      <data key="d0">MYSORE</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MZP">
+      <data key="d0">MIRZAPUR</data>
+      <data key="d1">NCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="MZR">
+      <data key="d0">MURTAJAPUR</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="MZS">
+      <data key="d0">MURKEONGSELEK</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NAB">
+      <data key="d0">NAGBHIR</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NAD">
+      <data key="d0">NAGDA</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NBD">
+      <data key="d0">NAJIBABAD</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NBQ">
+      <data key="d0">NEW BONGAIGAON</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NCB">
+      <data key="d0">NEW COOCHBEHAR</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NCJ">
+      <data key="d0">NAGERCOIL Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NCR">
+      <data key="d0">NAGORE</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ND">
+      <data key="d0">NADIAD</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NDB">
+      <data key="d0">NANDURBAR</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NDD">
+      <data key="d0">NIDADAVOLU</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NDKD">
+      <data key="d0">NADIKUDE</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NDL">
+      <data key="d0">NANDYAL</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NDLS">
+      <data key="d0">NEW DELHI</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NDO">
+      <data key="d0">NIDUBROLU</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NED">
+      <data key="d0">NANDED (HAZUR SAHIB NANDED)</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NFK">
+      <data key="d0">NEW FARAKKA</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NGN">
+      <data key="d0">NANDGAON</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NGP">
+      <data key="d0">NAGPUR</data>
+      <data key="d1">CR/SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NIR">
+      <data key="d0">NAINPUR</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NJP">
+      <data key="d0">NEW JALPAIGURI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NK">
+      <data key="d0">NASIK ROAD</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NKE">
+      <data key="d0">NARKATIAGANJ</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NLD">
+      <data key="d0">NALANDA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NLDA">
+      <data key="d0">NALGONDA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NLDM">
+      <data key="d0">NANGAL DAM</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NLP">
+      <data key="d0">NORTH LAKHIMPUR</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NLR">
+      <data key="d0">NELLORE</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NMH">
+      <data key="d0">NIMACH</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NMZ">
+      <data key="d0">NEWMAL Jn.</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NOLI">
+      <data key="d0">NOLI</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NOQ">
+      <data key="d0">NEW ALIPURDUAR</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NRE">
+      <data key="d0">NANDALUR</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NRW">
+      <data key="d0">NARWANA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NS">
+      <data key="d0">NARASAPUR</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NSL">
+      <data key="d0">NAGARSOL</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NTSK">
+      <data key="d0">NEW TINSUKIA</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NUH">
+      <data key="d0">NAUGARH (SIDDHARTH NAGAR)</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="NZB">
+      <data key="d0">NIZAMABAD</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="NZM">
+      <data key="d0">HAZRAT NIZAMUDDIN</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="OGL">
+      <data key="d0">ONGOLE</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="OKHA">
+      <data key="d0">OKHA</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ON">
+      <data key="d0">UNNAO</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ONR">
+      <data key="d0">COONOOR</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ORAI">
+      <data key="d0">ORAI</data>
+      <data key="d1">NCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PAU">
+      <data key="d0">PURNA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PBE">
+      <data key="d0">PILIBHIT</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PBH">
+      <data key="d0">PRATAPGARH</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PBN">
+      <data key="d0">PARBHANI</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PBR">
+      <data key="d0">PORBANDAR</data>
+      <data key="d1">WR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PC">
+      <data key="d0">PACHORA</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PDKT">
+      <data key="d0">PUDUKOTTAI</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PDY">
+      <data key="d0">PUDUCHERRY</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PFM">
+      <data key="d0">PHAPHAMAU</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PGT">
+      <data key="d0">PALAKKAD</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PGTN">
+      <data key="d0">PALAKKAD TOWN</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PLK">
+      <data key="d0">PALIAKALAN</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PLNI">
+      <data key="d0">PALANI</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PLO">
+      <data key="d0">PULGAON</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PNBE">
+      <data key="d0">PATNA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PNC">
+      <data key="d0">PATNA SAHIB</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PNME">
+      <data key="d0">PARASNATH</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PNP">
+      <data key="d0">PANIPAT</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PNU">
+      <data key="d0">PALANPUR</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PNVL">
+      <data key="d0">PANVEL</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PP">
+      <data key="d0">PURANPUR</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PPI">
+      <data key="d0">PIPARIYA</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PRNA">
+      <data key="d0">PURNIA</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PRR">
+      <data key="d0">PURULIA</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PSA">
+      <data key="d0">PALASA</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PTA">
+      <data key="d0">PATIALA</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="PTJ">
+      <data key="d0">PODANUR</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PTK">
+      <data key="d0">PATHANKOT</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PUNE">
+      <data key="d0">PUNE Jn.</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="PURI">
+      <data key="d0">PURI</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="QLN">
+      <data key="d0">KOLLAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="R">
+      <data key="d0">RAIPUR</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RBL">
+      <data key="d0">RAE BARELI</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RC">
+      <data key="d0">RAICHUR</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RDM">
+      <data key="d0">RAMAGUNDAM</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RE">
+      <data key="d0">REWARI</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="REWA">
+      <data key="d0">REWA</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RGD">
+      <data key="d0">RAJGIR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RGDA">
+      <data key="d0">RAYAGADA</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RGS">
+      <data key="d0">RINGUS</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RHA">
+      <data key="d0">RANAGHAT</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RIG">
+      <data key="d0">RAIGARH</data>
+      <data key="d1">SECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RJ">
+      <data key="d0">RAWATGANJ</data>
+      <data key="d1">NCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RJK">
+      <data key="d0">RAJA-KA-SAHASPUR</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RJN">
+      <data key="d0">RAJNANDGAON</data>
+      <data key="d1">SECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RJQ">
+      <data key="d0">RAJENDRANAGAR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RJT">
+      <data key="d0">RAJKOT</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RKM">
+      <data key="d0">RAJA-KI-MANDI</data>
+      <data key="d1">NCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RMD">
+      <data key="d0">RAMANATHAPURAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RMM">
+      <data key="d0">RAMESWARAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RMR">
+      <data key="d0">RAMNAGAR</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RMU">
+      <data key="d0">RAMPUR JN.</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RN">
+      <data key="d0">RATNAGIRI</data>
+      <data key="d1">KR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="RNC">
+      <data key="d0">RANCHI</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RNY">
+      <data key="d0">RANGIYA</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ROJ">
+      <data key="d0">RANINAGAR</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ROK">
+      <data key="d0">ROHTAK</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ROU">
+      <data key="d0">ROURKELA</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RPAN">
+      <data key="d0">RANGAPARA NORTH</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RPH">
+      <data key="d0">RAMPURHAT</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RPJ">
+      <data key="d0">RAJPURA</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RRB">
+      <data key="d0">BIRUR</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RTGH">
+      <data key="d0">RATANGARH</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RTM">
+      <data key="d0">RATLAM</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RU">
+      <data key="d0">RENIGUNTA</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="RXL">
+      <data key="d0">RAXAUL</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SA">
+      <data key="d0">SALEM</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SAP">
+      <data key="d0">SATTENAPALLE</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SBC">
+      <data key="d0">BANGALORE CITY (KSR BENGALURU)</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SBG">
+      <data key="d0">SAHIBGANJ</data>
+      <data key="d1">ER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SBP">
+      <data key="d0">SAMBALPUR</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SBZ">
+      <data key="d0">SISWA BAZAR</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SC">
+      <data key="d0">SECUNDERABAD</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SCC">
+      <data key="d0">SITAPUR CANTT.</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SCL">
+      <data key="d0">SILCHAR</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SCT">
+      <data key="d0">SENGOTTAI</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SDAH">
+      <data key="d0">SEALDAH</data>
+      <data key="d1">ER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SDB">
+      <data key="d0">SHAHABAD</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SDLP">
+      <data key="d0">SADULPUR</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SEE">
+      <data key="d0">SONPUR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SEGM">
+      <data key="d0">SEWAGRAM</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SGL">
+      <data key="d0">SAGAULI</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SGNR">
+      <data key="d0">SRIGANGA NAGAR</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SGRL">
+      <data key="d0">SINGRAULI</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SGUJ">
+      <data key="d0">SILIGURI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SGZ">
+      <data key="d0">SHAMGARH</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SHC">
+      <data key="d0">SAHARSA</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SHG">
+      <data key="d0">SHAHGANJ</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SHM">
+      <data key="d0">SHALIMAR</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SIKR">
+      <data key="d0">SIKAR</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SIOB">
+      <data key="d0">SAMAKHIYALI</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SKB">
+      <data key="d0">SHIKOHABAD</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SKTN">
+      <data key="d0">SHAKTINAGAR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SKZR">
+      <data key="d0">SIRPUR KAGAZNAGAR</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SL">
+      <data key="d0">SURATHKAL</data>
+      <data key="d1">KR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SLGR">
+      <data key="d0">SIMALUGURI</data>
+      <data key="d1">NFR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SLI">
+      <data key="d0">SANGLI</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SLN">
+      <data key="d0">SULTANPUR</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SLO">
+      <data key="d0">SAMALKOT</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SMBJ">
+      <data key="d0">SHRI MAHABIRJI</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SMET">
+      <data key="d0">SHIMOGA TOWN</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SMI">
+      <data key="d0">SITAMARHI</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SML">
+      <data key="d0">SHIMLA</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SMQL">
+      <data key="d0">SHAMLI</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SOD">
+      <data key="d0">SOJAT ROAD</data>
+      <data key="d1">NWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SOG">
+      <data key="d0">SURATGARH</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SOJN">
+      <data key="d0">SIHOR GUJARAT</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SOL">
+      <data key="d0">SOLAN</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SPC">
+      <data key="d0">SITAPUR CITY</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SPJ">
+      <data key="d0">SAMASTIPUR</data>
+      <data key="d1">ECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SPP">
+      <data key="d0">SHAHPUR PATOREE</data>
+      <data key="d1">ECR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SRE">
+      <data key="d0">SAHARANPUR</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SRF">
+      <data key="d0">SAGAR JAMBAGARU</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SRNT">
+      <data key="d0">SARNATH</data>
+      <data key="d1">NER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SRR">
+      <data key="d0">SHORANUR JN.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SRU">
+      <data key="d0">SALEMPUR</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SSA">
+      <data key="d0">SIRSA</data>
+      <data key="d1">NWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SSPN">
+      <data key="d0">SRI SATYASAI PRASHANTI NILAYAM</data>
+      <data key="d1">SWR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="ST">
+      <data key="d0">SURAT</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="STA">
+      <data key="d0">SATNA</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="STR">
+      <data key="d0">SATARA</data>
+      <data key="d1">CR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SUNR">
+      <data key="d0">SURENDRA NAGAR</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SUR">
+      <data key="d0">SOLAPUR</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SURI">
+      <data key="d0">SIURI</data>
+      <data key="d1">ER</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SV">
+      <data key="d0">SIWAN</data>
+      <data key="d1">NER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SVPI">
+      <data key="d0">SHIVPURI</data>
+      <data key="d1">WCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SWM">
+      <data key="d0">SAWAIMADHOPUR</data>
+      <data key="d1">WCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="SWV">
+      <data key="d0">SAWANTWADI ROAD</data>
+      <data key="d1">KR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="SXK">
+      <data key="d0">SHAHJAHANPUR</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TATA">
+      <data key="d0">TATANAGAR (JAMSHEDPUR)</data>
+      <data key="d1">SER</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TBM">
+      <data key="d0">TAMBARAM</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TCR">
+      <data key="d0">THRISUR</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="TDD">
+      <data key="d0">TADEPALLIGUDEM</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="TDL">
+      <data key="d0">TUNDLA</data>
+      <data key="d1">NCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TEL">
+      <data key="d0">TENALI</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TEN">
+      <data key="d0">TIRUNELVELI Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TIG">
+      <data key="d0">TITLAGARH</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TIR">
+      <data key="d0">TIRUR</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="TJ">
+      <data key="d0">THANJAVUR Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TLHR">
+      <data key="d0">TALCHER</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TLY">
+      <data key="d0">THALASSERY</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="TMR">
+      <data key="d0">TUMSAR ROAD</data>
+      <data key="d1">SECR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TN">
+      <data key="d0">TUTICORIN</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TPJ">
+      <data key="d0">TIRUCHCHIRAPPALLI Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TPTY">
+      <data key="d0">TIRUPATI</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TSI">
+      <data key="d0">TENKASI</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TUNI">
+      <data key="d0">TUNI</data>
+      <data key="d1">SCR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="TVC">
+      <data key="d0">THIRUVANANTHAPURAM CENTRAL</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TVR">
+      <data key="d0">THIRUVARUR</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="TZTB">
+      <data key="d0">TEZPUR</data>
+      <data key="d1">NFR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="UBL">
+      <data key="d0">HUBLI (SSS HUBLI)</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="UCR">
+      <data key="d0">UNCHAHAR</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="UD">
+      <data key="d0">UDUPI</data>
+      <data key="d1">KR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="UDN">
+      <data key="d0">UDHNA</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="UDZ">
+      <data key="d0">UDAIPUR CITY</data>
+      <data key="d1">NWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="UHP">
+      <data key="d0">UDHAMPUR (MARTYR CAPT TUSHAR MAHAJAN)</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="UJN">
+      <data key="d0">UJJAIN</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="UMB">
+      <data key="d0">AMBALA CANTT.</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="UNA">
+      <data key="d0">UNA HIMACHAL</data>
+      <data key="d1">NR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="VAK">
+      <data key="d0">VARKALA SIVAGIRI</data>
+      <data key="d1">SR</data>
+      <data key="d2">false</data>
+    </node>
+    <node id="VBL">
+      <data key="d0">BOBBILI</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="VG">
+      <data key="d0">VIRAMGAM</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="VM">
+      <data key="d0">VILLUPURAM Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="VPT">
+      <data key="d0">VIRUDHUNAGAR</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="VRI">
+      <data key="d0">VRIDDHACHALAM Jn.</data>
+      <data key="d1">SR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="VRL">
+      <data key="d0">VERAVAL</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="VSG">
+      <data key="d0">VASCO-DA-GAMA</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="VSKP">
+      <data key="d0">VISAKHAPATNAM</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="VZM">
+      <data key="d0">VIZIANAGARAM</data>
+      <data key="d1">ECoR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="WADI">
+      <data key="d0">WADI</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="WKR">
+      <data key="d0">WANKANER</data>
+      <data key="d1">WR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="WL">
+      <data key="d0">WARANGAL</data>
+      <data key="d1">SCR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="WR">
+      <data key="d0">WARDHA Jn.</data>
+      <data key="d1">CR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="YPR">
+      <data key="d0">YESVANTPUR</data>
+      <data key="d1">SWR</data>
+      <data key="d2">true</data>
+    </node>
+    <node id="ZBD">
+      <data key="d0">ZAFARABAD</data>
+      <data key="d1">NR</data>
+      <data key="d2">true</data>
+    </node>
+    <edge id="e0" source="AGC" target="MTJ"/>
+    <edge id="e1" source="AGC" target="DHO"/>
+    <edge id="e2" source="AJJ" target="GDR"/>
+    <edge id="e3" source="AJJ" target="MAS"/>
+    <edge id="e4" source="AJJ" target="KPD"/>
+    <edge id="e5" source="ALD" target="FTP"/>
+    <edge id="e6" source="ALD" target="MZP"/>
+    <edge id="e7" source="ALJN" target="GZB"/>
+    <edge id="e8" source="ALJN" target="TDL"/>
+    <edge id="e9" source="AMLA" target="BZU"/>
+    <edge id="e10" source="AMLA" target="NGP"/>
+    <edge id="e11" source="ASN" target="DHN"/>
+    <edge id="e12" source="ASN" target="DGR"/>
+    <edge id="e13" source="ATP" target="GY"/>
+    <edge id="e14" source="ATP" target="DMM"/>
+    <edge id="e15" source="AWY" target="TCR"/>
+    <edge id="e16" source="AWY" target="ERN"/>
+    <edge id="e17" source="BBS" target="CTC"/>
+    <edge id="e18" source="BBS" target="KUR"/>
+    <edge id="e19" source="BCT" target="BDTS"/>
+    <edge id="e20" source="BCT" target="CSMT"/>
+    <edge id="e21" source="BDTS" target="BVI"/>
+    <edge id="e22" source="BH" target="BRC"/>
+    <edge id="e23" source="BH" target="ST"/>
+    <edge id="e24" source="BHC" target="BLS"/>
+    <edge id="e25" source="BHC" target="JJKR"/>
+    <edge id="e26" source="BINA" target="LAR"/>
+    <edge id="e27" source="BINA" target="BPL"/>
+    <edge id="e28" source="BL" target="ST"/>
+    <edge id="e29" source="BL" target="BVI"/>
+    <edge id="e30" source="BLS" target="KGP"/>
+    <edge id="e31" source="BPL" target="ET"/>
+    <edge id="e32" source="BPQ" target="CD"/>
+    <edge id="e33" source="BPQ" target="SKZR"/>
+    <edge id="e34" source="BRC" target="GDA"/>
+    <edge id="e35" source="BTE" target="MTJ"/>
+    <edge id="e36" source="BTE" target="BXN"/>
+    <edge id="e37" source="BWN" target="DGR"/>
+    <edge id="e38" source="BWN" target="HWH"/>
+    <edge id="e39" source="BXN" target="GGC"/>
+    <edge id="e40" source="BZA" target="KMT"/>
+    <edge id="e41" source="BZA" target="TEL"/>
+    <edge id="e42" source="BZA" target="EE"/>
+    <edge id="e43" source="BZU" target="ET"/>
+    <edge id="e44" source="CAPE" target="NCJ"/>
+    <edge id="e45" source="CAR" target="MZP"/>
+    <edge id="e46" source="CAR" target="DDU"/>
+    <edge id="e47" source="CBE" target="ED"/>
+    <edge id="e48" source="CBE" target="PGT"/>
+    <edge id="e49" source="CD" target="SEGM"/>
+    <edge id="e50" source="CHE" target="PSA"/>
+    <edge id="e51" source="CHE" target="VZM"/>
+    <edge id="e52" source="CLX" target="TEL"/>
+    <edge id="e53" source="CLX" target="OGL"/>
+    <edge id="e54" source="CNB" target="ETW"/>
+    <edge id="e55" source="CNB" target="FTP"/>
+    <edge id="e56" source="CNGR" target="KTYM"/>
+    <edge id="e57" source="CNGR" target="QLN"/>
+    <edge id="e58" source="CSMT" target="DR"/>
+    <edge id="e59" source="CTC" target="JJKR"/>
+    <edge id="e60" source="DD" target="PUNE"/>
+    <edge id="e61" source="DD" target="KWV"/>
+    <edge id="e62" source="DHD" target="RTM"/>
+    <edge id="e63" source="DHD" target="GDA"/>
+    <edge id="e64" source="DHN" target="GMO"/>
+    <edge id="e65" source="DHO" target="GWL"/>
+    <edge id="e66" source="DMM" target="HUP"/>
+    <edge id="e67" source="DOS" target="DDU"/>
+    <edge id="e68" source="DOS" target="GAYA"/>
+    <edge id="e69" source="DR" target="KYN"/>
+    <edge id="e70" source="ED" target="SA"/>
+    <edge id="e71" source="EE" target="TDD"/>
+    <edge id="e72" source="ERN" target="ERS"/>
+    <edge id="e73" source="ERS" target="KTYM"/>
+    <edge id="e74" source="ETW" target="TDL"/>
+    <edge id="e75" source="FDB" target="NDLS"/>
+    <edge id="e76" source="FDB" target="MTJ"/>
+    <edge id="e77" source="GAYA" target="GMO"/>
+    <edge id="e78" source="GDR" target="NLR"/>
+    <edge id="e79" source="GGC" target="SWM"/>
+    <edge id="e80" source="GTL" target="RC"/>
+    <edge id="e81" source="GTL" target="GY"/>
+    <edge id="e82" source="GWL" target="JHS"/>
+    <edge id="e83" source="GZB" target="NDLS"/>
+    <edge id="e84" source="HUP" target="YPR"/>
+    <edge id="e85" source="HWH" target="KGP"/>
+    <edge id="e86" source="JHS" target="LAR"/>
+    <edge id="e87" source="JTJ" target="KPD"/>
+    <edge id="e88" source="JTJ" target="SA"/>
+    <edge id="e89" source="KMT" target="WL"/>
+    <edge id="e90" source="KOTA" target="SWM"/>
+    <edge id="e91" source="KOTA" target="RTM"/>
+    <edge id="e92" source="KUR" target="PSA"/>
+    <edge id="e93" source="KWV" target="SUR"/>
+    <edge id="e94" source="KYN" target="LNL"/>
+    <edge id="e95" source="KZJ" target="RDM"/>
+    <edge id="e96" source="KZJ" target="WL"/>
+    <edge id="e97" source="LNL" target="PUNE"/>
+    <edge id="e98" source="MTJ" target="NDLS"/>
+    <edge id="e99" source="NCJ" target="TVC"/>
+    <edge id="e100" source="NGP" target="SEGM"/>
+    <edge id="e101" source="NLR" target="OGL"/>
+    <edge id="e102" source="PGT" target="TCR"/>
+    <edge id="e103" source="QLN" target="VAK"/>
+    <edge id="e104" source="RC" target="WADI"/>
+    <edge id="e105" source="RDM" target="SKZR"/>
+    <edge id="e106" source="SBC" target="YPR"/>
+    <edge id="e107" source="SLO" target="VSKP"/>
+    <edge id="e108" source="SLO" target="TDD"/>
+    <edge id="e109" source="SUR" target="WADI"/>
+    <edge id="e110" source="TVC" target="VAK"/>
+    <edge id="e111" source="VSKP" target="VZM"/>
+  </graph>
+</graphml>

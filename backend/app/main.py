@@ -6,11 +6,12 @@ from app.api.simulation import router as simulation_router
 from app.api.emergency import router as emergency_router
 from app.api.analytics import router as analytics_router
 from app.api.advanced_features import router as advanced_router
+from app.api.stations import router as stations_router
 
 app = FastAPI(
     title="Indian Railways AI Block Planning & Asset Availability Maximizer (SIH26027)",
     description="Enterprise Decision Support & Constraint Optimizer for Multi-Department Rail Maintenance Possessions",
-    version="2.0.0"
+    version="2.5.0"
 )
 
 # CORS middleware for React frontend
@@ -29,17 +30,20 @@ app.include_router(simulation_router, prefix="/api")
 app.include_router(emergency_router, prefix="/api")
 app.include_router(analytics_router, prefix="/api")
 app.include_router(advanced_router, prefix="/api")
+app.include_router(stations_router, prefix="/api")
 
 
 @app.get("/")
 def root():
     return {
-        "system": "RailBlock-AI Core Engine v2.0",
+        "system": "RailBlock-AI Core Engine v2.5",
         "problem_statement": "SIH26027 - AI-Powered Automatic Block Planning to Maximize Asset Availability",
         "ministry": "Ministry of Railways (Indian Railways)",
         "division": "Prayagraj Division (NCR)",
+        "coverage": "Pan-India National Station Graph & Trunk Corridors",
         "status": "OPERATIONAL",
         "enterprise_modules": [
+            "Pan-India Station Graph & Search Engine",
             "Point Machine Current Signature Diagnostics",
             "TRC & USFD Flaw Ingestion Pipeline",
             "Kavach Cab Signalling & GPS Telemetry",

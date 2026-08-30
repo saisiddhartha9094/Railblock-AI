@@ -125,5 +125,25 @@ export const api = {
   getPlaReport: async () => {
     const res = await axios.get(`${API_BASE}/advanced/reports/pla`);
     return res.data;
+  },
+
+  // ================= PAN-INDIA STATIONS & NETWORK =================
+  getStationsList: async (limit = 50, offset = 0, zone = null) => {
+    const params = { limit, offset };
+    if (zone) params.zone = zone;
+    const res = await axios.get(`${API_BASE}/stations`, { params });
+    return res.data;
+  },
+  searchStations: async (query, limit = 50) => {
+    const res = await axios.get(`${API_BASE}/stations/search`, { params: { q: query, limit } });
+    return res.data;
+  },
+  getStationNetworkStats: async () => {
+    const res = await axios.get(`${API_BASE}/stations/stats`);
+    return res.data;
+  },
+  getStationByCode: async (code) => {
+    const res = await axios.get(`${API_BASE}/stations/${code}`);
+    return res.data;
   }
 };

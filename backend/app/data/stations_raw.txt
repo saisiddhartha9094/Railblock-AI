@@ -1,0 +1,641 @@
+{"name":"ABU ROAD", "code":"ABR"}
+{"name":"ACHHNERA", "code":"AH"}
+{"name":"ADONI", "code":"AD"}
+{"name":"ADRA", "code":"ADRA"}
+{"name":"AGRA FORT", "code":"AF"}
+{"name":"AGRA CANTT.", "code":"AGC"}
+{"name":"AHMADNAGAR", "code":"ANG"}
+{"name":"AHMEDABAD", "code":"ADI"}
+{"name":"AJMER", "code":"AII"}
+{"name":"AKOLA", "code":"AK"}
+{"name":"ALIGARH", "code":"ALJN"}
+{"name":"ALIPURDUAR Jn.", "code":"APDJ"}
+{"name":"ALLAHABAD", "code":"ALD"}
+{"name":"ALAPPUZHA", "code":"ALLP"}
+{"name":"ALNAWAR Jn.", "code":"LWR"}
+{"name":"ALWAR", "code":"AWR"}
+{"name":"ALUVA", "code":"AWY"}
+{"name":"AMALNER", "code":"AN"}
+{"name":"AMBALA CANTT.", "code":"UMB"}
+{"name":"AMLA", "code":"AMLA"}
+{"name":"AMRITSAR", "code":"ASR"}
+{"name":"ANAKAPALLE", "code":"AKP"}
+{"name":"ANAND", "code":"ANND"}
+{"name":"ANAND NAGAR", "code":"ANDN"}
+{"name":"ANANTAPUR", "code":"ATP"}
+{"name":"ANGUL", "code":"ANGL"}
+{"name":"ANNAVARAM", "code":"ANV"}
+{"name":"ANUPPUR", "code":"APR"}
+{"name":"ARA", "code":"ARA"}
+{"name":"ARAKKONAM", "code":"AJJ"}
+{"name":"ARSIKERE", "code":"ASK"}
+{"name":"ASANSOL", "code":"ASN"}
+{"name":"AUNRIHAR", "code":"ARJ"}
+{"name":"AURANGABAD", "code":"AWB"}
+{"name":"AYODHYA", "code":"AY"}
+{"name":"AZAMGARH", "code":"AMH"}
+{"name":"AZIMGANJ Jn.", "code":"AZ"}
+{"name":"BADARPUR", "code":"BPB"}
+{"name":"BADNERA Jn.", "code":"BD"}
+{"name":"BAGAHA", "code":"BUG"}
+{"name":"BAGALKOT", "code":"BGK"}
+{"name":"BAGHPAT ROAD", "code":"BPM"}
+{"name":"BAIDYANATHDHAM", "code":"BDME"}
+{"name":"BAKTHIYARPUR", "code":"BKP"}
+{"name":"BALAGHAT Jn.", "code":"BTC"}
+{"name":"BALASORE", "code":"BLS"}
+{"name":"BALHARSHAH", "code":"BPQ"}
+{"name":"BALLIA", "code":"BUI"}
+{"name":"BANARHAT", "code":"BNQ"}
+{"name":"BANDA Jn.", "code":"BNDA"}
+{"name":"BANDEL Jn.", "code":"BDC"}
+{"name":"BANDIKUI Jn.", "code":"BKI"}
+{"name":"BANDRA TERMINUS", "code":"BDTS"}
+{"name":"BANGALORE CITY", "code":"SBC"}
+{"name":"BANGALORE CANTT.", "code":"BNC"}
+{"name":"BANGARAPET", "code":"BWT"}
+{"name":"BANKURA", "code":"BQK"}
+{"name":"BANMANKHI", "code":"BNKI"}
+{"name":"BAPATLA", "code":"BPP"}
+{"name":"BARABANKI Jn.", "code":"BBK"}
+{"name":"BARAUNI Jn.", "code":"BJU"}
+{"name":"BARAUT", "code":"BTU"}
+{"name":"BARABIL", "code":"BBL"}
+{"name":"BARDDHAMAN Jn.", "code":"BWN"}
+{"name":"BAREILLY", "code":"BE"}
+{"name":"BARGARH ROAD", "code":"BRGA"}
+{"name":"BARHNI", "code":"BNY"}
+{"name":"BARKAKANA", "code":"BRKA"}
+{"name":"BARMER", "code":"BME"}
+{"name":"BAROG", "code":"BOF"}
+{"name":"BARSOI", "code":"BOE"}
+{"name":"BARWADIH", "code":"BRWD"}
+{"name":"BASTI", "code":"BST"}
+{"name":"BATHINDA Jn.", "code":"BTI"}
+{"name":"BAYANA", "code":"BXN"}
+{"name":"BEAS", "code":"BEAS"}
+{"name":"BELAPUR", "code":"BAP"}
+{"name":"BELGAUM", "code":"BGM"}
+{"name":"BELLARY Jn.", "code":"BAY"}
+{"name":"BETTIAH", "code":"BTH"}
+{"name":"BETUL", "code":"BZU"}
+{"name":"BHADOHI", "code":"BOY"}
+{"name":"BHADRAKH", "code":"BHC"}
+{"name":"BHAGALPUR", "code":"BGP"}
+{"name":"BHARATPUR", "code":"BTE"}
+{"name":"BHARUCH", "code":"BH"}
+{"name":"BHATAPARA", "code":"BYT"}
+{"name":"BHATKAL", "code":"BTJL"}
+{"name":"BHATNI", "code":"BTT"}
+{"name":"BHAVNAGAR (T)", "code":"BVC"}
+{"name":"BHILWARA", "code":"BHL"}
+{"name":"BHIMAVARAM Jn.", "code":"BVRM"}
+{"name":"BHIMAVARAM TOWN", "code":"BVRT"}
+{"name":"BHIND", "code":"BIX"}
+{"name":"BHIWANI", "code":"BNW"}
+{"name":"BHOJIPURA", "code":"BPR"}
+{"name":"BHOPAL", "code":"BPL"}
+{"name":"BHUBANESWAR", "code":"BBS"}
+{"name":"BHUJ", "code":"BHUJ"}
+{"name":"BHUSAVAL", "code":"BSL"}
+{"name":"BIJAPUR", "code":"BJP"}
+{"name":"BIJNOR", "code":"BJO"}
+{"name":"BIKANER", "code":"BKN"}
+{"name":"BILASPUR Jn.", "code":"BSP"}
+{"name":"BINA", "code":"BINA"}
+{"name":"BINNAGURI", "code":"BNV"}
+{"name":"BIRUR", "code":"RRB"}
+{"name":"BITRAGUNTA", "code":"BTTR"}
+{"name":"BOBBILI", "code":"VBL"}
+{"name":"BOKARO STEEL CITY", "code":"BKSC"}
+{"name":"BOLPURSHANTINIKETAN", "code":"BHP"}
+{"name":"BORIVALI", "code":"BVI"}
+{"name":"BOTAD", "code":"BTD"}
+{"name":"BRAHMAPURI", "code":"BMP"}
+{"name":"BUDAUN", "code":"BEM"}
+{"name":"BURHANPUR", "code":"BAU"}
+{"name":"BURHWAL", "code":"BUW"}
+{"name":"BUXAR", "code":"BXR"}
+{"name":"CANACONA", "code":"CNO"}
+{"name":"CHAKIA", "code":"CAA"}
+{"name":"CHAKKI BANK", "code":"CHKB"}
+{"name":"CHAKRADHARPUR", "code":"CKP"}
+{"name":"CHALISGAON", "code":"CSN"}
+{"name":"CHALSA", "code":"CLD"}
+{"name":"CHAMPA", "code":"CPH"}
+{"name":"CHANDAUSI", "code":"CH"}
+{"name":"CHANDIGARH", "code":"CDG"}
+{"name":"CHANDIL", "code":"CNI"}
+{"name":"CHANDRAPUR", "code":"CD"}
+{"name":"CHANDRAPURA", "code":"CRP"}
+{"name":"CHAPARMUKH", "code":"CPK"}
+{"name":"CHATRAPATI SAHU MAHARAJ TERMINUS", "code":"CSMT"}
+{"name":"CHENGALPATTU Jn.", "code":"CGL"}
+{"name":"CHENGANNUR", "code":"CNGR"}
+{"name":"CHENNAI CENTRAL", "code":"MAS"}
+{"name":"CHENNAI EGMORE", "code":"MS"}
+{"name":"CHHAPRA", "code":"CPR"}
+{"name":"CHIDAMBARAM", "code":"CDM"}
+{"name":"CHIKJAJUR", "code":"JRU"}
+{"name":"CHIPLUN", "code":"CHI"}
+{"name":"CHIRALA", "code":"CLX"}
+{"name":"CHITRAKOOTDHAM KARVI", "code":"CKTD"}
+{"name":"CHITTARANJAN", "code":"CRJ"}
+{"name":"CHITTAURGARH", "code":"COR"}
+{"name":"CHITTOOR", "code":"CTO"}
+{"name":"CHOPAN", "code":"CPU"}
+{"name":"CHUNAR", "code":"CAR"}
+{"name":"CHURU", "code":"CUR"}
+{"name":"COIMBATORE Jn.", "code":"CBE"}
+{"name":"COONOOR", "code":"ONR"}
+{"name":"CUDDALORE PORT", "code":"CUPJ"}
+{"name":"CUDDAPAH", "code":"HX"}
+{"name":"CUTTACK", "code":"CTC"}
+{"name":"DADAR", "code":"DR"}
+{"name":"DAHANU ROAD", "code":"DRD"}
+{"name":"DAHOD", "code":"DHD"}
+{"name":"DALGAON", "code":"DLO"}
+{"name":"DALTONGANJ", "code":"DTO"}
+{"name":"DAMOH", "code":"DMO"}
+{"name":"DANAPUR", "code":"DNR"}
+{"name":"DARBHANGA", "code":"DBG"}
+{"name":"DAUND", "code":"DD"}
+{"name":"DAVANGERE", "code":"DVG"}
+{"name":"DEHRADUN", "code":"DDN"}
+{"name":"DEHRI-ON-SONE", "code":"DOS"}
+{"name":"DELHI", "code":"DLI"}
+{"name":"NEW DELHI", "code":"NDLS"}
+{"name":"DELHI CANTT.", "code":"DEC"}
+{"name":"DELHI SARAI ROHILLA", "code":"DEE"}
+{"name":"DELHI SHAHDARA", "code":"DSA"}
+{"name":"DEORIASADAR", "code":"DEOS"}
+{"name":"DEVLALI", "code":"DVL"}
+{"name":"DHAMANGAON", "code":"DMN"}
+{"name":"DHANBAD", "code":"DHN"}
+{"name":"DHARMABAD", "code":"DAB"}
+{"name":"DHARMAPURI", "code":"DPJ"}
+{"name":"DHARMAVARAM", "code":"DMM"}
+{"name":"DHARWAD", "code":"DWR"}
+{"name":"DHASA", "code":"DAS"}
+{"name":"DHAULPUR", "code":"DHO"}
+{"name":"DHOLA", "code":"DLJ"}
+{"name":"DHONE", "code":"DNC"}
+{"name":"DHRANGADHRA", "code":"DHG"}
+{"name":"DHURI", "code":"DUI"}
+{"name":"DIBRUGARH TOWN", "code":"DBRT"}
+{"name":"DILDARNAGAR", "code":"DLN"}
+{"name":"DIMAPUR", "code":"DMV"}
+{"name":"DINDIGUL Jn.", "code":"DG"}
+{"name":"DONGARGARH", "code":"DGG"}
+{"name":"DORNAKAL", "code":"DKJ"}
+{"name":"DUNGARPUR", "code":"DNRP"}
+{"name":"DURG", "code":"DURG"}
+{"name":"DURGAPUR", "code":"DGR"}
+{"name":"DWARKA", "code":"DWK"}
+{"name":"ELURU", "code":"EE"}
+{"name":"ERNAKULAM Jn.", "code":"ERS"}
+{"name":"ERNAKULAM TOWN", "code":"ERN"}
+{"name":"ERODE", "code":"ED"}
+{"name":"ETAWAH", "code":"ETW"}
+{"name":"FAIZABAD", "code":"FD"}
+{"name":"FARIDABAD", "code":"FDB"}
+{"name":"FARRUKHABAD", "code":"FKD"}
+{"name":"FATHEABAD CHAND", "code":"FTD"}
+{"name":"FATEHPUR", "code":"FTP"}
+{"name":"FATUHA", "code":"FUT"}
+{"name":"FAZILKA", "code":"FKA"}
+{"name":"FIROZABAD", "code":"FZD"}
+{"name":"FIROZPUR CITY", "code":"FZP"}
+{"name":"FIROZPUR CANTT.", "code":"FZR"}
+{"name":"FORBESGANJ", "code":"FBG"}
+{"name":"FURKATING", "code":"FKG"}
+{"name":"GADAG", "code":"GDG"}
+{"name":"GAJRAULA", "code":"GJL"}
+{"name":"GANDHIDHAM", "code":"GIM"}
+{"name":"GANDHINAGAR", "code":"GADJ"}
+{"name":"GANGAPUR CITY", "code":"GGC"}
+{"name":"GARWA ROAD", "code":"GHD"}
+{"name":"GAYA", "code":"GAYA"}
+{"name":"GHATSILA", "code":"GTS"}
+{"name":"GHAZIABAD", "code":"GZB"}
+{"name":"GOALPARA TOWN", "code":"GLPT"}
+{"name":"GODHRA", "code":"GDA"}
+{"name":"GOLA GOKARANNATH", "code":"GK"}
+{"name":"GOMOH", "code":"GMO"}
+{"name":"GONDA", "code":"GD"}
+{"name":"GONDIA", "code":"G"}
+{"name":"GOOTY", "code":"GY"}
+{"name":"GORAKHPUR", "code":"GKP"}
+{"name":"GOSSAINGAON HAT", "code":"GOGH"}
+{"name":"GUDIVADA", "code":"GDV"}
+{"name":"GUDUR", "code":"GDR"}
+{"name":"GULBARGA", "code":"GR"}
+{"name":"GUNA", "code":"GUNA"}
+{"name":"GUNTAKAL", "code":"GTL"}
+{"name":"GUNTUR", "code":"GNT"}
+{"name":"GURUVAYUR", "code":"GUV"}
+{"name":"GUWAHATI", "code":"GHY"}
+{"name":"GWALIOR", "code":"GWL"}
+{"name":"GYANPUR ROAD", "code":"GYN"}
+{"name":"HABIBGANJ", "code":"HBJ"}
+{"name":"HAJIPUR", "code":"HJP"}
+{"name":"HALDIA", "code":"HLZ"}
+{"name":"HALDIBARI", "code":"HDB"}
+{"name":"HAMILTONGANJ", "code":"HOJ"}
+{"name":"HANUMANGARH", "code":"HMH"}
+{"name":"HAPA", "code":"HAPA"}
+{"name":"HAPUR", "code":"HPU"}
+{"name":"HARDA", "code":"HD"}
+{"name":"HARIDWAR", "code":"HW"}
+{"name":"HARIHAR", "code":"HRR"}
+{"name":"HARPALPUR", "code":"HPP"}
+{"name":"HASIMARA", "code":"HSA"}
+{"name":"HATIA", "code":"HTE"}
+{"name":"HAZRAT NIZAMUDDIN", "code":"NZM"}
+{"name":"HILSA", "code":"HIL"}
+{"name":"HIMMAT NAGAR", "code":"HMT"}
+{"name":"HINDUPUR", "code":"HUP"}
+{"name":"HINGOLI", "code":"HNL"}
+{"name":"HISAR", "code":"HSR"}
+{"name":"HOSHANGABAD", "code":"HBD"}
+{"name":"HOSPET", "code":"HPT"}
+{"name":"HOSUR", "code":"HSRA"}
+{"name":"HOWBADH", "code":"HBG"}
+{"name":"HOWRAH", "code":"HWH"}
+{"name":"HUBLI", "code":"UBL"}
+{"name":"HYDERABAD", "code":"HYB"}
+{"name":"IGATPURI", "code":"IGP"}
+{"name":"INDARA", "code":"IAA"}
+{"name":"INDORE", "code":"INDB"}
+{"name":"ISLAMPUR", "code":"IPR"}
+{"name":"ITARSI", "code":"ET"}
+{"name":"JABALPUR", "code":"JBP"}
+{"name":"JAIPUR", "code":"JP"}
+{"name":"JAISALMER", "code":"JSM"}
+{"name":"JAJPUR KEONJHAR ROAD", "code":"JJKR"}
+{"name":"JAKHAL", "code":"JHL"}
+{"name":"JALAMB", "code":"JM"}
+{"name":"JALANDHAR CANTT.", "code":"JRC"}
+{"name":"JALANDHAR CITY", "code":"JUC"}
+{"name":"JALGAON", "code":"JL"}
+{"name":"JALNA", "code":"J"}
+{"name":"JALPAIGURI", "code":"JPG"}
+{"name":"JAMALPUR", "code":"JMP"}
+{"name":"JAMMU TAWI", "code":"JAT"}
+{"name":"JAMNAGAR", "code":"JAM"}
+{"name":"JANGHAI", "code":"JNH"}
+{"name":"JASIDIH", "code":"JSME"}
+{"name":"JAUNPUR Jn.", "code":"JNU"}
+{"name":"JAYNAGAR", "code":"JYG"}
+{"name":"JETALSAR", "code":"JLR"}
+{"name":"JHAJHA", "code":"JAJ"}
+{"name":"JHANSI", "code":"JHS"}
+{"name":"JHARGRAM", "code":"JGM"}
+{"name":"JHARSUGUDA", "code":"JSG"}
+{"name":"JIND", "code":"JIND"}
+{"name":"JODHPUR", "code":"JU"}
+{"name":"JOGBANI", "code":"JBN"}
+{"name":"JOLARPETTAI", "code":"JTJ"}
+{"name":"JORHAT", "code":"JT"}
+{"name":"JUNAGARH Jn.", "code":"JND"}
+{"name":"KACHEGUDA", "code":"KCG"}
+{"name":"KAKINADA PORT", "code":"COA"}
+{"name":"KALCHINI", "code":"KCF"}
+{"name":"KALKA", "code":"KLK"}
+{"name":"KALOL", "code":"KLL"}
+{"name":"KALYAN", "code":"KYN"}
+{"name":"KAMAKHYA", "code":"KYQ"}
+{"name":"KANCHIPURAM", "code":"CJ"}
+{"name":"KANDHLA", "code":"KQL"}
+{"name":"KANKANADI", "code":"KNKD"}
+{"name":"KANNIYAKUMARI", "code":"CAPE"}
+{"name":"KANNUR", "code":"CAN"}
+{"name":"KANPUR CENTRAL", "code":"CNB"}
+{"name":"KANPUR ANWARGANJ", "code":"CPA"}
+{"name":"KAPTANGANJ", "code":"CPJ"}
+{"name":"KARAIKKUDI JN.", "code":"KKDI"}
+{"name":"KARNAL", "code":"KUN"}
+{"name":"KARUR", "code":"KRR"}
+{"name":"KARWAR", "code":"KAWR"}
+{"name":"KASARGOD", "code":"KGQ"}
+{"name":"KASGANJ", "code":"KSJ"}
+{"name":"KATHGODAM", "code":"KGM"}
+{"name":"KATIHAR", "code":"KIR"}
+{"name":"KATNI", "code":"KTE"}
+{"name":"KATPADI", "code":"KPD"}
+{"name":"KATWA", "code":"KWAE"}
+{"name":"KAZIPET", "code":"KZJ"}
+{"name":"KHAGARIA", "code":"KGG"}
+{"name":"KHALILABAD", "code":"KLD"}
+{"name":"KHAMMAM", "code":"KMT"}
+{"name":"KHANDWA", "code":"KNW"}
+{"name":"KHARAGPUR", "code":"KGP"}
+{"name":"KHEKRA", "code":"KEX"}
+{"name":"KHURDA ROAD", "code":"KUR"}
+{"name":"KISHANGANJ", "code":"KNE"}
+{"name":"KISHANGARH", "code":"KSG"}
+{"name":"KIUL", "code":"KIUL"}
+{"name":"KOCHUVELI", "code":"KCVL"}
+{"name":"KODAIKANAL ROAD", "code":"KQN"}
+{"name":"KOPERGAON", "code":"KPG"}
+{"name":"KORAPUT", "code":"KRPU"}
+{"name":"KORBA", "code":"KRBA"}
+{"name":"KOTA", "code":"KOTA"}
+{"name":"KOTDWARA", "code":"KTW"}
+{"name":"KOT KAPURA", "code":"KKP"}
+{"name":"KOTTAYAM", "code":"KTYM"}
+{"name":"KOZHIKKODE", "code":"CLT"}
+{"name":"KRISHNANAGAR CITY", "code":"KNJ"}
+{"name":"KRISHNARAJAPURAM", "code":"KJM"}
+{"name":"KUMBAKONAM", "code":"KMU"}
+{"name":"KUNDAPURA", "code":"KUDA"}
+{"name":"KURDUWADI", "code":"KWV"}
+{"name":"KURNOOL TOWN", "code":"KRNT"}
+{"name":"KURUKSHETRA", "code":"KKDE"}
+{"name":"LAKHIMPUR", "code":"LMP"}
+{"name":"LAKSAR", "code":"LRJ"}
+{"name":"LALGARH", "code":"LGH"}
+{"name":"LALGOLA", "code":"LGL"}
+{"name":"LALITPUR", "code":"LAR"}
+{"name":"LALKUAN JN.", "code":"LKU"}
+{"name":"LATUR", "code":"LUR"}
+{"name":"LEDO", "code":"LEDO"}
+{"name":"LOHARU", "code":"LHU"}
+{"name":"LOKMANYA TILAK (T)", "code":"LTT"}
+{"name":"LONAVLA", "code":"LNL"}
+{"name":"LONDA", "code":"LD"}
+{"name":"LOWER HALFLONG", "code":"LFG"}
+{"name":"LUCKNOW", "code":"LJN/LKO"}
+{"name":"LUDHIANA", "code":"LDH"}
+{"name":"LUMDING", "code":"LMG"}
+{"name":"LUNI", "code":"LUNI"}
+{"name":"MACHILIPATNAM", "code":"MTM"}
+{"name":"MADARIHAT", "code":"MDT"}
+{"name":"MADDUR", "code":"MAD"}
+{"name":"MADGAON (GOA)", "code":"MAO"}
+{"name":"MADHUBANI", "code":"MBI"}
+{"name":"MADHUPUR", "code":"MDP"}
+{"name":"MADURAI Jn.", "code":"MDU"}
+{"name":"MAHBUBNAGAR", "code":"MBNR"}
+{"name":"MAHESANA", "code":"MSH"}
+{"name":"MAHOBA", "code":"MBA"}
+{"name":"MAILANI", "code":"MLN"}
+{"name":"MAKSI", "code":"MKC"}
+{"name":"MALDA TOWN", "code":"MLDT"}
+{"name":"MANAMADURAI", "code":"MNM"}
+{"name":"MANDUADIH", "code":"MUV"}
+{"name":"MANGALORE", "code":"MAQ"}
+{"name":"MANIKPUR", "code":"MKP"}
+{"name":"MANKAPUR", "code":"MUR"}
+{"name":"MANMAD", "code":"MMR"}
+{"name":"MANSI", "code":"MNE"}
+{"name":"MARIANI", "code":"MXN"}
+{"name":"MARWAR Jn.", "code":"MJ"}
+{"name":"MATHURA", "code":"MTJ"}
+{"name":"MAU", "code":"MAU"}
+{"name":"MAYILADUTURAI Jn.", "code":"MV"}
+{"name":"MEERUT CITY", "code":"MTC"}
+{"name":"MERTA ROAD", "code":"MTD"}
+{"name":"METTUPALAIYAM", "code":"MTP"}
+{"name":"MHOW", "code":"MHOW"}
+{"name":"MIDNAPORE", "code":"MDN"}
+{"name":"MIRAJ", "code":"MRJ"}
+{"name":"MIRYALAGUDA", "code":"MRGA"}
+{"name":"MIRZAPUR", "code":"MZP"}
+{"name":"MOKAMA", "code":"MKA"}
+{"name":"MORADABAD", "code":"MB"}
+{"name":"MOTIHARI", "code":"MKI"}
+{"name":"MUDKHED", "code":"MUE"}
+{"name":"MUGHALSARAI", "code":"MGS"}
+{"name":"MUMBAI CENTRAL", "code":"BCT"}
+{"name":"MUMBAI CST", "code":"CSTM"}
+{"name":"MURI", "code":"MURI"}
+{"name":"MURKEONGSELEK", "code":"MZS"}
+{"name":"MURTAJAPUR", "code":"MZR"}
+{"name":"MUZAFFAR NAGAR", "code":"MOZ"}
+{"name":"MUZAFFARPUR", "code":"MFP"}
+{"name":"MYSORE", "code":"MYS"}
+{"name":"NADIAD", "code":"ND"}
+{"name":"NADIKUDE", "code":"NDKD"}
+{"name":"NAGARSOL", "code":"NSL"}
+{"name":"NAGBHIR", "code":"NAB"}
+{"name":"NAGDA", "code":"NAD"}
+{"name":"NAGERCOIL Jn.", "code":"NCJ"}
+{"name":"NAGORE", "code":"NCR"}
+{"name":"NAGPUR", "code":"NGP"}
+{"name":"NAINPUR", "code":"NIR"}
+{"name":"SAMBALPUR", "code":"SBP"}
+{"name":"SAMUKTALA ROAD", "code":"AMTA"}
+{"name":"SANGLI", "code":"SLI"}
+{"name":"SARNATH", "code":"SRNT"}
+{"name":"SATARA", "code":"STR"}
+{"name":"SATNA", "code":"STA"}
+{"name":"SATTENAPALLE", "code":"SAP"}
+{"name":"SAWAIMADHOPUR", "code":"SWM"}
+{"name":"SAWANTWADI ROAD", "code":"SWV"}
+{"name":"SEALDAH", "code":"SDAH"}
+{"name":"SECUNDERABAD", "code":"SC"}
+{"name":"SENGOTTAI", "code":"SCT"}
+{"name":"SEWAGRAM", "code":"SEGM"}
+{"name":"SHAHABAD", "code":"SDB"}
+{"name":"SHAHGANJ", "code":"SHG"}
+{"name":"SHAHJAHANPUR", "code":"SXK"}
+{"name":"SHAHPUR PATOREE", "code":"SPP"}
+{"name":"SHAKTINAGAR", "code":"SKTN"}
+{"name":"SHALIMAR", "code":"SHM"}
+{"name":"SHAMGARH", "code":"SGZ"}
+{"name":"SHAMLI", "code":"SMQL"}
+{"name":"SHIKOHABAD", "code":"SKB"}
+{"name":"SHIMLA", "code":"SML"}
+{"name":"SHIMOGA TOWN", "code":"SMET"}
+{"name":"SHIVPURI", "code":"SVPI"}
+{"name":"SHORANUR JN.", "code":"SRR"}
+{"name":"SHRI MAHABIRJI", "code":"SMBJ"}
+{"name":"SIHOR GUJARAT", "code":"SOJN"}
+{"name":"SIKAR", "code":"SIKR"}
+{"name":"SILCHAR", "code":"SCL"}
+{"name":"SILIGURI", "code":"SGUJ"}
+{"name":"SIMALUGURI", "code":"SLGR"}
+{"name":"SINGRAULI", "code":"SGRL"}
+{"name":"SIRPUR KAGAZNAGAR", "code":"SKZR"}
+{"name":"SIRSA", "code":"SSA"}
+{"name":"SISWA BAZAR", "code":"SBZ"}
+{"name":"SITAMARHI", "code":"SMI"}
+{"name":"SITAPUR CITY", "code":"SPC"}
+{"name":"SITAPUR CANTT.", "code":"SCC"}
+{"name":"SIURI", "code":"SURI"}
+{"name":"SIWAN", "code":"SV"}
+{"name":"SOJAT ROAD", "code":"SOD"}
+{"name":"SOLAN", "code":"SOL"}
+{"name":"SOLAPUR", "code":"SUR"}
+{"name":"SONPUR", "code":"SEE"}
+{"name":"SRIGANGA NAGAR", "code":"SGNR"}
+{"name":"SRIKAKULAM ROAD", "code":"CHE"}
+{"name":"SRI SATYASAI PRASHANTI NILAYAM", "code":"SSPN"}
+{"name":"SULTANPUR", "code":"SLN"}
+{"name":"SURAT", "code":"ST"}
+{"name":"SURATGARH", "code":"SOG"}
+{"name":"NAJIBABAD", "code":"NBD"}
+{"name":"NALANDA", "code":"NLD"}
+{"name":"NALGONDA", "code":"NLDA"}
+{"name":"NANDALUR", "code":"NRE"}
+{"name":"NANDED", "code":"NED"}
+{"name":"NANDGAON", "code":"NGN"}
+{"name":"NANDURBAR", "code":"NDB"}
+{"name":"NANDYAL", "code":"NDL"}
+{"name":"NANGAL DAM", "code":"NLDM"}
+{"name":"NARKATIAGANJ", "code":"NKE"}
+{"name":"NARASAPUR", "code":"NS"}
+{"name":"NARWANA", "code":"NRW"}
+{"name":"NASIK ROAD", "code":"NK"}
+{"name":"NAUGARH", "code":"NUH"}
+{"name":"NELLORE", "code":"NLR"}
+{"name":"NEW ALIPURDUAR", "code":"NOQ"}
+{"name":"NEW BONGAIGAON", "code":"NBQ"}
+{"name":"NEW COOCHBEHAR", "code":"NCB"}
+{"name":"NEW FARAKKA", "code":"NFK"}
+{"name":"NEW JALPAIGURI", "code":"NJP"}
+{"name":"NEWMAL Jn.", "code":"NMZ"}
+{"name":"NEW TINSUKIA", "code":"NTSK"}
+{"name":"NIDADAVOLU", "code":"NDD"}
+{"name":"NIDUBROLU", "code":"NDO"}
+{"name":"NIMACH", "code":"NMH"}
+{"name":"NIZAMABAD", "code":"NZB"}
+{"name":"NOLI", "code":"NOLI"}
+{"name":"NORTH LAKHIMPUR", "code":"NLP"}
+{"name":"OKHA", "code":"OKHA"}
+{"name":"ONGOLE", "code":"OGL"}
+{"name":"ORAI", "code":"ORAI"}
+{"name":"PACHORA", "code":"PC"}
+{"name":"PALANI", "code":"PLNI"}
+{"name":"PALANPUR", "code":"PNU"}
+{"name":"PALASA", "code":"PSA"}
+{"name":"PALAKKAD", "code":"PGT"}
+{"name":"PALAKKAD TOWN", "code":"PGTN"}
+{"name":"PALIAKALAN", "code":"PLK"}
+{"name":"PANIPAT", "code":"PNP"}
+{"name":"PARASNATH", "code":"PNME"}
+{"name":"PANVEL", "code":"PNVL"}
+{"name":"PARBHANI", "code":"PBN"}
+{"name":"PATHANKOT", "code":"PTK"}
+{"name":"PATIALA", "code":"PTA"}
+{"name":"PATNA", "code":"PNBE"}
+{"name":"PATNA SAHIB", "code":"PNC"}
+{"name":"PHAPHAMAU", "code":"PFM"}
+{"name":"PHULERA", "code":"FL"}
+{"name":"PILIBHIT", "code":"PBE"}
+{"name":"PIPARIYA", "code":"PPI"}
+{"name":"PODANUR", "code":"PTJ"}
+{"name":"PORBANDAR", "code":"PBR"}
+{"name":"PRATAPGARH", "code":"PBH"}
+{"name":"PUDUCHERRY", "code":"PDY"}
+{"name":"PUDUKOTTAI", "code":"PDKT"}
+{"name":"PULGAON", "code":"PLO"}
+{"name":"PUNE Jn.", "code":"PUNE"}
+{"name":"PURANPUR", "code":"PP"}
+{"name":"PURI", "code":"PURI"}
+{"name":"PURNA", "code":"PAU"}
+{"name":"PURNIA", "code":"PRNA"}
+{"name":"PURULIA", "code":"PRR"}
+{"name":"KOLLAM", "code":"QLN"}
+{"name":"RAE BARELI", "code":"RBL"}
+{"name":"RAICHUR", "code":"RC"}
+{"name":"RAIGARH", "code":"RIG"}
+{"name":"RAIPUR", "code":"R"}
+{"name":"RAJAHMUNDRY", "code":"RJY"}
+{"name":"RAJA-KA-SAHASPUR", "code":"RJK"}
+{"name":"RAJA-KI-MANDI", "code":"RKM"}
+{"name":"RAJENDRANAGAR", "code":"RJQ"}
+{"name":"RAJGIR", "code":"RGD"}
+{"name":"RAJKOT", "code":"RJT"}
+{"name":"RAJNANDGAON", "code":"RJN"}
+{"name":"RAJPURA", "code":"RPJ"}
+{"name":"RAMAGUNDAM", "code":"RDM"}
+{"name":"RAMANATHAPURAM", "code":"RMD"}
+{"name":"RAMESWARAM", "code":"RMM"}
+{"name":"RAMNAGAR", "code":"RMR"}
+{"name":"RAMPUR JN.", "code":"RMU"}
+{"name":"RAMPURHAT", "code":"RPH"}
+{"name":"RANAGHAT", "code":"RHA"}
+{"name":"RANCHI", "code":"RNC"}
+{"name":"RANGAPARA NORTH", "code":"RPAN"}
+{"name":"RANGIYA", "code":"RNY"}
+{"name":"RANINAGAR", "code":"ROJ"}
+{"name":"RATANGARH", "code":"RTGH"}
+{"name":"RATLAM", "code":"RTM"}
+{"name":"RATNAGIRI", "code":"RN"}
+{"name":"RAWATGANJ", "code":"RJ"}
+{"name":"RAXAUL", "code":"RXL"}
+{"name":"RAYAGADA", "code":"RGDA"}
+{"name":"RENIGUNTA", "code":"RU"}
+{"name":"REWA", "code":"REWA"}
+{"name":"REWARI", "code":"RE"}
+{"name":"RINGUS", "code":"RGS"}
+{"name":"ROHTAK", "code":"ROK"}
+{"name":"ROORKEE", "code":"RK"}
+{"name":"ROURKELA", "code":"ROU"}
+{"name":"SADULPUR", "code":"SDLP"}
+{"name":"SAGAR JAMBAGARU", "code":"SRF"}
+{"name":"SAGAULI", "code":"SGL"}
+{"name":"SAHARANPUR", "code":"SRE"}
+{"name":"SAHARSA", "code":"SHC"}
+{"name":"SAHIBGANJ", "code":"SBG"}
+{"name":"SALEM", "code":"SA"}
+{"name":"SALEMPUR", "code":"SRU"}
+{"name":"SAMAKHIYALI", "code":"SIOB"}
+{"name":"SAMALKOT", "code":"SLO"}
+{"name":"SAMASTIPUR", "code":"SPJ"}
+{"name":"SURATHKAL", "code":"SL"}
+{"name":"SURENDRA NAGAR", "code":"SUNR"}
+{"name":"TADEPALLIGUDEM", "code":"TDD"}
+{"name":"TALCHER", "code":"TLHR"}
+{"name":"TAMBARAM", "code":"TBM"}
+{"name":"TATANAGAR", "code":"TATA"}
+{"name":"THALASSERY", "code":"TLY"}
+{"name":"TENALI", "code":"TEL"}
+{"name":"TENKASI", "code":"TSI"}
+{"name":"TEZPUR", "code":"TZTB"}
+{"name":"THANJAVUR Jn.", "code":"TJ"}
+{"name":"THIRUVARUR.", "code":"TVR"}
+{"name":"TIRUCHCHIRAPPALLI Jn.", "code":"TPJ"}
+{"name":"TIRUNELVELI Jn.", "code":"TEN"}
+{"name":"TIRUPATI", "code":"TPTY"}
+{"name":"TIRUR", "code":"TIR"}
+{"name":"TITLAGARH", "code":"TIG"}
+{"name":"THRISUR", "code":"TCR"}
+{"name":"THIRUVANANTHAPURAM", "code":"TVC"}
+{"name":"TUMSAR ROAD", "code":"TMR"}
+{"name":"TUNDLA", "code":"TDL"}
+{"name":"TUNI", "code":"TUNI"}
+{"name":"TUTICORIN", "code":"TN"}
+{"name":"UDAIPUR CITY", "code":"UDZ"}
+{"name":"UDHAMPUR", "code":"UHP"}
+{"name":"UDHNA", "code":"UDN"}
+{"name":"UDUPI", "code":"UD"}
+{"name":"UJJAIN", "code":"UJN"}
+{"name":"UNA", "code":"UNA"}
+{"name":"UNCHAHAR", "code":"UCR"}
+{"name":"UNNAO", "code":"ON"}
+{"name":"VADAKARA", "code":"BDJ"}
+{"name":"VADODARA", "code":"BRC"}
+{"name":"VALSAD", "code":"BL"}
+{"name":"VANCHI MANIYACHCHI Jn.", "code":"MEJ"}
+{"name":"VARANASI", "code":"BSB"}
+{"name":"VARKALA", "code":"VAK"}
+{"name":"VASAI ROAD", "code":"BSR"}
+{"name":"VASCO-DA-GAMA", "code":"VSG"}
+{"name":"VERAVAL", "code":"VRL"}
+{"name":"VIDISHA", "code":"BHS"}
+{"name":"VIJAYAWADA", "code":"BZA"}
+{"name":"VILLUPURAM Jn.", "code":"VM"}
+{"name":"VIRAMGAM", "code":"VG"}
+{"name":"VIRUDHUNAGAR", "code":"VPT"}
+{"name":"VISAKHAPATNAM", "code":"VSKP"}
+{"name":"VIZIANAGARAM", "code":"VZM"}
+{"name":"VRIDDHACHALAM Jn.", "code":"VRI"}
+{"name":"WADI", "code":"WADI"}
+{"name":"WANKANER", "code":"WKR"}
+{"name":"WARANGAL", "code":"WL"}
+{"name":"WARDHA Jn.", "code":"WR"}
+{"name":"YESVANTPUR", "code":"YPR"}
+{"name":"ZAFARABAD", "code":"ZBD"}

@@ -1,5 +1,10 @@
+import os
+from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
 from app.api.corridor import router as corridor_router
 from app.api.blocks import router as blocks_router
 from app.api.simulation import router as simulation_router
@@ -34,31 +39,32 @@ app.include_router(advanced_router, prefix="/api")
 app.include_router(stations_router, prefix="/api")
 app.include_router(tier3_router, prefix="/api")
 
+# Static frontend distribution directory
+FRONTEND_DIST = Path(__file__).parent.parent.parent / "frontend" / "dist"
 
-@app.get("/")
-def root():
-    return {
-        "system": "RailBlock-AI Enterprise Edition v3.0",
-        "problem_statement": "SIH26027 - AI-Powered Automatic Block Planning to Maximize Asset Availability",
-        "ministry": "Ministry of Railways (Indian Railways)",
-        "division": "Prayagraj Division (NCR)",
-        "coverage": "Pan-India National Station Graph & High-Density Corridors",
-        "status": "OPERATIONAL",
-        "enterprise_capabilities": [
-            "Google OR-Tools CP-SAT Multi-Objective Constraint Optimizer",
-            "Indian Railways Scott Formula Line Capacity Engine",
-            "Heavy Track Machine Fleet Dispatcher (BCM, CSM, DTS, RGM, Tower Wagons)",
-            "TSR 4-Day Speed Relaxation Recovery Modeler",
-            "Station Yard Diamond Crossover & Platform Interlocking Matrix",
-            "CRIS COA XML & JSON Export Protocols",
-            "Pan-India Station Graph (641 Stations, 401 Junctions)",
-            "Point Machine Current Signature Oscilloscope",
-            "TRC & USFD Automated Flaw Ingestion",
-            "Kavach Cab Signalling & ATP Telemetry HUD",
-            "FOIS/COIS Freight Supply Chain SLA Optimizer",
-            "CMS Crew Duty & HOER 10-Hour Tracker",
-            "Indic Multilingual Voice & NLP Scheduling Assistant",
-            "CBUI & PLA Official Railway Board Compliance Reports"
-        ],
-        "docs_url": "/docs"
-    }
+if FRONTEND_DIST.exists():
+    app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIST / "assets")), name="assets")
+
+    @app.get("/")
+    def serve_frontend_root():
+        return FileResponse(str(FRONTEND_DIST / "index.html"))
+
+    @app.get("/app")
+    def serve_frontend_app():
+        return FileResponse(str(FRONTEND_DIST / "index.html"))
+
+    @app.get("/api/info")
+    def api_info():
+        return {
+            "system": "RailBlock-AI Enterprise Edition v3.0",
+            "status": "OPERATIONAL",
+            "docs_url": "/docs"
+        }
+else:
+    @app.get("/")
+    def root():
+        return {
+            "system": "RailBlock-AI Enterprise Edition v3.0",
+            "status": "OPERATIONAL",
+            "docs_url": "/docs"
+        }

@@ -185,7 +185,7 @@ const SLIDES = [
         <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
           <span className="text-blue-400 font-bold block font-mono text-xs">Point Machine Diagnostics</span>
           <p className="text-slate-300 text-xs leading-relaxed">
-            {"Ingests 50Hz throw current waveforms (A vs t). Detects dry slide chairs and generates 25-minute S&T micro-blocks before signal failure occurs."}
+            {"Ingests 50Hz throw current waveforms (Current vs Time). Detects dry slide chairs and generates 25-minute S&T micro-blocks before signal failure occurs."}
           </p>
           <span className="text-[10px] text-blue-300 font-mono block bg-blue-950/40 px-2 py-1 rounded border border-blue-500/30">
             RDSO IRS:S 24 Compliant
@@ -226,17 +226,17 @@ const SLIDES = [
   },
   {
     title: "National Scale & Production Tools",
-    subtitle: "Scott Line Capacity, Machine Dispatcher & CRIS COA Export",
-    badge: "TIER-3 PRODUCTION",
+    subtitle: "Pan-India Station Graph, Dynamic Re-Scheduling & CRIS COA Export",
+    badge: "ENTERPRISE INTEGRATION",
     content: (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs font-mono py-2">
         <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-1.5">
-          <span className="text-emerald-400 font-bold block text-xs">Scott Capacity Engine</span>
-          <p className="text-[11px] text-slate-300 font-sans">Calculates 24-hr line capacity drops & 3rd-line bi-directional bypass.</p>
+          <span className="text-emerald-400 font-bold block text-xs">National Station Graph</span>
+          <p className="text-[11px] text-slate-300 font-sans">641 stations & 401 junction nodes indexed with sub-millisecond route lookup.</p>
         </div>
         <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-1.5">
-          <span className="text-amber-400 font-bold block text-xs">Machine Dispatcher</span>
-          <p className="text-[11px] text-slate-300 font-sans">Depot transit pathing, cruising speeds, and diesel fuel logistics.</p>
+          <span className="text-amber-400 font-bold block text-xs">Dynamic Re-Optimizer</span>
+          <p className="text-[11px] text-slate-300 font-sans">Real-time emergency override re-scheduling with 0.02s solver convergence.</p>
         </div>
         <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-1.5">
           <span className="text-blue-400 font-bold block text-xs">CRIS COA Exporter</span>

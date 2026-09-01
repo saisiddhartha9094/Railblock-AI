@@ -212,17 +212,17 @@ const SLIDES = [
   },
   {
     title: "National Scale & Production Tools",
-    subtitle: "Scott Line Capacity, Machine Dispatcher & CRIS COA Export",
-    badge: "TIER-3 PRODUCTION",
+    subtitle: "Pan-India Station Graph, Dynamic Re-Scheduling & CRIS COA Export",
+    badge: "ENTERPRISE INTEGRATION",
     content: (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2 text-xs font-mono">
         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-          <span className="text-emerald-400 font-bold block text-[11px]">Scott Capacity Engine</span>
-          <p className="text-[10px] text-slate-300 font-sans">Calculates 24-hr line capacity drops & 3rd-line bi-directional bypass.</p>
+          <span className="text-emerald-400 font-bold block text-[11px]">National Station Graph</span>
+          <p className="text-[10px] text-slate-300 font-sans">641 stations & 401 junction nodes indexed with sub-millisecond route lookup.</p>
         </div>
         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
-          <span className="text-amber-400 font-bold block text-[11px]">Machine Dispatcher</span>
-          <p className="text-[10px] text-slate-300 font-sans">Depot transit pathing, cruising speeds, and diesel fuel logistics.</p>
+          <span className="text-amber-400 font-bold block text-[11px]">Dynamic Re-Optimizer</span>
+          <p className="text-[10px] text-slate-300 font-sans">Real-time emergency override re-scheduling with 0.02s solver convergence.</p>
         </div>
         <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
           <span className="text-blue-400 font-bold block text-[11px]">CRIS COA Exporter</span>

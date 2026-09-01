@@ -5,10 +5,6 @@ import AAIStatsCards from './components/AAIStatsCards';
 import BlockGanttMatrix from './components/BlockGanttMatrix';
 import CorridorVisualizer from './components/CorridorVisualizer';
 import NationalStationDirectory from './components/NationalStationDirectory';
-import LineCapacityAnalyzer from './components/LineCapacityAnalyzer';
-import MachineLogisticsPanel from './components/MachineLogisticsPanel';
-import TsrRecoveryCurve from './components/TsrRecoveryCurve';
-import YardInterlockingMatrix from './components/YardInterlockingMatrix';
 import PitchDeckView from './components/PitchDeckView';
 import WhatIfSimulator from './components/WhatIfSimulator';
 import DemandPortal from './components/DemandPortal';
@@ -171,32 +167,12 @@ export default function App() {
           <NationalStationDirectory />
         )}
 
-        {/* Tab 5: Scott Formula Line Capacity Engine */}
-        {activeTab === 'capacity' && (
-          <LineCapacityAnalyzer />
-        )}
-
-        {/* Tab 6: Track Machine Fleet Dispatcher */}
-        {activeTab === 'machines' && (
-          <MachineLogisticsPanel />
-        )}
-
-        {/* Tab 7: TSR 4-Day Recovery Modeler */}
-        {activeTab === 'tsr' && (
-          <TsrRecoveryCurve />
-        )}
-
-        {/* Tab 8: Station Yard Platform Interlocking */}
-        {activeTab === 'yard' && (
-          <YardInterlockingMatrix />
-        )}
-
-        {/* Tab 9: What-If Simulation Sandbox */}
+        {/* Tab 5: What-If Simulation Sandbox */}
         {activeTab === 'whatif' && (
           <WhatIfSimulator corridor={corridor} />
         )}
 
-        {/* Tab 10: Multi-Dept Demand Register & Joint Sign-off */}
+        {/* Tab 6: Multi-Dept Demand Register & Joint Sign-off */}
         {activeTab === 'demands' && (
           <DemandPortal
             demands={demands}
@@ -205,75 +181,67 @@ export default function App() {
           />
         )}
 
-        {/* Tab 11: Point Machine Diagnostics */}
+        {/* Tab 7: Point Machine Diagnostics */}
         {activeTab === 'pointmachine' && (
           <PointMachineDiagnostics onDemandGenerated={loadAllData} />
         )}
 
-        {/* Tab 12: TRC & USFD Track Flaw Heatmap */}
+        {/* Tab 8: TRC & USFD Track Flaw Heatmap */}
         {activeTab === 'trc' && (
           <TrackHealthHeatmap onDemandGenerated={loadAllData} />
         )}
 
-        {/* Tab 13: Kavach ATP Cab Signalling Panel */}
+        {/* Tab 9: Kavach ATP Cab Signalling Panel */}
         {activeTab === 'kavach' && (
           <KavachTelemetryPanel />
         )}
 
-        {/* Tab 14: FOIS Freight Supply Chain SLA Tracker */}
+        {/* Tab 10: FOIS Freight Supply Chain SLA Tracker */}
         {activeTab === 'fois' && (
           <FreightSlaTracker />
         )}
 
-        {/* Tab 15: CMS Crew Duty & HOER Tracker */}
+        {/* Tab 11: CMS Crew Duty & HOER Tracker */}
         {activeTab === 'cms' && (
           <CrewDutyMonitor />
         )}
 
-        {/* Tab 16: Official CBUI & PLA Compliance Reports */}
+        {/* Tab 12: Official CBUI & PLA Reports */}
         {activeTab === 'reports' && (
           <ComplianceReportViewer />
         )}
 
-        {/* Tab 17: AI Explainability & Audit Log */}
+        {/* Tab 13: Explainable AI & Immutable Audit Logs */}
         {activeTab === 'explain' && (
           <DecisionExplainability scheduledBlocks={scheduledBlocks} />
         )}
 
       </main>
 
-      {/* 10-Slide Pitch Deck Modal */}
-      <PitchDeckModal
-        isOpen={isPitchDeckOpen}
-        onClose={() => setIsPitchDeckOpen(false)}
+      {/* Footer */}
+      <footer className="border-t border-slate-900 bg-slate-950/80 py-4 px-6 text-center text-xs text-slate-500">
+        <p>
+          RailBlock-AI • Ministry of Railways (Indian Railways) • Prayagraj Division (NCR) • High Density Corridor Network
+        </p>
+      </footer>
+
+      {/* Popups & Modals */}
+      <EmergencyModal
+        isOpen={isEmergencyModalOpen}
+        onClose={() => setIsEmergencyModalOpen(false)}
+        onEmergencyExecuted={handleEmergencyExecuted}
       />
 
-      {/* Voice Assistant Modal */}
       <VoiceAssistantModal
         isOpen={isVoiceModalOpen}
         onClose={() => setIsVoiceModalOpen(false)}
         onCommandProcessed={handleVoiceCommandProcessed}
       />
 
-      {/* Emergency Modal */}
-      <EmergencyModal
-        isOpen={isEmergencyModalOpen}
-        onClose={() => setIsEmergencyModalOpen(false)}
-        onEmergencyExecuted={handleEmergencyExecuted}
-        corridor={corridor}
+      <PitchDeckModal
+        isOpen={isPitchDeckOpen}
+        onClose={() => setIsPitchDeckOpen(false)}
       />
-
-      {/* Footer */}
-      <footer className="bg-slate-900/60 border-t border-slate-800/80 px-6 py-4 text-center text-xs text-slate-500">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-2 max-w-7xl mx-auto">
-          <span>
-            Smart India Hackathon (SIH26027) • <strong>AI-Powered Automatic Block Planning to Maximize Asset Availability</strong>
-          </span>
-          <span className="font-mono text-slate-400">
-            Ministry of Railways • Google OR-Tools CP-SAT + Scott Line Capacity + CRIS COA
-          </span>
-        </div>
-      </footer>
 
     </div>
   );

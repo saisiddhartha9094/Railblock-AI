@@ -7,14 +7,14 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
   const [showTrainPaths, setShowTrainPaths] = useState(true);
 
   const sections = corridor?.sections || [
-    { id: 'SEC_SFG_PRYJ', name: 'Subedarganj (SFG) - Prayagraj (PRYJ)' },
-    { id: 'SEC_PRYJ_NYN', name: 'Prayagraj (PRYJ) - Naini (NYN)' },
-    { id: 'SEC_NYN_MZP', name: 'Naini (NYN) - Mirzapur (MZP)' },
-    { id: 'SEC_MZP_CAR', name: 'Mirzapur (MZP) - Chunar (CAR)' },
-    { id: 'SEC_CAR_DDU', name: 'Chunar (CAR) - Pt. DDU Jn (DDU)' }
+    { id: 'SEC_SFG_PRYJ', name: 'Subedarganj (SFG) - Prayagraj (PRYJ)', length_km: 4.2 },
+    { id: 'SEC_PRYJ_NYN', name: 'Prayagraj (PRYJ) - Naini (NYN)', length_km: 7.8 },
+    { id: 'SEC_NYN_MZP', name: 'Naini (NYN) - Mirzapur (MZP)', length_km: 78.4 },
+    { id: 'SEC_MZP_CAR', name: 'Mirzapur (MZP) - Chunar (CAR)', length_km: 31.6 },
+    { id: 'SEC_CAR_DDU', name: 'Chunar (CAR) - Pt. DDU Jn (DDU)', length_km: 31.2 }
   ];
 
-  // 24 Hour timeline hours (0 to 24)
+  // 24 Hour timeline hours (0 to 23)
   const hours = Array.from({ length: 24 }, (_, i) => i);
 
   // Filter blocks
@@ -145,19 +145,22 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
 
       {/* Gantt Timeline Container */}
       <div className="overflow-x-auto border border-slate-800 rounded-xl bg-slate-950/90 shadow-inner">
-        <div className="min-w-[1050px]">
+        <div className="min-w-[1100px]">
           
-          {/* Header Time Axis (0 to 24 Hours) */}
-          <div className="grid grid-cols-25 border-b border-slate-800 bg-slate-900/90 sticky top-0 z-20">
-            <div className="w-48 p-2.5 text-[11px] font-bold uppercase text-slate-400 border-r border-slate-800 bg-slate-900">
-              Corridor Section
+          {/* Header Time Axis (00:00 to 23:00) */}
+          <div
+            className="border-b border-slate-800 bg-slate-900/90 sticky top-0 z-20"
+            style={{ display: 'grid', gridTemplateColumns: '220px 1fr' }}
+          >
+            <div className="p-2.5 text-[11px] font-bold uppercase text-slate-400 border-r border-slate-800 bg-slate-900">
+              Corridor Section (Block)
             </div>
-            <div className="col-span-24 grid grid-cols-24">
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(24, minmax(0, 1fr))' }}>
               {hours.map(h => (
                 <div
                   key={h}
                   className={`p-2 text-center text-[10px] font-mono font-semibold border-r border-slate-800/60 ${
-                    (1 <= h && h <= 5) ? 'bg-indigo-950/30 text-indigo-300 font-bold' : 'text-slate-400'
+                    (1 <= h && h <= 5) ? 'bg-indigo-950/40 text-indigo-300 font-bold' : 'text-slate-400'
                   }`}
                 >
                   {h.toString().padStart(2, '0')}:00
@@ -173,45 +176,51 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
             return (
               <div
                 key={sec.id}
-                className={`grid grid-cols-25 border-b border-slate-800/80 hover:bg-slate-900/30 transition-colors ${
+                className={`border-b border-slate-800/80 hover:bg-slate-900/30 transition-colors ${
                   idx % 2 === 0 ? 'bg-slate-950/40' : 'bg-slate-900/20'
                 }`}
+                style={{ display: 'grid', gridTemplateColumns: '220px 1fr' }}
               >
                 {/* Section Info Header */}
-                <div className="w-48 p-3.5 border-r border-slate-800 flex flex-col justify-center">
+                <div className="p-3.5 border-r border-slate-800 flex flex-col justify-center bg-slate-900/40">
                   <div className="text-xs font-bold text-slate-200 tracking-tight leading-tight">
                     {sec.name}
                   </div>
                   <div className="flex items-center gap-2 mt-1.5">
-                    <span className="text-[10px] text-slate-400 font-mono">
+                    <span className="text-[10px] text-orange-400 font-mono font-semibold">
                       {sec.length_km ? `${sec.length_km} km` : 'High Density'}
                     </span>
                     <span className="text-[10px] bg-slate-800/90 text-slate-300 px-1.5 py-0.2 rounded font-mono">
-                      3 Tracks
+                      3 Lines
                     </span>
                   </div>
                 </div>
 
                 {/* 24-Hour Timeline Grid Cell */}
-                <div className="col-span-24 grid grid-cols-24 relative min-h-[90px] p-1.5">
+                <div className="relative min-h-[90px] p-1.5 overflow-hidden">
                   
-                  {/* Night Shadow Background Marker (01:00 to 05:00) */}
+                  {/* Night Shadow Corridor Background (01:00 to 05:00) */}
                   <div
                     className="absolute top-0 bottom-0 bg-blue-500/5 border-x border-blue-500/10 pointer-events-none z-0"
                     style={{ left: `${(60 / 1440) * 100}%`, width: `${(240 / 1440) * 100}%` }}
                   >
                     <span className="absolute top-1 left-2 text-[9px] font-mono font-bold text-blue-400/40 uppercase">
-                      Night Shadow Corridor
+                      Night Shadow Window (01:00 - 05:00)
                     </span>
                   </div>
 
-                  {/* Vertical Hour Grid Lines */}
-                  {hours.map(h => (
-                    <div key={h} className="border-r border-slate-800/30 h-full pointer-events-none"></div>
-                  ))}
+                  {/* Vertical Hour Grid Lines (24 Columns) */}
+                  <div
+                    className="absolute inset-0 pointer-events-none"
+                    style={{ display: 'grid', gridTemplateColumns: 'repeat(24, minmax(0, 1fr))' }}
+                  >
+                    {hours.map(h => (
+                      <div key={h} className="border-r border-slate-800/30 h-full"></div>
+                    ))}
+                  </div>
 
                   {/* Train Trajectory Ghost Paths */}
-                  {showTrainPaths && (timetable || []).map((t, tIdx) => {
+                  {showTrainPaths && (timetable || []).map((t) => {
                     if (t && t.section_traversal_times && sec.id in t.section_traversal_times) {
                       const tr = t.section_traversal_times[sec.id];
                       if (!tr) return null;
@@ -237,7 +246,7 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
                   {/* Scheduled Possession Blocks */}
                   {secBlocks.map(block => {
                     const leftPct = ((block.scheduled_start_min || 0) / 1440) * 100;
-                    const widthPct = Math.max(2.5, ((block.duration_min || 60) / 1440) * 100);
+                    const widthPct = Math.max(3.5, ((block.duration_min || 60) / 1440) * 100);
                     const isSelected = selectedBlock?.demand_id === block.demand_id;
                     const lineLabel = String(block.line_id || '').replace(/_/g, ' ');
 
@@ -311,7 +320,7 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
               <span className="text-slate-500 block text-[10px]">TIME WINDOW</span>
               <span className="font-bold text-white">
                 {Math.floor(selectedBlock.scheduled_start_min / 60).toString().padStart(2, '0')}:
-                {(selectedBlock.scheduled_start_min % 60).toString().padStart(2, '0')} &rarr;{' '}
+                {(selectedBlock.scheduled_start_min % 60).toString().padStart(2, '0')} →{' '}
                 {Math.floor(selectedBlock.scheduled_end_min / 60).toString().padStart(2, '0')}:
                 {(selectedBlock.scheduled_end_min % 60).toString().padStart(2, '0')}
               </span>

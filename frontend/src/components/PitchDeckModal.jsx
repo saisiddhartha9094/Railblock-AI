@@ -110,7 +110,7 @@ const SLIDES = [
             <span className="text-emerald-400 font-bold">Solved in 0.021s</span>
           </div>
           <p className="text-slate-300 leading-relaxed font-mono text-[11px]">
-            min Cost = &sum;(TrainPriority &times; DelayMins) + &sum;(SplitPossessionPenalty) - &sum;(JointClubbingBonus)
+            {"min Cost = ∑(TrainPriority × DelayMins) + ∑(SplitPossessionPenalty) - ∑(JointClubbingBonus)"}
           </p>
           <p className="text-slate-300">
             When Track Tamping (Civil) and Catenary Inspection (OHE) both demand possessions on Naini-Mirzapur DOWN line, CP-SAT snaps their windows into a single synchronized possession.
@@ -175,7 +175,7 @@ const SLIDES = [
         <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
           <span className="text-blue-400 font-bold block font-mono text-[11px]">Point Machine Diagnostics</span>
           <p className="text-slate-300 text-[11px]">
-            Ingests 50Hz throw current waveforms ($A \text{ vs } t$). Detects dry slide chairs and generates 25-minute S&T micro-blocks before signal failure.
+            Ingests 50Hz throw current waveforms (Current vs Time). Detects dry slide chairs and generates 25-minute S&T micro-blocks before signal failure.
           </p>
           <span className="text-[10px] text-blue-300 font-mono block">RDSO IRS:S 24 Compliant</span>
         </div>
@@ -378,7 +378,9 @@ export default function PitchDeckModal({ isOpen, onClose }) {
           </button>
 
           <span className="font-mono text-xs font-bold text-slate-400">
-            Slide <strong className="text-white">{currentSlide + 1}</strong> of {SLIDES.length} • Use &larr; &rarr; keys
+            {"Slide "}
+            <strong className="text-white">{currentSlide + 1}</strong>
+            {` of ${SLIDES.length} • Use ← → keys`}
           </span>
 
           <button

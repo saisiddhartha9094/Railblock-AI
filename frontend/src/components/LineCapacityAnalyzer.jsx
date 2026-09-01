@@ -14,7 +14,7 @@ export default function LineCapacityAnalyzer() {
     setIsLoading(true);
     try {
       const data = await api.getLineCapacityOverview();
-      setCapacities(data);
+      setCapacities(data || []);
     } catch (err) {
       console.error('Error loading capacity overview:', err);
     } finally {
@@ -34,7 +34,7 @@ export default function LineCapacityAnalyzer() {
               Line Capacity Analyzer (Indian Railways Scott Formula)
             </h2>
             <span className="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold px-2 py-0.5 rounded-full font-mono">
-              C = (1440 / (T + t)) &times; E
+              {"C = (1440 / (T + t)) × E"}
             </span>
           </div>
           <p className="text-xs text-slate-400 mt-0.5">
@@ -46,7 +46,7 @@ export default function LineCapacityAnalyzer() {
           onClick={loadCapacities}
           className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-950 hover:bg-slate-800 border border-slate-800 rounded-xl text-xs font-semibold text-slate-300 transition-all"
         >
-          <RefreshCw className="w-3.5 h-3.5" />
+          <RefreshCw className={`w-3.5 h-3.5 ${isLoading ? 'animate-spin' : ''}`} />
           <span>Recalculate Scott Index</span>
         </button>
       </div>
@@ -79,7 +79,7 @@ export default function LineCapacityAnalyzer() {
                 </td>
 
                 <td className="p-3 text-[11px] text-slate-300">
-                  T={c.formula_parameters.running_time_T_min}m • t={c.formula_parameters.block_operation_t_min}m • E={c.formula_parameters.efficiency_factor_E}
+                  {`T=${c.formula_parameters?.running_time_T_min || 0}m • t=${c.formula_parameters?.block_operation_t_min || 0}m • E=${c.formula_parameters?.efficiency_factor_E || 0.75}`}
                 </td>
 
                 <td className="p-3 font-bold text-emerald-400">

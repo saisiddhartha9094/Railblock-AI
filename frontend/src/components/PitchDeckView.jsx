@@ -63,7 +63,7 @@ const SLIDES = [
             <li className="flex items-start gap-2">• <span><strong>Multi-Objective CP-SAT Solver:</strong> Automatically balances maintenance demands with passenger train timetables.</span></li>
             <li className="flex items-start gap-2">• <span><strong>Joint Block Clubbing (62.5%):</strong> Combines Civil, OHE, and S&T works into unified multi-gang windows.</span></li>
             <li className="flex items-start gap-2">• <span><strong>25kV OHE Power Interlocking:</strong> Automatically enforces electrical isolation safety rules per ACTM Vol II.</span></li>
-            <li className="flex items-start gap-2">• <span><strong>Recovers 2,506 Daily Delay Minutes:</strong> Boosts corridor Asset Availability Index from <strong>60.0% &rarr; 88.5%</strong>.</span></li>
+            <li className="flex items-start gap-2">• <span><strong>Recovers 2,506 Daily Delay Minutes:</strong> Boosts corridor Asset Availability Index from <strong>60.0% → 88.5%</strong>.</span></li>
           </ul>
         </div>
       </div>
@@ -120,7 +120,7 @@ const SLIDES = [
             <span className="text-emerald-400 font-bold">Solved in 0.021s</span>
           </div>
           <p className="text-slate-300 leading-relaxed font-mono text-xs bg-slate-900 p-3 rounded-xl border border-slate-800">
-            min Cost = &sum;(TrainPriority &times; DelayMins) + &sum;(SplitPossessionPenalty) - &sum;(JointClubbingBonus)
+            {"min Cost = ∑(TrainPriority × DelayMins) + ∑(SplitPossessionPenalty) - ∑(JointClubbingBonus)"}
           </p>
           <p className="text-slate-300 text-xs md:text-sm">
             When Track Tamping (Civil) and Catenary Inspection (OHE) both demand possessions on Naini-Mirzapur DOWN line, CP-SAT snaps their windows into a single synchronized possession window.
@@ -185,7 +185,7 @@ const SLIDES = [
         <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
           <span className="text-blue-400 font-bold block font-mono text-xs">Point Machine Diagnostics</span>
           <p className="text-slate-300 text-xs leading-relaxed">
-            Ingests 50Hz throw current waveforms ($A \text{ vs } t$). Detects dry slide chairs and generates 25-minute S&T micro-blocks before signal failure occurs.
+            {"Ingests 50Hz throw current waveforms (A vs t). Detects dry slide chairs and generates 25-minute S&T micro-blocks before signal failure occurs."}
           </p>
           <span className="text-[10px] text-blue-300 font-mono block bg-blue-950/40 px-2 py-1 rounded border border-blue-500/30">
             RDSO IRS:S 24 Compliant
@@ -372,7 +372,9 @@ export default function PitchDeckView() {
         </button>
 
         <span className="font-mono text-xs font-bold text-slate-400">
-          Slide <strong className="text-white">{currentSlide + 1}</strong> of {SLIDES.length} • Use Arrow Keys &larr; &rarr;
+          {"Slide "}
+          <strong className="text-white">{currentSlide + 1}</strong>
+          {` of ${SLIDES.length} • Use Arrow Keys ← →`}
         </span>
 
         <button

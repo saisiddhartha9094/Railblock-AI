@@ -34,7 +34,7 @@ export default function TsrRecoveryCurve() {
             </span>
           </div>
           <p className="text-xs text-slate-400 mt-0.5">
-            Models post-possession track settlement and speed relaxation stages: 30 km/h (Day 1) &rarr; 60 km/h (Day 2) &rarr; 100 km/h (Day 3) &rarr; 130 km/h (Day 4).
+            {"Models post-possession track settlement and speed relaxation stages: 30 km/h (Day 1) → 60 km/h (Day 2) → 100 km/h (Day 3) → 130 km/h (Day 4)."}
           </p>
         </div>
 
@@ -47,7 +47,7 @@ export default function TsrRecoveryCurve() {
       </div>
 
       {/* 4-Day Speed Step Ramp Visualizer */}
-      {tsrData && (
+      {tsrData && tsrData.recovery_days && (
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {tsrData.recovery_days.map(d => (
             <div
@@ -68,7 +68,7 @@ export default function TsrRecoveryCurve() {
               </div>
 
               <div className="text-xs font-semibold text-slate-300 mb-3 truncate">
-                {d.settlement_status.replace(/_/g, ' ')}
+                {String(d.settlement_status || '').replace(/_/g, ' ')}
               </div>
 
               {/* Step Progress Bar */}

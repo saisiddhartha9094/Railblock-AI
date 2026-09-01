@@ -1,9 +1,25 @@
-import React, { useState } from 'react';
-import { Presentation, ChevronLeft, ChevronRight, CheckCircle2, Sparkles, Trophy, Award, ShieldCheck, Download } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Presentation, ChevronLeft, ChevronRight, CheckCircle2, Sparkles, Trophy, Award, ShieldCheck, Download, X } from 'lucide-react';
 import { api } from '../services/api';
 
 export default function PitchDeckModal({ isOpen, onClose }) {
   const [currentSlide, setCurrentSlide] = useState(0);
+
+  // Keyboard navigation support
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e) => {
+      if (e.key === 'ArrowRight' || e.key === 'Space') {
+        setCurrentSlide(prev => Math.min(slides.length - 1, prev + 1));
+      } else if (e.key === 'ArrowLeft') {
+        setCurrentSlide(prev => Math.max(0, prev - 1));
+      } else if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 
@@ -13,19 +29,26 @@ export default function PitchDeckModal({ isOpen, onClose }) {
       subtitle: "AI-Powered Automatic Block Planning to Maximize Asset Availability on Indian Railways",
       badge: "PS CODE: SIH26027 • MINISTRY OF RAILWAYS",
       content: (
-        <div className="space-y-4 text-center py-6">
-          <div className="text-4xl font-black bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-amber-200 to-white">
+        <div className="space-y-4 text-center py-4">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/15 border border-orange-500/40 text-orange-400 font-mono text-xs font-extrabold shadow-sm">
+            <Trophy className="w-3.5 h-3.5 text-amber-300" />
+            SMART INDIA HACKATHON 2024 / 2025
+          </div>
+          <div className="text-3xl md:text-4xl font-black bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-amber-200 to-white leading-tight">
             Transforming Indian Railways Maintenance Planning
           </div>
-          <p className="text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
-            From fragmented manual paper block registers to an enterprise mathematical constraint optimizer with Google OR-Tools CP-SAT, SimPy, and CRIS integration.
+          <p className="text-xs md:text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
+            From fragmented manual paper block registers to an enterprise mathematical constraint optimizer with <strong>Google OR-Tools CP-SAT</strong>, <strong>SimPy Simulation</strong>, and <strong>CRIS COA</strong> integration.
           </p>
-          <div className="flex justify-center gap-3 pt-4">
-            <span className="px-3 py-1 bg-orange-500/20 text-orange-400 border border-orange-500/40 rounded-full font-mono text-xs font-bold">
-              Prayagraj Division (NCR) Grounding
+          <div className="flex flex-wrap justify-center gap-2 pt-2">
+            <span className="px-3 py-1 bg-slate-950 text-orange-400 border border-orange-500/40 rounded-xl font-mono text-xs font-bold">
+              Prayagraj Division (NCR Grounding)
             </span>
-            <span className="px-3 py-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 rounded-full font-mono text-xs font-bold">
+            <span className="px-3 py-1 bg-slate-950 text-emerald-400 border border-emerald-500/40 rounded-xl font-mono text-xs font-bold">
               641+ Station National Graph
+            </span>
+            <span className="px-3 py-1 bg-slate-950 text-blue-400 border border-blue-500/40 rounded-xl font-mono text-xs font-bold">
+              CP-SAT Solved in 0.02s
             </span>
           </div>
         </div>
@@ -36,23 +59,23 @@ export default function PitchDeckModal({ isOpen, onClose }) {
       subtitle: "Manual Block Planning Causes Severe Network Congestion",
       badge: "PROBLEM LANDSCAPE",
       content: (
-        <div className="grid grid-cols-2 gap-4 text-xs">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
           <div className="p-4 bg-red-950/20 border border-red-500/40 rounded-2xl space-y-2">
             <h4 className="font-extrabold text-red-300 text-sm">❌ The Existing Manual Reality</h4>
-            <ul className="space-y-2 text-slate-300">
+            <ul className="space-y-1.5 text-slate-300">
               <li>• 4 Departments (Civil, OHE, Signal, Traffic) work in silos.</li>
               <li>• Tracks closed 3 separate times for 3 separate teams.</li>
               <li>• Unscheduled emergency blocks disrupt Rajdhani & Vande Bharat.</li>
-              <li>• Freight rakes held indefinitely on loop lines incurring heavy demurrage.</li>
+              <li>• Freight rakes held on loops incurring heavy demurrage.</li>
             </ul>
           </div>
           <div className="p-4 bg-emerald-950/20 border border-emerald-500/40 rounded-2xl space-y-2">
             <h4 className="font-extrabold text-emerald-300 text-sm">✅ The RailBlock-AI Solution</h4>
-            <ul className="space-y-2 text-slate-300">
+            <ul className="space-y-1.5 text-slate-300">
               <li>• Mathematical Google OR-Tools CP-SAT multi-department solver.</li>
               <li>• <strong>Joint Block Clubbing (62.5%):</strong> Combines works into unified windows.</li>
-              <li>• 25kV OHE power isolation automatically interlocked with train routing.</li>
-              <li>• Recovers <strong>2,506 minutes of delays every day</strong> (+28.5% AAI gain).</li>
+              <li>• 25kV OHE power isolation interlocked with train routing.</li>
+              <li>• Recovers <strong>2,506 minutes of delays daily</strong> (+28.5% AAI gain).</li>
             </ul>
           </div>
         </div>
@@ -63,36 +86,36 @@ export default function PitchDeckModal({ isOpen, onClose }) {
       subtitle: "Full-Stack Enterprise Decision Support Platform",
       badge: "ARCHITECTURE & TECH STACK",
       content: (
-        <div className="grid grid-cols-3 gap-3 text-xs font-mono">
-          <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-2.5 text-xs font-mono">
+          <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
             <span className="text-orange-400 font-bold block text-[11px]">Constraint Solver</span>
             <span className="text-white font-bold block">Google OR-Tools CP-SAT</span>
-            <p className="text-[10px] text-slate-400 font-sans">Solves multi-objective delay penalties & RDSO safety norms in 0.02s.</p>
+            <p className="text-[10px] text-slate-400 font-sans">Solves multi-objective delay penalties & safety norms in 0.02s.</p>
           </div>
-          <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
+          <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
             <span className="text-emerald-400 font-bold block text-[11px]">Simulation Core</span>
             <span className="text-white font-bold block">SimPy Discrete-Event</span>
-            <p className="text-[10px] text-slate-400 font-sans">Simulates dynamic train progression & station loop siding holds.</p>
+            <p className="text-[10px] text-slate-400 font-sans">Simulates dynamic train progression & station loop holds.</p>
           </div>
-          <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
+          <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
             <span className="text-blue-400 font-bold block text-[11px]">Backend API</span>
             <span className="text-white font-bold block">FastAPI + Python 3.11</span>
-            <p className="text-[10px] text-slate-400 font-sans">High-throughput asynchronous REST APIs & CRIS COA XML exporter.</p>
+            <p className="text-[10px] text-slate-400 font-sans">High-throughput REST APIs & CRIS COA XML exporter.</p>
           </div>
-          <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
+          <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
             <span className="text-amber-400 font-bold block text-[11px]">Frontend Cockpit</span>
-            <span className="text-white font-bold block">React 18 + Vite 5 + Tailwind</span>
-            <p className="text-[10px] text-slate-400 font-sans">24-hour Gantt matrix, GIS schematic visualizer, and dark-theme UI.</p>
+            <span className="text-white font-bold block">React 18 + Vite + Tailwind</span>
+            <p className="text-[10px] text-slate-400 font-sans">24-hr Gantt matrix, GIS visualizer, and dark UI.</p>
           </div>
-          <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
+          <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
             <span className="text-indigo-400 font-bold block text-[11px]">National Graph</span>
             <span className="text-white font-bold block">641 Stations & Trunks</span>
-            <p className="text-[10px] text-slate-400 font-sans">Sub-millisecond fuzzy search and Golden Quadrilateral trunk routes.</p>
+            <p className="text-[10px] text-slate-400 font-sans">Fuzzy search and Golden Quadrilateral trunk routes.</p>
           </div>
-          <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
+          <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
             <span className="text-red-400 font-bold block text-[11px]">Indic Voice NLP</span>
             <span className="text-white font-bold block">6 Indian Languages</span>
-            <p className="text-[10px] text-slate-400 font-sans">Hindi, Bengali, Telugu, Tamil, Marathi, and English speech intent parsing.</p>
+            <p className="text-[10px] text-slate-400 font-sans">Hindi, Bengali, Telugu, Tamil, Marathi, English intent parsing.</p>
           </div>
         </div>
       )
@@ -116,15 +139,15 @@ export default function PitchDeckModal({ isOpen, onClose }) {
             </p>
           </div>
           <div className="grid grid-cols-3 gap-2 text-center font-mono">
-            <div className="p-2 bg-slate-950 rounded-xl border border-slate-800">
+            <div className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
               <span className="text-slate-500 text-[10px] block">Clubbing Ratio</span>
               <span className="text-xl font-bold text-emerald-400">62.5%</span>
             </div>
-            <div className="p-2 bg-slate-950 rounded-xl border border-slate-800">
+            <div className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
               <span className="text-slate-500 text-[10px] block">Safety Conflicts</span>
               <span className="text-xl font-bold text-blue-400">0 Violations</span>
             </div>
-            <div className="p-2 bg-slate-950 rounded-xl border border-slate-800">
+            <div className="p-2.5 bg-slate-950 rounded-xl border border-slate-800">
               <span className="text-slate-500 text-[10px] block">AAI Score Gain</span>
               <span className="text-xl font-bold text-orange-400">+28.5%</span>
             </div>
@@ -137,9 +160,9 @@ export default function PitchDeckModal({ isOpen, onClose }) {
       subtitle: "Single Executive Metric for Railway Board & GMs",
       badge: "EXECUTIVE METRIC",
       content: (
-        <div className="grid grid-cols-2 gap-4 text-xs font-mono">
-          <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
-            <span className="text-slate-400 text-[10px] block">Overall Composite AAI</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
+          <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2 flex flex-col justify-center">
+            <span className="text-slate-400 text-[10px] block font-sans">Overall Composite AAI</span>
             <span className="text-4xl font-black text-emerald-400">88.5%</span>
             <span className="text-[11px] text-slate-300 block font-sans">Baseline Manual Planning: <strong>60.0%</strong></span>
             <span className="text-xs text-emerald-300 block font-bold">+28.5% Net Corridor Throughput</span>
@@ -170,7 +193,7 @@ export default function PitchDeckModal({ isOpen, onClose }) {
       subtitle: "Point Machine Oscilloscope & TRC/USFD Auto-Demands",
       badge: "PREDICTIVE MAINTENANCE",
       content: (
-        <div className="grid grid-cols-2 gap-3 text-xs">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
           <div className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 space-y-1.5">
             <span className="text-blue-400 font-bold block font-mono text-[11px]">Point Machine Diagnostics</span>
             <p className="text-slate-300 text-[11px]">
@@ -193,7 +216,7 @@ export default function PitchDeckModal({ isOpen, onClose }) {
       subtitle: "Kavach HUD, FOIS Demurrage & CMS HOER 10h Duty",
       badge: "CRIS ENTERPRISE INTEGRATION",
       content: (
-        <div className="grid grid-cols-3 gap-2 text-xs font-mono">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2 text-xs font-mono">
           <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
             <span className="text-emerald-400 font-bold block text-[11px]">Kavach ATP HUD</span>
             <p className="text-[10px] text-slate-300 font-sans">Live driver cab signal aspects & speed enforcement before maintenance zones.</p>
@@ -214,7 +237,7 @@ export default function PitchDeckModal({ isOpen, onClose }) {
       subtitle: "Scott Line Capacity, Machine Dispatcher & CRIS COA Export",
       badge: "TIER-3 PRODUCTION",
       content: (
-        <div className="grid grid-cols-3 gap-2 text-xs font-mono">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2 text-xs font-mono">
           <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
             <span className="text-emerald-400 font-bold block text-[11px]">Scott Capacity Engine</span>
             <p className="text-[10px] text-slate-300 font-sans">Calculates 24-hr line capacity drops & 3rd-line bi-directional bypass.</p>
@@ -235,7 +258,7 @@ export default function PitchDeckModal({ isOpen, onClose }) {
       subtitle: "CBUI, PLA & Immutable CRIS TMS Audit Logs",
       badge: "AUDIT READINESS",
       content: (
-        <div className="grid grid-cols-2 gap-4 text-xs">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
           <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
             <h4 className="font-bold text-white text-sm">📄 Official Reports Generated</h4>
             <ul className="space-y-1.5 text-slate-300 text-[11px]">
@@ -258,8 +281,8 @@ export default function PitchDeckModal({ isOpen, onClose }) {
       subtitle: "Winning Smart India Hackathon (SIH26027)",
       badge: "CONCLUSION & ROI",
       content: (
-        <div className="space-y-4 text-center py-4">
-          <div className="grid grid-cols-4 gap-2 font-mono">
+        <div className="space-y-4 text-center py-3">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 font-mono">
             <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
               <span className="text-slate-500 text-[9px] block font-sans">Delays Avoided</span>
               <span className="text-lg font-black text-emerald-400">2,506 min/day</span>
@@ -278,7 +301,7 @@ export default function PitchDeckModal({ isOpen, onClose }) {
             </div>
           </div>
           <p className="text-xs text-slate-300 max-w-lg mx-auto">
-            RailBlock-AI is ready for pilot deployment in Prayagraj Division (NCR) and scalable across all 68 divisions of Indian Railways.
+            RailBlock-AI is production-ready for pilot deployment in Prayagraj Division (NCR) and scalable across all 68 divisions of Indian Railways.
           </p>
         </div>
       )
@@ -288,26 +311,56 @@ export default function PitchDeckModal({ isOpen, onClose }) {
   const current = slides[currentSlide];
 
   return (
-    <div className="fixed inset-0 bg-black/90 backdrop-blur-md z-50 flex items-center justify-center p-4">
-      <div className="bg-slate-900 border border-slate-800 rounded-3xl max-w-3xl w-full p-8 shadow-2xl animate-scaleUp flex flex-col justify-between min-h-[500px]">
+    <div
+      className="fixed inset-0 bg-black/90 backdrop-blur-md z-[9999] flex items-center justify-center p-4 animate-fadeIn"
+      onClick={onClose}
+    >
+      <div
+        className="bg-slate-900 border border-slate-800 rounded-3xl max-w-3xl w-full p-6 md:p-8 shadow-2xl animate-scaleUp flex flex-col justify-between min-h-[520px] relative max-h-[90vh] overflow-y-auto"
+        onClick={(e) => e.stopPropagation()}
+      >
         
         {/* Top Header */}
         <div className="flex items-center justify-between pb-4 border-b border-slate-800">
           <div className="flex items-center gap-3">
-            <div className="p-2 rounded-xl bg-orange-500/20 text-orange-400 border border-orange-500/40">
+            <div className="p-2 rounded-xl bg-gradient-to-br from-purple-600 to-indigo-600 text-white shadow-md shadow-purple-500/20">
               <Presentation className="w-5 h-5" />
             </div>
             <div>
-              <span className="text-[10px] font-mono font-bold text-orange-400 uppercase tracking-wider block">
+              <span className="text-[10px] font-mono font-bold text-purple-400 uppercase tracking-wider block">
                 {current.badge}
               </span>
-              <h2 className="text-lg font-extrabold text-white">{current.title}</h2>
+              <h2 className="text-base md:text-lg font-extrabold text-white">{current.title}</h2>
               <p className="text-xs text-slate-400">{current.subtitle}</p>
             </div>
           </div>
-          <button onClick={onClose} className="text-slate-400 hover:text-white text-xs font-bold px-2 py-1 bg-slate-800 rounded-lg">
-            ✕ Exit Deck
-          </button>
+
+          <div className="flex items-center gap-2">
+            {/* Quick slide jumper numbers */}
+            <div className="hidden sm:flex items-center gap-1">
+              {slides.map((_, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setCurrentSlide(idx)}
+                  className={`w-6 h-6 rounded text-[10px] font-mono font-bold transition-all ${
+                    currentSlide === idx
+                      ? 'bg-orange-500 text-white'
+                      : 'bg-slate-800 text-slate-400 hover:text-white'
+                  }`}
+                >
+                  {idx + 1}
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={onClose}
+              className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-all ml-2"
+              title="Close Pitch Deck (Esc)"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          </div>
         </div>
 
         {/* Slide Body */}
@@ -326,7 +379,7 @@ export default function PitchDeckModal({ isOpen, onClose }) {
           </button>
 
           <span className="font-mono text-xs font-bold text-slate-400">
-            Slide {currentSlide + 1} of {slides.length}
+            Slide <strong className="text-white">{currentSlide + 1}</strong> of {slides.length} • Use &larr; &rarr; keys
           </span>
 
           <button

@@ -18,9 +18,11 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
   const hours = Array.from({ length: 24 }, (_, i) => i);
 
   // Filter blocks
-  const filteredBlocks = scheduledBlocks.filter(b => {
+  const filteredBlocks = (scheduledBlocks || []).filter(b => {
+    if (!b) return false;
     if (selectedDeptFilter !== 'ALL' && b.department !== selectedDeptFilter) return false;
-    if (selectedLineFilter !== 'ALL' && !b.line_id.includes(selectedLineFilter)) return false;
+    const lineStr = String(b.line_id || '');
+    if (selectedLineFilter !== 'ALL' && !lineStr.includes(selectedLineFilter)) return false;
     return true;
   });
 
@@ -46,7 +48,7 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
       case 'ELECTRICAL_OHE': return 'OHE';
       case 'SIGNAL_TELECOM': return 'S&T';
       case 'TRAFFIC_OPERATING': return 'TRAFFIC';
-      default: return dept;
+      default: return dept || 'BLOCK';
     }
   };
 
@@ -166,7 +168,7 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
 
           {/* Section Rows */}
           {sections.map((sec, idx) => {
-            const secBlocks = filteredBlocks.filter(b => b.section_id === sec.id);
+            const secBlocks = filteredBlocks.filter(b => b && b.section_id === sec.id);
 
             return (
               <div
@@ -209,13 +211,14 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
                   ))}
 
                   {/* Train Trajectory Ghost Paths */}
-                  {showTrainPaths && timetable.map((t, tIdx) => {
-                    if (sec.id in t.section_traversal_times) {
+                  {showTrainPaths && (timetable || []).map((t, tIdx) => {
+                    if (t && t.section_traversal_times && sec.id in t.section_traversal_times) {
                       const tr = t.section_traversal_times[sec.id];
+                      if (!tr) return null;
                       const leftPct = (tr.entry_min / 1440) * 100;
                       const widthPct = Math.max(0.8, ((tr.exit_min - tr.entry_min) / 1440) * 100);
                       const isPremium = t.category === 'VANDE_BHARAT' || t.category === 'RAJDHANI';
-                      const isFreight = t.category.includes('FREIGHT');
+                      const isFreight = String(t.category || '').includes('FREIGHT');
 
                       return (
                         <div
@@ -233,14 +236,15 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
 
                   {/* Scheduled Possession Blocks */}
                   {secBlocks.map(block => {
-                    const leftPct = (block.scheduled_start_min / 1440) * 100;
-                    const widthPct = Math.max(2.5, (block.duration_min / 1440) * 100);
+                    const leftPct = ((block.scheduled_start_min || 0) / 1440) * 100;
+                    const widthPct = Math.max(2.5, ((block.duration_min || 60) / 1440) * 100);
                     const isSelected = selectedBlock?.demand_id === block.demand_id;
+                    const lineLabel = String(block.line_id || '').replace(/_/g, ' ');
 
                     return (
                       <div
                         key={block.demand_id}
-                        onClick={() => onBlockSelect(block)}
+                        onClick={() => onBlockSelect && onBlockSelect(block)}
                         style={{ left: `${leftPct}%`, width: `${widthPct}%` }}
                         className={`absolute top-6 bottom-2 rounded-xl p-2 cursor-pointer transition-all duration-200 border z-10 flex flex-col justify-between overflow-hidden group hover:scale-[1.02] hover:z-30 ${getDeptColor(
                           block.department,
@@ -262,7 +266,7 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
                         </div>
 
                         <div className="flex items-center justify-between text-[9px] text-white/80 font-mono mt-0.5">
-                          <span>{block.line_id.replace('_', ' ')}</span>
+                          <span>{lineLabel}</span>
                           {block.is_clubbed ? (
                             <span className="font-bold text-amber-200 bg-black/30 px-1 rounded">JOINT</span>
                           ) : (
@@ -272,79 +276,49 @@ export default function BlockGanttMatrix({ scheduledBlocks = [], timetable = [],
                       </div>
                     );
                   })}
-
                 </div>
               </div>
             );
           })}
-
         </div>
       </div>
 
-      {/* Selected Block Inspection Drawer */}
+      {/* Selected Block Quick Inspector Card */}
       {selectedBlock && (
-        <div className="mt-5 p-5 bg-slate-950 border border-slate-800 rounded-2xl shadow-xl animate-fadeIn">
-          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-3 border-b border-slate-800/80">
+        <div className="mt-5 p-4 rounded-xl bg-slate-950 border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4 animate-slideUp">
+          <div className="flex items-start gap-3">
+            <div className={`p-2.5 rounded-lg text-white ${getDeptColor(selectedBlock.department, selectedBlock.is_clubbed)}`}>
+              <Layers className="w-5 h-5" />
+            </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="bg-orange-500/20 text-orange-400 border border-orange-500/40 text-xs font-mono font-bold px-2 py-0.5 rounded">
-                  {selectedBlock.demand_id}
-                </span>
-                <h3 className="text-sm font-extrabold text-white">
-                  {selectedBlock.work_description}
-                </h3>
+                <span className="text-xs font-mono font-bold text-slate-400">{selectedBlock.demand_id}</span>
+                <span className="font-bold text-white text-sm">{selectedBlock.work_description}</span>
                 {selectedBlock.is_clubbed && (
-                  <span className="bg-amber-500/20 text-amber-300 border border-amber-500/50 text-[11px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1">
-                    <Sparkles className="w-3 h-3 text-amber-300" />
-                    Joint Multi-Department Window
+                  <span className="bg-amber-500/20 text-amber-300 border border-amber-500/40 text-[10px] font-bold px-2 py-0.5 rounded font-mono">
+                    JOINT POSSESSION
                   </span>
                 )}
               </div>
               <p className="text-xs text-slate-400 mt-1">
-                Section: <span className="text-slate-200 font-semibold">{selectedBlock.section_id}</span> • Line: <span className="text-slate-200 font-semibold">{selectedBlock.line_id}</span> • Duration: <span className="text-slate-200 font-semibold">{selectedBlock.duration_min} min</span>
+                {selectedBlock.justification || 'Standard corridor maintenance window allocated by CP-SAT optimizer.'}
               </p>
-            </div>
-
-            <div className="flex items-center gap-2">
-              <span className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold px-3 py-1.5 rounded-lg flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                RDSO / ACTM Safety Certified
-              </span>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 text-xs">
-            <div className="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
-              <span className="text-slate-400 font-medium block mb-1">Scheduled Time Window</span>
-              <span className="font-mono font-bold text-white text-sm">
-                {Math.floor(selectedBlock.scheduled_start_min / 60).toString().padStart(2, '0')}:{(selectedBlock.scheduled_start_min % 60).toString().padStart(2, '0')} - {Math.floor(selectedBlock.scheduled_end_min / 60).toString().padStart(2, '0')}:{(selectedBlock.scheduled_end_min % 60).toString().padStart(2, '0')} IST
+          <div className="flex items-center gap-4 text-xs font-mono">
+            <div className="text-right">
+              <span className="text-slate-500 block text-[10px]">TIME WINDOW</span>
+              <span className="font-bold text-white">
+                {Math.floor(selectedBlock.scheduled_start_min / 60).toString().padStart(2, '0')}:
+                {(selectedBlock.scheduled_start_min % 60).toString().padStart(2, '0')} &rarr;{' '}
+                {Math.floor(selectedBlock.scheduled_end_min / 60).toString().padStart(2, '0')}:
+                {(selectedBlock.scheduled_end_min % 60).toString().padStart(2, '0')}
               </span>
-              <p className="text-[11px] text-slate-500 mt-1">Optimized in low-traffic shadow corridor</p>
             </div>
-
-            <div className="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
-              <span className="text-slate-400 font-medium block mb-1">AI Mathematical Justification</span>
-              <p className="text-slate-300 font-medium leading-snug">
-                {selectedBlock.justification || 'Placed in optimal shadow window avoiding Rajdhani & Vande Bharat priority corridors.'}
-              </p>
-            </div>
-
-            <div className="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
-              <span className="text-slate-400 font-medium block mb-1">Departmental Concurrence</span>
-              <div className="space-y-1 mt-1">
-                <div className="flex justify-between items-center text-[11px]">
-                  <span className="text-slate-400">Civil SSE Sign-off:</span>
-                  <span className="text-emerald-400 font-bold flex items-center gap-1">
-                    <CheckCircle className="w-3 h-3" /> Signed
-                  </span>
-                </div>
-                <div className="flex justify-between items-center text-[11px]">
-                  <span className="text-slate-400">OHE / TRD Sign-off:</span>
-                  <span className="text-emerald-400 font-bold flex items-center gap-1">
-                    <CheckCircle className="w-3 h-3" /> Signed
-                  </span>
-                </div>
-              </div>
+            <div className="text-right">
+              <span className="text-slate-500 block text-[10px]">SECTION</span>
+              <span className="font-bold text-orange-400">{selectedBlock.section_id}</span>
             </div>
           </div>
         </div>

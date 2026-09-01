@@ -8,8 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      window.addEventListener('error', function(e) {
+        var el = document.getElementById('debug-error-box');
+        if (el) {
+          el.style.display = 'block';
+          el.innerHTML = '<div style="background:#450a0a;color:#fca5a5;padding:20px;margin:20px;border-radius:12px;font-family:monospace;border:2px solid #ef4444;">' +
+            '<h3 style="margin-top:0;">⚠️ JavaScript Runtime Error</h3>' +
+            '<p><strong>' + (e.message || 'Error occurred') + '</strong></p>' +
+            '<p style="font-size:11px;color:#cbd5e1;">' + (e.filename || '') + ':' + (e.lineno || '') + '</p>' +
+            '<pre style="background:#1e293b;padding:10px;border-radius:6px;overflow:auto;max-height:200px;font-size:11px;color:#fff;">' + (e.error ? e.error.stack : '') + '</pre>' +
+            '</div>';
+        }
+      });
+    </script>
   </head>
   <body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-orange-500 selection:text-white">
+    <div id="debug-error-box" style="display:none;"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

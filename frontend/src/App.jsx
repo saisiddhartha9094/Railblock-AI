@@ -5,6 +5,10 @@ import AAIStatsCards from './components/AAIStatsCards';
 import BlockGanttMatrix from './components/BlockGanttMatrix';
 import CorridorVisualizer from './components/CorridorVisualizer';
 import NationalStationDirectory from './components/NationalStationDirectory';
+import LineCapacityAnalyzer from './components/LineCapacityAnalyzer';
+import MachineLogisticsPanel from './components/MachineLogisticsPanel';
+import TsrRecoveryCurve from './components/TsrRecoveryCurve';
+import YardInterlockingMatrix from './components/YardInterlockingMatrix';
 import WhatIfSimulator from './components/WhatIfSimulator';
 import DemandPortal from './components/DemandPortal';
 import PointMachineDiagnostics from './components/PointMachineDiagnostics';
@@ -13,6 +17,7 @@ import KavachTelemetryPanel from './components/KavachTelemetryPanel';
 import FreightSlaTracker from './components/FreightSlaTracker';
 import CrewDutyMonitor from './components/CrewDutyMonitor';
 import VoiceAssistantModal from './components/VoiceAssistantModal';
+import PitchDeckModal from './components/PitchDeckModal';
 import ComplianceReportViewer from './components/ComplianceReportViewer';
 import EmergencyModal from './components/EmergencyModal';
 import DecisionExplainability from './components/DecisionExplainability';
@@ -31,6 +36,7 @@ export default function App() {
   const [isOptimizing, setIsOptimizing] = useState(false);
   const [isEmergencyModalOpen, setIsEmergencyModalOpen] = useState(false);
   const [isVoiceModalOpen, setIsVoiceModalOpen] = useState(false);
+  const [isPitchDeckOpen, setIsPitchDeckOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState(null);
 
   useEffect(() => {
@@ -115,6 +121,7 @@ export default function App() {
       <Header
         onTriggerEmergency={() => setIsEmergencyModalOpen(true)}
         onTriggerVoice={() => setIsVoiceModalOpen(true)}
+        onTriggerPitchDeck={() => setIsPitchDeckOpen(true)}
         onRunOptimization={handleRunOptimization}
         isOptimizing={isOptimizing}
         aaiScore={aaiData?.overall_aai_score}
@@ -158,12 +165,32 @@ export default function App() {
           <NationalStationDirectory />
         )}
 
-        {/* Tab 4: What-If Simulation Sandbox */}
+        {/* Tab 4: Scott Formula Line Capacity Engine */}
+        {activeTab === 'capacity' && (
+          <LineCapacityAnalyzer />
+        )}
+
+        {/* Tab 5: Track Machine Fleet Dispatcher */}
+        {activeTab === 'machines' && (
+          <MachineLogisticsPanel />
+        )}
+
+        {/* Tab 6: TSR 4-Day Recovery Modeler */}
+        {activeTab === 'tsr' && (
+          <TsrRecoveryCurve />
+        )}
+
+        {/* Tab 7: Station Yard Platform Interlocking */}
+        {activeTab === 'yard' && (
+          <YardInterlockingMatrix />
+        )}
+
+        {/* Tab 8: What-If Simulation Sandbox */}
         {activeTab === 'whatif' && (
           <WhatIfSimulator corridor={corridor} />
         )}
 
-        {/* Tab 5: Multi-Dept Demand Register & Joint Sign-off */}
+        {/* Tab 9: Multi-Dept Demand Register & Joint Sign-off */}
         {activeTab === 'demands' && (
           <DemandPortal
             demands={demands}
@@ -172,42 +199,48 @@ export default function App() {
           />
         )}
 
-        {/* Tab 6: Point Machine Diagnostics */}
+        {/* Tab 10: Point Machine Diagnostics */}
         {activeTab === 'pointmachine' && (
           <PointMachineDiagnostics onDemandGenerated={loadAllData} />
         )}
 
-        {/* Tab 7: TRC & USFD Track Flaw Heatmap */}
+        {/* Tab 11: TRC & USFD Track Flaw Heatmap */}
         {activeTab === 'trc' && (
           <TrackHealthHeatmap onDemandGenerated={loadAllData} />
         )}
 
-        {/* Tab 8: Kavach ATP Cab Signalling Panel */}
+        {/* Tab 12: Kavach ATP Cab Signalling Panel */}
         {activeTab === 'kavach' && (
           <KavachTelemetryPanel />
         )}
 
-        {/* Tab 9: FOIS Freight Supply Chain SLA Tracker */}
+        {/* Tab 13: FOIS Freight Supply Chain SLA Tracker */}
         {activeTab === 'fois' && (
           <FreightSlaTracker />
         )}
 
-        {/* Tab 10: CMS Crew Duty & HOER Tracker */}
+        {/* Tab 14: CMS Crew Duty & HOER Tracker */}
         {activeTab === 'cms' && (
           <CrewDutyMonitor />
         )}
 
-        {/* Tab 11: Official CBUI & PLA Compliance Reports */}
+        {/* Tab 15: Official CBUI & PLA Compliance Reports */}
         {activeTab === 'reports' && (
           <ComplianceReportViewer />
         )}
 
-        {/* Tab 12: AI Explainability & Audit Log */}
+        {/* Tab 16: AI Explainability & Audit Log */}
         {activeTab === 'explain' && (
           <DecisionExplainability scheduledBlocks={scheduledBlocks} />
         )}
 
       </main>
+
+      {/* 10-Slide Pitch Deck Modal */}
+      <PitchDeckModal
+        isOpen={isPitchDeckOpen}
+        onClose={() => setIsPitchDeckOpen(false)}
+      />
 
       {/* Voice Assistant Modal */}
       <VoiceAssistantModal
@@ -231,7 +264,7 @@ export default function App() {
             Smart India Hackathon (SIH26027) • <strong>AI-Powered Automatic Block Planning to Maximize Asset Availability</strong>
           </span>
           <span className="font-mono text-slate-400">
-            Ministry of Railways • Pan-India Master Graph + Google OR-Tools CP-SAT
+            Ministry of Railways • Google OR-Tools CP-SAT + Scott Line Capacity + CRIS COA
           </span>
         </div>
       </footer>

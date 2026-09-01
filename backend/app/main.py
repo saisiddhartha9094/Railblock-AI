@@ -7,11 +7,12 @@ from app.api.emergency import router as emergency_router
 from app.api.analytics import router as analytics_router
 from app.api.advanced_features import router as advanced_router
 from app.api.stations import router as stations_router
+from app.api.advanced_tier3 import router as tier3_router
 
 app = FastAPI(
     title="Indian Railways AI Block Planning & Asset Availability Maximizer (SIH26027)",
     description="Enterprise Decision Support & Constraint Optimizer for Multi-Department Rail Maintenance Possessions",
-    version="2.5.0"
+    version="3.0.0"
 )
 
 # CORS middleware for React frontend
@@ -31,27 +32,33 @@ app.include_router(emergency_router, prefix="/api")
 app.include_router(analytics_router, prefix="/api")
 app.include_router(advanced_router, prefix="/api")
 app.include_router(stations_router, prefix="/api")
+app.include_router(tier3_router, prefix="/api")
 
 
 @app.get("/")
 def root():
     return {
-        "system": "RailBlock-AI Core Engine v2.5",
+        "system": "RailBlock-AI Enterprise Edition v3.0",
         "problem_statement": "SIH26027 - AI-Powered Automatic Block Planning to Maximize Asset Availability",
         "ministry": "Ministry of Railways (Indian Railways)",
         "division": "Prayagraj Division (NCR)",
-        "coverage": "Pan-India National Station Graph & Trunk Corridors",
+        "coverage": "Pan-India National Station Graph & High-Density Corridors",
         "status": "OPERATIONAL",
-        "enterprise_modules": [
-            "Pan-India Station Graph & Search Engine",
-            "Point Machine Current Signature Diagnostics",
-            "TRC & USFD Flaw Ingestion Pipeline",
-            "Kavach Cab Signalling & GPS Telemetry",
-            "FOIS/COIS Freight Supply Chain SLA Engine",
+        "enterprise_capabilities": [
+            "Google OR-Tools CP-SAT Multi-Objective Constraint Optimizer",
+            "Indian Railways Scott Formula Line Capacity Engine",
+            "Heavy Track Machine Fleet Dispatcher (BCM, CSM, DTS, RGM, Tower Wagons)",
+            "TSR 4-Day Speed Relaxation Recovery Modeler",
+            "Station Yard Diamond Crossover & Platform Interlocking Matrix",
+            "CRIS COA XML & JSON Export Protocols",
+            "Pan-India Station Graph (641 Stations, 401 Junctions)",
+            "Point Machine Current Signature Oscilloscope",
+            "TRC & USFD Automated Flaw Ingestion",
+            "Kavach Cab Signalling & ATP Telemetry HUD",
+            "FOIS/COIS Freight Supply Chain SLA Optimizer",
             "CMS Crew Duty & HOER 10-Hour Tracker",
-            "Indic Multilingual Voice Assistant (Hindi, Bengali, Telugu, Tamil, Marathi)",
-            "Google OR-Tools CP-SAT Constraint Optimizer",
-            "Automated CBUI & PLA Compliance Reports"
+            "Indic Multilingual Voice & NLP Scheduling Assistant",
+            "CBUI & PLA Official Railway Board Compliance Reports"
         ],
         "docs_url": "/docs"
     }

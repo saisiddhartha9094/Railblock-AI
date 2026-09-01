@@ -66,7 +66,6 @@ export const api = {
   },
 
   // ================= 8 ADVANCED ENTERPRISE MODULES =================
-  // 1. Point Machine Current Signature Diagnostics
   getPointMachinesList: async () => {
     const res = await axios.get(`${API_BASE}/advanced/point-machine/diagnostics`);
     return res.data;
@@ -80,7 +79,6 @@ export const api = {
     return res.data;
   },
 
-  // 2. TRC & USFD Track Flaw Pipeline
   getTrcUsfdOverview: async () => {
     const res = await axios.get(`${API_BASE}/advanced/trc-usfd/overview`);
     return res.data;
@@ -90,25 +88,21 @@ export const api = {
     return res.data;
   },
 
-  // 3. Kavach Telemetry Stream
   getKavachTelemetry: async () => {
     const res = await axios.get(`${API_BASE}/advanced/kavach/telemetry`);
     return res.data;
   },
 
-  // 4. FOIS Freight SLA Engine
   getFoisFreightSla: async () => {
     const res = await axios.get(`${API_BASE}/advanced/fois/freight-sla`);
     return res.data;
   },
 
-  // 5. CMS Crew Duty & HOER Tracker
   getCmsCrewDuty: async () => {
     const res = await axios.get(`${API_BASE}/advanced/cms/crew-duty`);
     return res.data;
   },
 
-  // 6. Indic Multilingual NLP Assistant
   parseVoiceCommand: async (queryText, userRole = "Section Controller / PRYJ") => {
     const res = await axios.post(`${API_BASE}/advanced/voice/parse-command`, {
       query_text: queryText,
@@ -117,7 +111,6 @@ export const api = {
     return res.data;
   },
 
-  // 7 & 8. Official Railway Board Reports (CBUI & PLA)
   getCbuiReport: async () => {
     const res = await axios.get(`${API_BASE}/advanced/reports/cbui`);
     return res.data;
@@ -144,6 +137,36 @@ export const api = {
   },
   getStationByCode: async (code) => {
     const res = await axios.get(`${API_BASE}/stations/${code}`);
+    return res.data;
+  },
+
+  // ================= TIER-3 PRODUCTION ENGINEERING =================
+  getLineCapacityOverview: async () => {
+    const res = await axios.get(`${API_BASE}/tier3/capacity/overview`);
+    return res.data;
+  },
+  getMachineFleetStatus: async () => {
+    const res = await axios.get(`${API_BASE}/tier3/machines/fleet`);
+    return res.data;
+  },
+  calculateMachineTransit: async (machineId, destinationKm, blockStartMin) => {
+    const res = await axios.post(`${API_BASE}/tier3/machines/route-transit`, {
+      machine_id: machineId,
+      destination_km: destinationKm,
+      block_start_min: blockStartMin
+    });
+    return res.data;
+  },
+  getTsrRecoveryImpact: async (lengthKm = 12.0, dailyTrains = 145) => {
+    const res = await axios.get(`${API_BASE}/tier3/tsr/recovery-impact`, { params: { length_km: lengthKm, daily_trains: dailyTrains } });
+    return res.data;
+  },
+  getYardInterlockingOverview: async () => {
+    const res = await axios.get(`${API_BASE}/tier3/yards/interlocking`);
+    return res.data;
+  },
+  exportCrisCoaJson: async () => {
+    const res = await axios.get(`${API_BASE}/tier3/export/cris-coa-json`);
     return res.data;
   }
 };

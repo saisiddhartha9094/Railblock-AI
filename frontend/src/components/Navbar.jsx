@@ -1,11 +1,15 @@
 import React from 'react';
-import { LayoutGrid, Map, FlaskConical, ClipboardCheck, BrainCircuit, Activity, TrainTrack, Radio, PackageCheck, UserCheck, FileText, Globe2 } from 'lucide-react';
+import { LayoutGrid, Map, FlaskConical, ClipboardCheck, BrainCircuit, Activity, TrainTrack, Radio, PackageCheck, UserCheck, FileText, Globe2, Gauge, Truck, TrendingUp, Split } from 'lucide-react';
 
 export default function Navbar({ activeTab, setActiveTab, pendingDemandsCount = 0 }) {
   const tabs = [
     { id: 'matrix', label: 'Block Matrix & Gantt', icon: LayoutGrid },
     { id: 'corridor', label: 'Corridor GIS & Track', icon: Map },
     { id: 'stations', label: 'Pan-India Stations', icon: Globe2 },
+    { id: 'capacity', label: 'Scott Line Capacity', icon: Gauge },
+    { id: 'machines', label: 'Machine Dispatcher', icon: Truck },
+    { id: 'tsr', label: 'TSR 4-Day Recovery', icon: TrendingUp },
+    { id: 'yard', label: 'Yard Interlocking', icon: Split },
     { id: 'whatif', label: 'What-If Sandbox', icon: FlaskConical },
     { id: 'demands', label: 'Demand Register', icon: ClipboardCheck, badge: pendingDemandsCount },
     { id: 'pointmachine', label: 'Point Diagnostics', icon: Activity },
